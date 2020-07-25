@@ -1,0 +1,493 @@
+# NetMHCIIpan version 4.0
+
+# Input is in FASTA format
+
+# Peptide length 15
+
+# Prediction Mode: EL+BA
+
+# Threshold for Strong binding peptides (%Rank)	2%
+# Threshold for Weak binding peptides (%Rank)	10%
+
+# Allele: HLA-DPA10103-DPB10101
+--------------------------------------------------------------------------------------------------------------------------------------------
+ Pos                     MHC              Peptide   Of        Core  Core_Rel        Identity      Score_EL %Rank_EL Exp_Bind      Score_BA  Affinity(nM) %Rank_BA  BindLevel
+--------------------------------------------------------------------------------------------------------------------------------------------
+  54   HLA-DPA10103-DPB10101      PSFYVYSRVKNLNSS    3   YVYSRVKNL     0.853  YP_009724392.1      0.273184     1.39       NA      0.470132        308.91    10.09   <=SB
+  53   HLA-DPA10103-DPB10101      KPSFYVYSRVKNLNS    4   YVYSRVKNL     0.813  YP_009724392.1      0.270148     1.45       NA      0.485967        260.27     7.95   <=SB
+  52   HLA-DPA10103-DPB10101      VKPSFYVYSRVKNLN    5   YVYSRVKNL     0.747  YP_009724392.1      0.238711     2.30       NA      0.490597        247.55     7.39   <=WB
+  55   HLA-DPA10103-DPB10101      SFYVYSRVKNLNSSR    2   YVYSRVKNL     0.687  YP_009724392.1      0.165541     7.11       NA      0.461593        338.81    11.34   <=WB
+  51   HLA-DPA10103-DPB10101      LVKPSFYVYSRVKNL    6   YVYSRVKNL     0.620  YP_009724392.1      0.149534     9.21       NA      0.499094        225.81     6.39   <=WB
+  49   HLA-DPA10103-DPB10101      VSLVKPSFYVYSRVK    3   VKPSFYVYS     0.687  YP_009724392.1      0.106914    18.97       NA      0.452204        375.04    12.93       
+   1   HLA-DPA10103-DPB10101      MYSFVSEETGTLIVN    3   FVSEETGTL     0.787  YP_009724392.1      0.105115    19.59       NA      0.443630        411.50    14.41       
+  48   HLA-DPA10103-DPB10101      NVSLVKPSFYVYSRV    4   VKPSFYVYS     0.513  YP_009724392.1      0.101203    20.99       NA      0.449384        386.66    13.41       
+  56   HLA-DPA10103-DPB10101      FYVYSRVKNLNSSRV    1   YVYSRVKNL     0.473  YP_009724392.1      0.094682    23.52       NA      0.447395        395.07    13.74       
+  47   HLA-DPA10103-DPB10101      VNVSLVKPSFYVYSR    5   VKPSFYVYS     0.453  YP_009724392.1      0.090868    25.14       NA      0.420606        527.90    19.02       
+  50   HLA-DPA10103-DPB10101      SLVKPSFYVYSRVKN    2   VKPSFYVYS     0.500  YP_009724392.1      0.089095    25.92       NA      0.430815        472.70    16.86       
+   2   HLA-DPA10103-DPB10101      YSFVSEETGTLIVNS    2   FVSEETGTL     0.620  YP_009724392.1      0.083539    28.71       NA      0.416739        550.46    19.86       
+  57   HLA-DPA10103-DPB10101      YVYSRVKNLNSSRVP    3   SRVKNLNSS     0.313  YP_009724392.1      0.057758    45.01       NA      0.358402       1034.78    34.65       
+  46   HLA-DPA10103-DPB10101      IVNVSLVKPSFYVYS    5   LVKPSFYVY     0.327  YP_009724392.1      0.052264    49.53       NA      0.412671        575.23    20.78       
+   3   HLA-DPA10103-DPB10101      SFVSEETGTLIVNSV    1   FVSEETGTL     0.333  YP_009724392.1      0.051996    49.75       NA      0.375346        861.45    29.89       
+  58   HLA-DPA10103-DPB10101      VYSRVKNLNSSRVPD    4   VKNLNSSRV     0.513  YP_009724392.1      0.050877    50.73       NA      0.292113       2120.02    54.07       
+  59   HLA-DPA10103-DPB10101      YSRVKNLNSSRVPDL    3   VKNLNSSRV     0.533  YP_009724392.1      0.040370    60.37       NA      0.305077       1842.56    50.21       
+  45   HLA-DPA10103-DPB10101      NIVNVSLVKPSFYVY    2   VNVSLVKPS     0.427  YP_009724392.1      0.038054    62.71       NA      0.396302        686.69    24.60       
+  60   HLA-DPA10103-DPB10101      SRVKNLNSSRVPDLL    5   LNSSRVPDL     0.447  YP_009724392.1      0.037937    62.83       NA      0.312048       1708.70    48.22       
+   4   HLA-DPA10103-DPB10101      FVSEETGTLIVNSVL    4   ETGTLIVNS     0.467  YP_009724392.1      0.034900    65.95       NA      0.350766       1123.91    36.81       
+  61   HLA-DPA10103-DPB10101      RVKNLNSSRVPDLLV    4   LNSSRVPDL     0.620  YP_009724392.1      0.032304    68.69       NA      0.340907       1250.43    39.60       
+  44   HLA-DPA10103-DPB10101      CNIVNVSLVKPSFYV    3   VNVSLVKPS     0.460  YP_009724392.1      0.032018    68.99       NA      0.363315        981.21    33.27       
+  18   HLA-DPA10103-DPB10101      LLFLAFVVFLLVTLA    3   LAFVVFLLV     0.847  YP_009724392.1      0.027701    73.66       NA      0.409658        594.29    21.47       
+  43   HLA-DPA10103-DPB10101      CCNIVNVSLVKPSFY    4   VNVSLVKPS     0.527  YP_009724392.1      0.026757    74.69       NA      0.349941       1133.99    37.05       
+   5   HLA-DPA10103-DPB10101      VSEETGTLIVNSVLL    3   ETGTLIVNS     0.480  YP_009724392.1      0.026308    75.19       NA      0.354041       1084.78    35.86       
+   6   HLA-DPA10103-DPB10101      SEETGTLIVNSVLLF    6   LIVNSVLLF     0.273  YP_009724392.1      0.026059    75.47       NA      0.388217        749.46    26.55       
+  16   HLA-DPA10103-DPB10101      SVLLFLAFVVFLLVT    5   LAFVVFLLV     0.820  YP_009724392.1      0.024989    76.67       NA      0.409018        598.42    21.61       
+  17   HLA-DPA10103-DPB10101      VLLFLAFVVFLLVTL    4   LAFVVFLLV     0.820  YP_009724392.1      0.024095    77.68       NA      0.410748        587.32    21.22       
+   8   HLA-DPA10103-DPB10101      ETGTLIVNSVLLFLA    4   LIVNSVLLF     0.540  YP_009724392.1      0.023661    78.17       NA      0.369984        912.91    31.38       
+  19   HLA-DPA10103-DPB10101      LFLAFVVFLLVTLAI    2   LAFVVFLLV     0.760  YP_009724392.1      0.019509    82.82       NA      0.393846        705.18    25.19       
+   9   HLA-DPA10103-DPB10101      TGTLIVNSVLLFLAF    3   LIVNSVLLF     0.513  YP_009724392.1      0.018335    84.13       NA      0.366511        947.86    32.36       
+   7   HLA-DPA10103-DPB10101      EETGTLIVNSVLLFL    5   LIVNSVLLF     0.387  YP_009724392.1      0.018284    84.19       NA      0.381700        804.22    28.17       
+  28   HLA-DPA10103-DPB10101      LVTLAILTALRLCAY    3   LAILTALRL     0.467  YP_009724392.1      0.016693    85.93       NA      0.449488        386.22    13.39       
+  42   HLA-DPA10103-DPB10101      YCCNIVNVSLVKPSF    5   VNVSLVKPS     0.587  YP_009724392.1      0.016077    86.60       NA      0.340029       1262.36    39.86       
+  15   HLA-DPA10103-DPB10101      NSVLLFLAFVVFLLV    6   LAFVVFLLV     0.620  YP_009724392.1      0.015569    87.15       NA      0.407822        606.21    21.88       
+  25   HLA-DPA10103-DPB10101      VFLLVTLAILTALRL    6   LAILTALRL     0.400  YP_009724392.1      0.014826    87.95       NA      0.409008        598.49    21.61       
+  27   HLA-DPA10103-DPB10101      LLVTLAILTALRLCA    4   LAILTALRL     0.540  YP_009724392.1      0.014456    88.35       NA      0.386037        767.35    27.08       
+  29   HLA-DPA10103-DPB10101      VTLAILTALRLCAYC    2   LAILTALRL     0.500  YP_009724392.1      0.013582    89.29       NA      0.432736        462.97    16.48       
+  10   HLA-DPA10103-DPB10101      GTLIVNSVLLFLAFV    2   LIVNSVLLF     0.427  YP_009724392.1      0.012637    90.29       NA      0.341266       1245.58    39.50       
+  24   HLA-DPA10103-DPB10101      VVFLLVTLAILTALR    3   LLVTLAILT     0.260  YP_009724392.1      0.011554    91.38       NA      0.374841        866.17    30.03       
+  41   HLA-DPA10103-DPB10101      AYCCNIVNVSLVKPS    6   VNVSLVKPS     0.327  YP_009724392.1      0.011258    91.68       NA      0.339443       1270.39    40.03       
+  26   HLA-DPA10103-DPB10101      FLLVTLAILTALRLC    5   LAILTALRL     0.467  YP_009724392.1      0.010944    92.00       NA      0.374417        870.15    30.14       
+  22   HLA-DPA10103-DPB10101      AFVVFLLVTLAILTA    5   LLVTLAILT     0.260  YP_009724392.1      0.009362    93.59       NA      0.313015       1690.92    47.94       
+  20   HLA-DPA10103-DPB10101      FLAFVVFLLVTLAIL    1   LAFVVFLLV     0.580  YP_009724392.1      0.008736    94.22       NA      0.373917        874.87    30.28       
+  23   HLA-DPA10103-DPB10101      FVVFLLVTLAILTAL    4   LLVTLAILT     0.260  YP_009724392.1      0.008459    94.50       NA      0.323479       1509.91    44.81       
+  11   HLA-DPA10103-DPB10101      TLIVNSVLLFLAFVV    4   NSVLLFLAF     0.080  YP_009724392.1      0.008407    94.55       NA      0.320227       1563.99    45.78       
+  34   HLA-DPA10103-DPB10101      LTALRLCAYCCNIVN    4   RLCAYCCNI     0.287  YP_009724392.1      0.007736    95.00       NA      0.362927        985.34    33.38       
+  30   HLA-DPA10103-DPB10101      TLAILTALRLCAYCC    1   LAILTALRL     0.420  YP_009724392.1      0.007570    95.00       NA      0.407159        610.58    22.03       
+  32   HLA-DPA10103-DPB10101      AILTALRLCAYCCNI    6   RLCAYCCNI     0.133  YP_009724392.1      0.007450    95.00       NA      0.368931        923.37    31.68       
+  33   HLA-DPA10103-DPB10101      ILTALRLCAYCCNIV    5   RLCAYCCNI     0.207  YP_009724392.1      0.007263    95.00       NA      0.370394        908.87    31.26       
+  35   HLA-DPA10103-DPB10101      TALRLCAYCCNIVNV    3   RLCAYCCNI     0.307  YP_009724392.1      0.006884    95.00       NA      0.352081       1108.03    36.43       
+  12   HLA-DPA10103-DPB10101      LIVNSVLLFLAFVVF    3   NSVLLFLAF     0.073  YP_009724392.1      0.006366    95.00       NA      0.309527       1755.95    48.94       
+  21   HLA-DPA10103-DPB10101      LAFVVFLLVTLAILT    5   FLLVTLAIL     0.427  YP_009724392.1      0.005877    95.00       NA      0.313491       1682.23    47.80       
+  40   HLA-DPA10103-DPB10101      CAYCCNIVNVSLVKP    4   CNIVNVSLV     0.327  YP_009724392.1      0.005746    95.00       NA      0.329981       1407.34    42.85       
+  13   HLA-DPA10103-DPB10101      IVNSVLLFLAFVVFL    5   LLFLAFVVF     0.513  YP_009724392.1      0.005067    95.00       NA      0.299813       1950.55    51.78       
+  36   HLA-DPA10103-DPB10101      ALRLCAYCCNIVNVS    2   RLCAYCCNI     0.160  YP_009724392.1      0.004910    95.00       NA      0.342830       1224.68    39.05       
+  31   HLA-DPA10103-DPB10101      LAILTALRLCAYCCN    3   LTALRLCAY     0.553  YP_009724392.1      0.004872    95.00       NA      0.383083        792.27    27.82       
+  39   HLA-DPA10103-DPB10101      LCAYCCNIVNVSLVK    3   YCCNIVNVS     0.473  YP_009724392.1      0.004577    95.00       NA      0.325439       1478.23    44.24       
+  14   HLA-DPA10103-DPB10101      VNSVLLFLAFVVFLL    4   LLFLAFVVF     0.547  YP_009724392.1      0.003566    95.00       NA      0.331486       1384.61    42.38       
+  37   HLA-DPA10103-DPB10101      LRLCAYCCNIVNVSL    5   YCCNIVNVS     0.340  YP_009724392.1      0.002857    95.00       NA      0.331090       1390.55    42.51       
+  38   HLA-DPA10103-DPB10101      RLCAYCCNIVNVSLV    4   YCCNIVNVS     0.453  YP_009724392.1      0.002608    95.00       NA      0.331384       1386.14    42.41       
+--------------------------------------------------------------------------------------------------------------------------------------------
+Number of strong binders: 2 Number of weak binders: 3
+--------------------------------------------------------------------------------------------------------------------------------------------
+
+# Allele: HLA-DPA10104-DPB10101
+--------------------------------------------------------------------------------------------------------------------------------------------
+ Pos                     MHC              Peptide   Of        Core  Core_Rel        Identity      Score_EL %Rank_EL Exp_Bind      Score_BA  Affinity(nM) %Rank_BA  BindLevel
+--------------------------------------------------------------------------------------------------------------------------------------------
+  54   HLA-DPA10104-DPB10101      PSFYVYSRVKNLNSS    3   YVYSRVKNL     0.853  YP_009724392.1      0.273184     1.39       NA      0.470132        308.91    10.09   <=SB
+  53   HLA-DPA10104-DPB10101      KPSFYVYSRVKNLNS    4   YVYSRVKNL     0.813  YP_009724392.1      0.270148     1.45       NA      0.485967        260.27     7.95   <=SB
+  52   HLA-DPA10104-DPB10101      VKPSFYVYSRVKNLN    5   YVYSRVKNL     0.747  YP_009724392.1      0.238711     2.30       NA      0.490597        247.55     7.39   <=WB
+  55   HLA-DPA10104-DPB10101      SFYVYSRVKNLNSSR    2   YVYSRVKNL     0.687  YP_009724392.1      0.165541     7.11       NA      0.461593        338.81    11.34   <=WB
+  51   HLA-DPA10104-DPB10101      LVKPSFYVYSRVKNL    6   YVYSRVKNL     0.620  YP_009724392.1      0.149534     9.21       NA      0.499094        225.81     6.39   <=WB
+  49   HLA-DPA10104-DPB10101      VSLVKPSFYVYSRVK    3   VKPSFYVYS     0.687  YP_009724392.1      0.106914    18.97       NA      0.452204        375.04    12.93       
+   1   HLA-DPA10104-DPB10101      MYSFVSEETGTLIVN    3   FVSEETGTL     0.787  YP_009724392.1      0.105115    19.59       NA      0.443630        411.50    14.41       
+  48   HLA-DPA10104-DPB10101      NVSLVKPSFYVYSRV    4   VKPSFYVYS     0.513  YP_009724392.1      0.101203    20.99       NA      0.449384        386.66    13.41       
+  56   HLA-DPA10104-DPB10101      FYVYSRVKNLNSSRV    1   YVYSRVKNL     0.473  YP_009724392.1      0.094682    23.52       NA      0.447395        395.07    13.74       
+  47   HLA-DPA10104-DPB10101      VNVSLVKPSFYVYSR    5   VKPSFYVYS     0.453  YP_009724392.1      0.090868    25.14       NA      0.420606        527.90    19.02       
+  50   HLA-DPA10104-DPB10101      SLVKPSFYVYSRVKN    2   VKPSFYVYS     0.500  YP_009724392.1      0.089095    25.92       NA      0.430815        472.70    16.86       
+   2   HLA-DPA10104-DPB10101      YSFVSEETGTLIVNS    2   FVSEETGTL     0.620  YP_009724392.1      0.083539    28.71       NA      0.416739        550.46    19.86       
+  57   HLA-DPA10104-DPB10101      YVYSRVKNLNSSRVP    3   SRVKNLNSS     0.313  YP_009724392.1      0.057758    45.01       NA      0.358402       1034.78    34.65       
+  46   HLA-DPA10104-DPB10101      IVNVSLVKPSFYVYS    5   LVKPSFYVY     0.327  YP_009724392.1      0.052264    49.53       NA      0.412671        575.23    20.78       
+   3   HLA-DPA10104-DPB10101      SFVSEETGTLIVNSV    1   FVSEETGTL     0.333  YP_009724392.1      0.051996    49.75       NA      0.375346        861.45    29.89       
+  58   HLA-DPA10104-DPB10101      VYSRVKNLNSSRVPD    4   VKNLNSSRV     0.513  YP_009724392.1      0.050877    50.73       NA      0.292113       2120.02    54.07       
+  59   HLA-DPA10104-DPB10101      YSRVKNLNSSRVPDL    3   VKNLNSSRV     0.533  YP_009724392.1      0.040370    60.37       NA      0.305077       1842.56    50.21       
+  45   HLA-DPA10104-DPB10101      NIVNVSLVKPSFYVY    2   VNVSLVKPS     0.427  YP_009724392.1      0.038054    62.71       NA      0.396302        686.69    24.60       
+  60   HLA-DPA10104-DPB10101      SRVKNLNSSRVPDLL    5   LNSSRVPDL     0.447  YP_009724392.1      0.037937    62.83       NA      0.312048       1708.70    48.22       
+   4   HLA-DPA10104-DPB10101      FVSEETGTLIVNSVL    4   ETGTLIVNS     0.467  YP_009724392.1      0.034900    65.95       NA      0.350766       1123.91    36.81       
+  61   HLA-DPA10104-DPB10101      RVKNLNSSRVPDLLV    4   LNSSRVPDL     0.620  YP_009724392.1      0.032304    68.69       NA      0.340907       1250.43    39.60       
+  44   HLA-DPA10104-DPB10101      CNIVNVSLVKPSFYV    3   VNVSLVKPS     0.460  YP_009724392.1      0.032018    68.99       NA      0.363315        981.21    33.27       
+  18   HLA-DPA10104-DPB10101      LLFLAFVVFLLVTLA    3   LAFVVFLLV     0.847  YP_009724392.1      0.027701    73.66       NA      0.409658        594.29    21.47       
+  43   HLA-DPA10104-DPB10101      CCNIVNVSLVKPSFY    4   VNVSLVKPS     0.527  YP_009724392.1      0.026757    74.69       NA      0.349941       1133.99    37.05       
+   5   HLA-DPA10104-DPB10101      VSEETGTLIVNSVLL    3   ETGTLIVNS     0.480  YP_009724392.1      0.026308    75.19       NA      0.354041       1084.78    35.86       
+   6   HLA-DPA10104-DPB10101      SEETGTLIVNSVLLF    6   LIVNSVLLF     0.273  YP_009724392.1      0.026059    75.47       NA      0.388217        749.46    26.55       
+  16   HLA-DPA10104-DPB10101      SVLLFLAFVVFLLVT    5   LAFVVFLLV     0.820  YP_009724392.1      0.024989    76.67       NA      0.409018        598.42    21.61       
+  17   HLA-DPA10104-DPB10101      VLLFLAFVVFLLVTL    4   LAFVVFLLV     0.820  YP_009724392.1      0.024095    77.68       NA      0.410748        587.32    21.22       
+   8   HLA-DPA10104-DPB10101      ETGTLIVNSVLLFLA    4   LIVNSVLLF     0.540  YP_009724392.1      0.023661    78.17       NA      0.369984        912.91    31.38       
+  19   HLA-DPA10104-DPB10101      LFLAFVVFLLVTLAI    2   LAFVVFLLV     0.760  YP_009724392.1      0.019509    82.82       NA      0.393846        705.18    25.19       
+   9   HLA-DPA10104-DPB10101      TGTLIVNSVLLFLAF    3   LIVNSVLLF     0.513  YP_009724392.1      0.018335    84.13       NA      0.366511        947.86    32.36       
+   7   HLA-DPA10104-DPB10101      EETGTLIVNSVLLFL    5   LIVNSVLLF     0.387  YP_009724392.1      0.018284    84.19       NA      0.381700        804.22    28.17       
+  28   HLA-DPA10104-DPB10101      LVTLAILTALRLCAY    3   LAILTALRL     0.467  YP_009724392.1      0.016693    85.93       NA      0.449488        386.22    13.39       
+  42   HLA-DPA10104-DPB10101      YCCNIVNVSLVKPSF    5   VNVSLVKPS     0.587  YP_009724392.1      0.016077    86.60       NA      0.340029       1262.36    39.86       
+  15   HLA-DPA10104-DPB10101      NSVLLFLAFVVFLLV    6   LAFVVFLLV     0.620  YP_009724392.1      0.015569    87.15       NA      0.407822        606.21    21.88       
+  25   HLA-DPA10104-DPB10101      VFLLVTLAILTALRL    6   LAILTALRL     0.400  YP_009724392.1      0.014826    87.95       NA      0.409008        598.49    21.61       
+  27   HLA-DPA10104-DPB10101      LLVTLAILTALRLCA    4   LAILTALRL     0.540  YP_009724392.1      0.014456    88.35       NA      0.386037        767.35    27.08       
+  29   HLA-DPA10104-DPB10101      VTLAILTALRLCAYC    2   LAILTALRL     0.500  YP_009724392.1      0.013582    89.29       NA      0.432736        462.97    16.48       
+  10   HLA-DPA10104-DPB10101      GTLIVNSVLLFLAFV    2   LIVNSVLLF     0.427  YP_009724392.1      0.012637    90.29       NA      0.341266       1245.58    39.50       
+  24   HLA-DPA10104-DPB10101      VVFLLVTLAILTALR    3   LLVTLAILT     0.260  YP_009724392.1      0.011554    91.38       NA      0.374841        866.17    30.03       
+  41   HLA-DPA10104-DPB10101      AYCCNIVNVSLVKPS    6   VNVSLVKPS     0.327  YP_009724392.1      0.011258    91.68       NA      0.339443       1270.39    40.03       
+  26   HLA-DPA10104-DPB10101      FLLVTLAILTALRLC    5   LAILTALRL     0.467  YP_009724392.1      0.010944    92.00       NA      0.374417        870.15    30.14       
+  22   HLA-DPA10104-DPB10101      AFVVFLLVTLAILTA    5   LLVTLAILT     0.260  YP_009724392.1      0.009362    93.59       NA      0.313015       1690.92    47.94       
+  20   HLA-DPA10104-DPB10101      FLAFVVFLLVTLAIL    1   LAFVVFLLV     0.580  YP_009724392.1      0.008736    94.22       NA      0.373917        874.87    30.28       
+  23   HLA-DPA10104-DPB10101      FVVFLLVTLAILTAL    4   LLVTLAILT     0.260  YP_009724392.1      0.008459    94.50       NA      0.323479       1509.91    44.81       
+  11   HLA-DPA10104-DPB10101      TLIVNSVLLFLAFVV    4   NSVLLFLAF     0.080  YP_009724392.1      0.008407    94.55       NA      0.320227       1563.99    45.78       
+  34   HLA-DPA10104-DPB10101      LTALRLCAYCCNIVN    4   RLCAYCCNI     0.287  YP_009724392.1      0.007736    95.00       NA      0.362927        985.34    33.38       
+  30   HLA-DPA10104-DPB10101      TLAILTALRLCAYCC    1   LAILTALRL     0.420  YP_009724392.1      0.007570    95.00       NA      0.407159        610.58    22.03       
+  32   HLA-DPA10104-DPB10101      AILTALRLCAYCCNI    6   RLCAYCCNI     0.133  YP_009724392.1      0.007450    95.00       NA      0.368931        923.37    31.68       
+  33   HLA-DPA10104-DPB10101      ILTALRLCAYCCNIV    5   RLCAYCCNI     0.207  YP_009724392.1      0.007263    95.00       NA      0.370394        908.87    31.26       
+  35   HLA-DPA10104-DPB10101      TALRLCAYCCNIVNV    3   RLCAYCCNI     0.307  YP_009724392.1      0.006884    95.00       NA      0.352081       1108.03    36.43       
+  12   HLA-DPA10104-DPB10101      LIVNSVLLFLAFVVF    3   NSVLLFLAF     0.073  YP_009724392.1      0.006366    95.00       NA      0.309527       1755.95    48.94       
+  21   HLA-DPA10104-DPB10101      LAFVVFLLVTLAILT    5   FLLVTLAIL     0.427  YP_009724392.1      0.005877    95.00       NA      0.313491       1682.23    47.80       
+  40   HLA-DPA10104-DPB10101      CAYCCNIVNVSLVKP    4   CNIVNVSLV     0.327  YP_009724392.1      0.005746    95.00       NA      0.329981       1407.34    42.85       
+  13   HLA-DPA10104-DPB10101      IVNSVLLFLAFVVFL    5   LLFLAFVVF     0.513  YP_009724392.1      0.005067    95.00       NA      0.299813       1950.55    51.78       
+  36   HLA-DPA10104-DPB10101      ALRLCAYCCNIVNVS    2   RLCAYCCNI     0.160  YP_009724392.1      0.004910    95.00       NA      0.342830       1224.68    39.05       
+  31   HLA-DPA10104-DPB10101      LAILTALRLCAYCCN    3   LTALRLCAY     0.553  YP_009724392.1      0.004872    95.00       NA      0.383083        792.27    27.82       
+  39   HLA-DPA10104-DPB10101      LCAYCCNIVNVSLVK    3   YCCNIVNVS     0.473  YP_009724392.1      0.004577    95.00       NA      0.325439       1478.23    44.24       
+  14   HLA-DPA10104-DPB10101      VNSVLLFLAFVVFLL    4   LLFLAFVVF     0.547  YP_009724392.1      0.003566    95.00       NA      0.331486       1384.61    42.38       
+  37   HLA-DPA10104-DPB10101      LRLCAYCCNIVNVSL    5   YCCNIVNVS     0.340  YP_009724392.1      0.002857    95.00       NA      0.331090       1390.55    42.51       
+  38   HLA-DPA10104-DPB10101      RLCAYCCNIVNVSLV    4   YCCNIVNVS     0.453  YP_009724392.1      0.002608    95.00       NA      0.331384       1386.14    42.41       
+--------------------------------------------------------------------------------------------------------------------------------------------
+Number of strong binders: 2 Number of weak binders: 3
+--------------------------------------------------------------------------------------------------------------------------------------------
+
+# Allele: HLA-DPA10105-DPB10101
+--------------------------------------------------------------------------------------------------------------------------------------------
+ Pos                     MHC              Peptide   Of        Core  Core_Rel        Identity      Score_EL %Rank_EL Exp_Bind      Score_BA  Affinity(nM) %Rank_BA  BindLevel
+--------------------------------------------------------------------------------------------------------------------------------------------
+  54   HLA-DPA10105-DPB10101      PSFYVYSRVKNLNSS    3   YVYSRVKNL     0.853  YP_009724392.1      0.273184     1.39       NA      0.470132        308.91    10.09   <=SB
+  53   HLA-DPA10105-DPB10101      KPSFYVYSRVKNLNS    4   YVYSRVKNL     0.813  YP_009724392.1      0.270148     1.45       NA      0.485967        260.27     7.95   <=SB
+  52   HLA-DPA10105-DPB10101      VKPSFYVYSRVKNLN    5   YVYSRVKNL     0.747  YP_009724392.1      0.238711     2.30       NA      0.490597        247.55     7.39   <=WB
+  55   HLA-DPA10105-DPB10101      SFYVYSRVKNLNSSR    2   YVYSRVKNL     0.687  YP_009724392.1      0.165541     7.11       NA      0.461593        338.81    11.34   <=WB
+  51   HLA-DPA10105-DPB10101      LVKPSFYVYSRVKNL    6   YVYSRVKNL     0.620  YP_009724392.1      0.149534     9.21       NA      0.499094        225.81     6.39   <=WB
+  49   HLA-DPA10105-DPB10101      VSLVKPSFYVYSRVK    3   VKPSFYVYS     0.687  YP_009724392.1      0.106914    18.97       NA      0.452204        375.04    12.93       
+   1   HLA-DPA10105-DPB10101      MYSFVSEETGTLIVN    3   FVSEETGTL     0.787  YP_009724392.1      0.105115    19.59       NA      0.443630        411.50    14.41       
+  48   HLA-DPA10105-DPB10101      NVSLVKPSFYVYSRV    4   VKPSFYVYS     0.513  YP_009724392.1      0.101203    20.99       NA      0.449384        386.66    13.41       
+  56   HLA-DPA10105-DPB10101      FYVYSRVKNLNSSRV    1   YVYSRVKNL     0.473  YP_009724392.1      0.094682    23.52       NA      0.447395        395.07    13.74       
+  47   HLA-DPA10105-DPB10101      VNVSLVKPSFYVYSR    5   VKPSFYVYS     0.453  YP_009724392.1      0.090868    25.14       NA      0.420606        527.90    19.02       
+  50   HLA-DPA10105-DPB10101      SLVKPSFYVYSRVKN    2   VKPSFYVYS     0.500  YP_009724392.1      0.089095    25.92       NA      0.430815        472.70    16.86       
+   2   HLA-DPA10105-DPB10101      YSFVSEETGTLIVNS    2   FVSEETGTL     0.620  YP_009724392.1      0.083539    28.71       NA      0.416739        550.46    19.86       
+  57   HLA-DPA10105-DPB10101      YVYSRVKNLNSSRVP    3   SRVKNLNSS     0.313  YP_009724392.1      0.057758    45.01       NA      0.358402       1034.78    34.65       
+  46   HLA-DPA10105-DPB10101      IVNVSLVKPSFYVYS    5   LVKPSFYVY     0.327  YP_009724392.1      0.052264    49.53       NA      0.412671        575.23    20.78       
+   3   HLA-DPA10105-DPB10101      SFVSEETGTLIVNSV    1   FVSEETGTL     0.333  YP_009724392.1      0.051996    49.75       NA      0.375346        861.45    29.89       
+  58   HLA-DPA10105-DPB10101      VYSRVKNLNSSRVPD    4   VKNLNSSRV     0.513  YP_009724392.1      0.050877    50.73       NA      0.292113       2120.02    54.07       
+  59   HLA-DPA10105-DPB10101      YSRVKNLNSSRVPDL    3   VKNLNSSRV     0.533  YP_009724392.1      0.040370    60.37       NA      0.305077       1842.56    50.21       
+  45   HLA-DPA10105-DPB10101      NIVNVSLVKPSFYVY    2   VNVSLVKPS     0.427  YP_009724392.1      0.038054    62.71       NA      0.396302        686.69    24.60       
+  60   HLA-DPA10105-DPB10101      SRVKNLNSSRVPDLL    5   LNSSRVPDL     0.447  YP_009724392.1      0.037937    62.83       NA      0.312048       1708.70    48.22       
+   4   HLA-DPA10105-DPB10101      FVSEETGTLIVNSVL    4   ETGTLIVNS     0.467  YP_009724392.1      0.034900    65.95       NA      0.350766       1123.91    36.81       
+  61   HLA-DPA10105-DPB10101      RVKNLNSSRVPDLLV    4   LNSSRVPDL     0.620  YP_009724392.1      0.032304    68.69       NA      0.340907       1250.43    39.60       
+  44   HLA-DPA10105-DPB10101      CNIVNVSLVKPSFYV    3   VNVSLVKPS     0.460  YP_009724392.1      0.032018    68.99       NA      0.363315        981.21    33.27       
+  18   HLA-DPA10105-DPB10101      LLFLAFVVFLLVTLA    3   LAFVVFLLV     0.847  YP_009724392.1      0.027701    73.66       NA      0.409658        594.29    21.47       
+  43   HLA-DPA10105-DPB10101      CCNIVNVSLVKPSFY    4   VNVSLVKPS     0.527  YP_009724392.1      0.026757    74.69       NA      0.349941       1133.99    37.05       
+   5   HLA-DPA10105-DPB10101      VSEETGTLIVNSVLL    3   ETGTLIVNS     0.480  YP_009724392.1      0.026308    75.19       NA      0.354041       1084.78    35.86       
+   6   HLA-DPA10105-DPB10101      SEETGTLIVNSVLLF    6   LIVNSVLLF     0.273  YP_009724392.1      0.026059    75.47       NA      0.388217        749.46    26.55       
+  16   HLA-DPA10105-DPB10101      SVLLFLAFVVFLLVT    5   LAFVVFLLV     0.820  YP_009724392.1      0.024989    76.67       NA      0.409018        598.42    21.61       
+  17   HLA-DPA10105-DPB10101      VLLFLAFVVFLLVTL    4   LAFVVFLLV     0.820  YP_009724392.1      0.024095    77.68       NA      0.410748        587.32    21.22       
+   8   HLA-DPA10105-DPB10101      ETGTLIVNSVLLFLA    4   LIVNSVLLF     0.540  YP_009724392.1      0.023661    78.17       NA      0.369984        912.91    31.38       
+  19   HLA-DPA10105-DPB10101      LFLAFVVFLLVTLAI    2   LAFVVFLLV     0.760  YP_009724392.1      0.019509    82.82       NA      0.393846        705.18    25.19       
+   9   HLA-DPA10105-DPB10101      TGTLIVNSVLLFLAF    3   LIVNSVLLF     0.513  YP_009724392.1      0.018335    84.13       NA      0.366511        947.86    32.36       
+   7   HLA-DPA10105-DPB10101      EETGTLIVNSVLLFL    5   LIVNSVLLF     0.387  YP_009724392.1      0.018284    84.19       NA      0.381700        804.22    28.17       
+  28   HLA-DPA10105-DPB10101      LVTLAILTALRLCAY    3   LAILTALRL     0.467  YP_009724392.1      0.016693    85.93       NA      0.449488        386.22    13.39       
+  42   HLA-DPA10105-DPB10101      YCCNIVNVSLVKPSF    5   VNVSLVKPS     0.587  YP_009724392.1      0.016077    86.60       NA      0.340029       1262.36    39.86       
+  15   HLA-DPA10105-DPB10101      NSVLLFLAFVVFLLV    6   LAFVVFLLV     0.620  YP_009724392.1      0.015569    87.15       NA      0.407822        606.21    21.88       
+  25   HLA-DPA10105-DPB10101      VFLLVTLAILTALRL    6   LAILTALRL     0.400  YP_009724392.1      0.014826    87.95       NA      0.409008        598.49    21.61       
+  27   HLA-DPA10105-DPB10101      LLVTLAILTALRLCA    4   LAILTALRL     0.540  YP_009724392.1      0.014456    88.35       NA      0.386037        767.35    27.08       
+  29   HLA-DPA10105-DPB10101      VTLAILTALRLCAYC    2   LAILTALRL     0.500  YP_009724392.1      0.013582    89.29       NA      0.432736        462.97    16.48       
+  10   HLA-DPA10105-DPB10101      GTLIVNSVLLFLAFV    2   LIVNSVLLF     0.427  YP_009724392.1      0.012637    90.29       NA      0.341266       1245.58    39.50       
+  24   HLA-DPA10105-DPB10101      VVFLLVTLAILTALR    3   LLVTLAILT     0.260  YP_009724392.1      0.011554    91.38       NA      0.374841        866.17    30.03       
+  41   HLA-DPA10105-DPB10101      AYCCNIVNVSLVKPS    6   VNVSLVKPS     0.327  YP_009724392.1      0.011258    91.68       NA      0.339443       1270.39    40.03       
+  26   HLA-DPA10105-DPB10101      FLLVTLAILTALRLC    5   LAILTALRL     0.467  YP_009724392.1      0.010944    92.00       NA      0.374417        870.15    30.14       
+  22   HLA-DPA10105-DPB10101      AFVVFLLVTLAILTA    5   LLVTLAILT     0.260  YP_009724392.1      0.009362    93.59       NA      0.313015       1690.92    47.94       
+  20   HLA-DPA10105-DPB10101      FLAFVVFLLVTLAIL    1   LAFVVFLLV     0.580  YP_009724392.1      0.008736    94.22       NA      0.373917        874.87    30.28       
+  23   HLA-DPA10105-DPB10101      FVVFLLVTLAILTAL    4   LLVTLAILT     0.260  YP_009724392.1      0.008459    94.50       NA      0.323479       1509.91    44.81       
+  11   HLA-DPA10105-DPB10101      TLIVNSVLLFLAFVV    4   NSVLLFLAF     0.080  YP_009724392.1      0.008407    94.55       NA      0.320227       1563.99    45.78       
+  34   HLA-DPA10105-DPB10101      LTALRLCAYCCNIVN    4   RLCAYCCNI     0.287  YP_009724392.1      0.007736    95.00       NA      0.362927        985.34    33.38       
+  30   HLA-DPA10105-DPB10101      TLAILTALRLCAYCC    1   LAILTALRL     0.420  YP_009724392.1      0.007570    95.00       NA      0.407159        610.58    22.03       
+  32   HLA-DPA10105-DPB10101      AILTALRLCAYCCNI    6   RLCAYCCNI     0.133  YP_009724392.1      0.007450    95.00       NA      0.368931        923.37    31.68       
+  33   HLA-DPA10105-DPB10101      ILTALRLCAYCCNIV    5   RLCAYCCNI     0.207  YP_009724392.1      0.007263    95.00       NA      0.370394        908.87    31.26       
+  35   HLA-DPA10105-DPB10101      TALRLCAYCCNIVNV    3   RLCAYCCNI     0.307  YP_009724392.1      0.006884    95.00       NA      0.352081       1108.03    36.43       
+  12   HLA-DPA10105-DPB10101      LIVNSVLLFLAFVVF    3   NSVLLFLAF     0.073  YP_009724392.1      0.006366    95.00       NA      0.309527       1755.95    48.94       
+  21   HLA-DPA10105-DPB10101      LAFVVFLLVTLAILT    5   FLLVTLAIL     0.427  YP_009724392.1      0.005877    95.00       NA      0.313491       1682.23    47.80       
+  40   HLA-DPA10105-DPB10101      CAYCCNIVNVSLVKP    4   CNIVNVSLV     0.327  YP_009724392.1      0.005746    95.00       NA      0.329981       1407.34    42.85       
+  13   HLA-DPA10105-DPB10101      IVNSVLLFLAFVVFL    5   LLFLAFVVF     0.513  YP_009724392.1      0.005067    95.00       NA      0.299813       1950.55    51.78       
+  36   HLA-DPA10105-DPB10101      ALRLCAYCCNIVNVS    2   RLCAYCCNI     0.160  YP_009724392.1      0.004910    95.00       NA      0.342830       1224.68    39.05       
+  31   HLA-DPA10105-DPB10101      LAILTALRLCAYCCN    3   LTALRLCAY     0.553  YP_009724392.1      0.004872    95.00       NA      0.383083        792.27    27.82       
+  39   HLA-DPA10105-DPB10101      LCAYCCNIVNVSLVK    3   YCCNIVNVS     0.473  YP_009724392.1      0.004577    95.00       NA      0.325439       1478.23    44.24       
+  14   HLA-DPA10105-DPB10101      VNSVLLFLAFVVFLL    4   LLFLAFVVF     0.547  YP_009724392.1      0.003566    95.00       NA      0.331486       1384.61    42.38       
+  37   HLA-DPA10105-DPB10101      LRLCAYCCNIVNVSL    5   YCCNIVNVS     0.340  YP_009724392.1      0.002857    95.00       NA      0.331090       1390.55    42.51       
+  38   HLA-DPA10105-DPB10101      RLCAYCCNIVNVSLV    4   YCCNIVNVS     0.453  YP_009724392.1      0.002608    95.00       NA      0.331384       1386.14    42.41       
+--------------------------------------------------------------------------------------------------------------------------------------------
+Number of strong binders: 2 Number of weak binders: 3
+--------------------------------------------------------------------------------------------------------------------------------------------
+
+# Allele: HLA-DPA10201-DPB10101
+--------------------------------------------------------------------------------------------------------------------------------------------
+ Pos                     MHC              Peptide   Of        Core  Core_Rel        Identity      Score_EL %Rank_EL Exp_Bind      Score_BA  Affinity(nM) %Rank_BA  BindLevel
+--------------------------------------------------------------------------------------------------------------------------------------------
+  54   HLA-DPA10201-DPB10101      PSFYVYSRVKNLNSS    3   YVYSRVKNL     0.893  YP_009724392.1      0.165184     0.95       NA      0.459452        346.75     7.23   <=SB
+  53   HLA-DPA10201-DPB10101      KPSFYVYSRVKNLNS    4   YVYSRVKNL     0.807  YP_009724392.1      0.164636     0.96       NA      0.473801        296.89     5.85   <=SB
+  52   HLA-DPA10201-DPB10101      VKPSFYVYSRVKNLN    5   YVYSRVKNL     0.780  YP_009724392.1      0.135366     1.54       NA      0.474562        294.45     5.78   <=SB
+  55   HLA-DPA10201-DPB10101      SFYVYSRVKNLNSSR    2   YVYSRVKNL     0.753  YP_009724392.1      0.083795     4.65       NA      0.438719        433.95     9.61   <=WB
+  51   HLA-DPA10201-DPB10101      LVKPSFYVYSRVKNL    6   YVYSRVKNL     0.680  YP_009724392.1      0.074588     5.94       NA      0.476932        287.00     5.57   <=WB
+   1   HLA-DPA10201-DPB10101      MYSFVSEETGTLIVN    3   FVSEETGTL     0.867  YP_009724392.1      0.062684     8.32       NA      0.416746        550.42    12.54   <=WB
+   2   HLA-DPA10201-DPB10101      YSFVSEETGTLIVNS    2   FVSEETGTL     0.740  YP_009724392.1      0.039549    18.03       NA      0.386070        767.08    17.69       
+  49   HLA-DPA10201-DPB10101      VSLVKPSFYVYSRVK    3   VKPSFYVYS     0.747  YP_009724392.1      0.039493    18.07       NA      0.426610        494.70    11.17       
+  56   HLA-DPA10201-DPB10101      FYVYSRVKNLNSSRV    1   YVYSRVKNL     0.533  YP_009724392.1      0.039014    18.41       NA      0.403826        633.00    14.53       
+  48   HLA-DPA10201-DPB10101      NVSLVKPSFYVYSRV    4   VKPSFYVYS     0.473  YP_009724392.1      0.037281    19.65       NA      0.432336        464.98    10.42       
+  47   HLA-DPA10201-DPB10101      VNVSLVKPSFYVYSR    4   LVKPSFYVY     0.333  YP_009724392.1      0.033679    22.54       NA      0.416944        549.24    12.51       
+  58   HLA-DPA10201-DPB10101      VYSRVKNLNSSRVPD    4   VKNLNSSRV     0.687  YP_009724392.1      0.028649    27.48       NA      0.249317       3368.50    51.91       
+  50   HLA-DPA10201-DPB10101      SLVKPSFYVYSRVKN    2   VKPSFYVYS     0.420  YP_009724392.1      0.027123    29.21       NA      0.395144        695.34    16.01       
+  59   HLA-DPA10201-DPB10101      YSRVKNLNSSRVPDL    3   VKNLNSSRV     0.693  YP_009724392.1      0.023430    33.91       NA      0.258074       3063.99    49.31       
+  57   HLA-DPA10201-DPB10101      YVYSRVKNLNSSRVP    5   VKNLNSSRV     0.433  YP_009724392.1      0.022604    35.13       NA      0.309533       1755.84    35.04       
+  46   HLA-DPA10201-DPB10101      IVNVSLVKPSFYVYS    3   VSLVKPSFY     0.420  YP_009724392.1      0.022361    35.51       NA      0.404919        625.56    14.34       
+  18   HLA-DPA10201-DPB10101      LLFLAFVVFLLVTLA    3   LAFVVFLLV     0.820  YP_009724392.1      0.019170    40.79       NA      0.403356        636.23    14.60       
+  45   HLA-DPA10201-DPB10101      NIVNVSLVKPSFYVY    4   VSLVKPSFY     0.453  YP_009724392.1      0.017664    43.60       NA      0.389357        740.28    17.06       
+  60   HLA-DPA10201-DPB10101      SRVKNLNSSRVPDLL    2   VKNLNSSRV     0.567  YP_009724392.1      0.015779    47.51       NA      0.253761       3210.37    50.59       
+   3   HLA-DPA10201-DPB10101      SFVSEETGTLIVNSV    1   FVSEETGTL     0.487  YP_009724392.1      0.015646    47.80       NA      0.336168       1316.21    28.29       
+  17   HLA-DPA10201-DPB10101      VLLFLAFVVFLLVTL    4   LAFVVFLLV     0.800  YP_009724392.1      0.014683    49.96       NA      0.405065        624.57    14.32       
+  16   HLA-DPA10201-DPB10101      SVLLFLAFVVFLLVT    5   LAFVVFLLV     0.800  YP_009724392.1      0.014665    50.00       NA      0.401102        651.93    14.98       
+  19   HLA-DPA10201-DPB10101      LFLAFVVFLLVTLAI    2   LAFVVFLLV     0.767  YP_009724392.1      0.014397    50.65       NA      0.386131        766.57    17.68       
+   8   HLA-DPA10201-DPB10101      ETGTLIVNSVLLFLA    4   LIVNSVLLF     0.600  YP_009724392.1      0.013622    52.53       NA      0.324805       1488.40    31.05       
+   9   HLA-DPA10201-DPB10101      TGTLIVNSVLLFLAF    3   LIVNSVLLF     0.573  YP_009724392.1      0.012425    55.49       NA      0.316624       1626.16    33.08       
+  44   HLA-DPA10201-DPB10101      CNIVNVSLVKPSFYV    3   VNVSLVKPS     0.327  YP_009724392.1      0.011936    56.82       NA      0.344266       1205.80    26.37       
+  61   HLA-DPA10201-DPB10101      RVKNLNSSRVPDLLV    4   LNSSRVPDL     0.600  YP_009724392.1      0.009171    64.90       NA      0.277930       2471.64    43.64       
+  43   HLA-DPA10201-DPB10101      CCNIVNVSLVKPSFY    4   VNVSLVKPS     0.413  YP_009724392.1      0.008885    65.85       NA      0.318543       1592.74    32.60       
+   7   HLA-DPA10201-DPB10101      EETGTLIVNSVLLFL    5   LIVNSVLLF     0.487  YP_009724392.1      0.008751    66.30       NA      0.325978       1469.63    30.75       
+   6   HLA-DPA10201-DPB10101      SEETGTLIVNSVLLF    6   LIVNSVLLF     0.407  YP_009724392.1      0.008082    68.53       NA      0.331309       1387.26    29.43       
+  10   HLA-DPA10201-DPB10101      GTLIVNSVLLFLAFV    2   LIVNSVLLF     0.480  YP_009724392.1      0.007724    69.72       NA      0.294441       2067.29    39.10       
+  20   HLA-DPA10201-DPB10101      FLAFVVFLLVTLAIL    1   LAFVVFLLV     0.560  YP_009724392.1      0.007716    69.75       NA      0.362344        991.58    22.29       
+  15   HLA-DPA10201-DPB10101      NSVLLFLAFVVFLLV    6   LAFVVFLLV     0.587  YP_009724392.1      0.006430    74.46       NA      0.386671        762.10    17.58       
+  28   HLA-DPA10201-DPB10101      LVTLAILTALRLCAY    3   LAILTALRL     0.553  YP_009724392.1      0.006259    75.09       NA      0.390556        730.73    16.84       
+  22   HLA-DPA10201-DPB10101      AFVVFLLVTLAILTA    4   FLLVTLAIL     0.513  YP_009724392.1      0.006181    75.40       NA      0.272422       2623.42    45.20       
+  24   HLA-DPA10201-DPB10101      VVFLLVTLAILTALR    2   FLLVTLAIL     0.220  YP_009724392.1      0.005888    76.54       NA      0.306294       1818.46    35.90       
+  29   HLA-DPA10201-DPB10101      VTLAILTALRLCAYC    2   LAILTALRL     0.620  YP_009724392.1      0.005800    76.88       NA      0.375635        858.76    19.62       
+  25   HLA-DPA10201-DPB10101      VFLLVTLAILTALRL    6   LAILTALRL     0.547  YP_009724392.1      0.005760    77.03       NA      0.362568        989.18    22.24       
+  23   HLA-DPA10201-DPB10101      FVVFLLVTLAILTAL    3   FLLVTLAIL     0.520  YP_009724392.1      0.005559    77.81       NA      0.275075       2549.18    44.44       
+  21   HLA-DPA10201-DPB10101      LAFVVFLLVTLAILT    5   FLLVTLAIL     0.467  YP_009724392.1      0.005452    78.23       NA      0.286543       2251.71    41.31       
+   4   HLA-DPA10201-DPB10101      FVSEETGTLIVNSVL    4   ETGTLIVNS     0.367  YP_009724392.1      0.005296    78.84       NA      0.296586       2019.86    38.49       
+  27   HLA-DPA10201-DPB10101      LLVTLAILTALRLCA    4   LAILTALRL     0.660  YP_009724392.1      0.005174    79.31       NA      0.320660       1556.68    32.08       
+   5   HLA-DPA10201-DPB10101      VSEETGTLIVNSVLL    3   ETGTLIVNS     0.353  YP_009724392.1      0.004768    80.96       NA      0.282961       2340.69    42.28       
+  42   HLA-DPA10201-DPB10101      YCCNIVNVSLVKPSF    5   VNVSLVKPS     0.433  YP_009724392.1      0.004515    82.01       NA      0.301396       1917.43    37.20       
+  26   HLA-DPA10201-DPB10101      FLLVTLAILTALRLC    5   LAILTALRL     0.620  YP_009724392.1      0.004503    82.06       NA      0.310692       1733.95    34.71       
+  11   HLA-DPA10201-DPB10101      TLIVNSVLLFLAFVV    3   VNSVLLFLA     0.227  YP_009724392.1      0.002990    88.60       NA      0.270216       2686.79    45.80       
+  41   HLA-DPA10201-DPB10101      AYCCNIVNVSLVKPS    3   CNIVNVSLV     0.260  YP_009724392.1      0.002715    89.82       NA      0.297613       1997.54    38.20       
+  30   HLA-DPA10201-DPB10101      TLAILTALRLCAYCC    1   LAILTALRL     0.553  YP_009724392.1      0.002344    91.47       NA      0.357632       1043.44    23.32       
+  34   HLA-DPA10201-DPB10101      LTALRLCAYCCNIVN    3   LRLCAYCCN     0.353  YP_009724392.1      0.002053    92.77       NA      0.298435       1979.85    37.97       
+  13   HLA-DPA10201-DPB10101      IVNSVLLFLAFVVFL    5   LLFLAFVVF     0.513  YP_009724392.1      0.001692    94.37       NA      0.260368       2988.88    48.64       
+  40   HLA-DPA10201-DPB10101      CAYCCNIVNVSLVKP    4   CNIVNVSLV     0.367  YP_009724392.1      0.001679    94.43       NA      0.286707       2247.72    41.27       
+  14   HLA-DPA10201-DPB10101      VNSVLLFLAFVVFLL    4   LLFLAFVVF     0.507  YP_009724392.1      0.001551    95.00       NA      0.291419       2136.00    39.99       
+  39   HLA-DPA10201-DPB10101      LCAYCCNIVNVSLVK    3   YCCNIVNVS     0.393  YP_009724392.1      0.001544    95.00       NA      0.279148       2439.28    43.31       
+  35   HLA-DPA10201-DPB10101      TALRLCAYCCNIVNV    4   LCAYCCNIV     0.273  YP_009724392.1      0.001484    95.00       NA      0.290421       2159.19    40.27       
+  12   HLA-DPA10201-DPB10101      LIVNSVLLFLAFVVF    6   LLFLAFVVF     0.300  YP_009724392.1      0.001483    95.00       NA      0.267967       2752.97    46.44       
+  33   HLA-DPA10201-DPB10101      ILTALRLCAYCCNIV    4   LRLCAYCCN     0.313  YP_009724392.1      0.001446    95.00       NA      0.317995       1602.22    32.74       
+  36   HLA-DPA10201-DPB10101      ALRLCAYCCNIVNVS    3   LCAYCCNIV     0.313  YP_009724392.1      0.001374    95.00       NA      0.283415       2329.22    42.15       
+  32   HLA-DPA10201-DPB10101      AILTALRLCAYCCNI    2   LTALRLCAY     0.553  YP_009724392.1      0.001218    95.00       NA      0.317904       1603.79    32.76       
+  31   HLA-DPA10201-DPB10101      LAILTALRLCAYCCN    3   LTALRLCAY     0.627  YP_009724392.1      0.001134    95.00       NA      0.337445       1298.15    27.99       
+  38   HLA-DPA10201-DPB10101      RLCAYCCNIVNVSLV    4   YCCNIVNVS     0.340  YP_009724392.1      0.001038    95.00       NA      0.281509       2377.76    42.67       
+  37   HLA-DPA10201-DPB10101      LRLCAYCCNIVNVSL    5   YCCNIVNVS     0.280  YP_009724392.1      0.001027    95.00       NA      0.275142       2547.33    44.42       
+--------------------------------------------------------------------------------------------------------------------------------------------
+Number of strong binders: 3 Number of weak binders: 3
+--------------------------------------------------------------------------------------------------------------------------------------------
+
+# Allele: HLA-DPA10202-DPB10101
+--------------------------------------------------------------------------------------------------------------------------------------------
+ Pos                     MHC              Peptide   Of        Core  Core_Rel        Identity      Score_EL %Rank_EL Exp_Bind      Score_BA  Affinity(nM) %Rank_BA  BindLevel
+--------------------------------------------------------------------------------------------------------------------------------------------
+  54   HLA-DPA10202-DPB10101      PSFYVYSRVKNLNSS    3   YVYSRVKNL     0.833  YP_009724392.1      0.203655     0.48       NA      0.519620        180.84     6.08   <=SB
+  53   HLA-DPA10202-DPB10101      KPSFYVYSRVKNLNS    4   YVYSRVKNL     0.793  YP_009724392.1      0.192912     0.62       NA      0.529751        162.06     5.01   <=SB
+  52   HLA-DPA10202-DPB10101      VKPSFYVYSRVKNLN    5   YVYSRVKNL     0.733  YP_009724392.1      0.153368     1.56       NA      0.534937        153.22     4.50   <=SB
+  55   HLA-DPA10202-DPB10101      SFYVYSRVKNLNSSR    2   YVYSRVKNL     0.687  YP_009724392.1      0.116903     4.01       NA      0.504306        213.43     7.99   <=WB
+   1   HLA-DPA10202-DPB10101      MYSFVSEETGTLIVN    3   FVSEETGTL     0.813  YP_009724392.1      0.106590     5.35       NA      0.483717        266.68    11.14   <=WB
+  51   HLA-DPA10202-DPB10101      LVKPSFYVYSRVKNL    6   YVYSRVKNL     0.640  YP_009724392.1      0.086111     9.68       NA      0.541544        142.65     3.89   <=WB
+  58   HLA-DPA10202-DPB10101      VYSRVKNLNSSRVPD    4   VKNLNSSRV     0.767  YP_009724392.1      0.081356    11.11       NA      0.327394       1447.29    50.44       
+   2   HLA-DPA10202-DPB10101      YSFVSEETGTLIVNS    2   FVSEETGTL     0.660  YP_009724392.1      0.076918    12.70       NA      0.457418        354.47    15.98       
+  59   HLA-DPA10202-DPB10101      YSRVKNLNSSRVPDL    3   VKNLNSSRV     0.713  YP_009724392.1      0.076447    12.87       NA      0.357431       1045.71    41.79       
+  57   HLA-DPA10202-DPB10101      YVYSRVKNLNSSRVP    5   VKNLNSSRV     0.527  YP_009724392.1      0.064288    18.43       NA      0.403607        634.50    28.76       
+  56   HLA-DPA10202-DPB10101      FYVYSRVKNLNSSRV    1   YVYSRVKNL     0.527  YP_009724392.1      0.063622    18.77       NA      0.486648        258.36    10.66       
+  60   HLA-DPA10202-DPB10101      SRVKNLNSSRVPDLL    2   VKNLNSSRV     0.587  YP_009724392.1      0.058841    21.56       NA      0.358689       1031.58    41.41       
+  49   HLA-DPA10202-DPB10101      VSLVKPSFYVYSRVK    3   VKPSFYVYS     0.633  YP_009724392.1      0.045289    32.11       NA      0.478867        281.05    11.96       
+  47   HLA-DPA10202-DPB10101      VNVSLVKPSFYVYSR    5   VKPSFYVYS     0.367  YP_009724392.1      0.043525    33.84       NA      0.470581        307.41    13.49       
+  48   HLA-DPA10202-DPB10101      NVSLVKPSFYVYSRV    4   VKPSFYVYS     0.487  YP_009724392.1      0.042638    34.73       NA      0.477078        286.55    12.29       
+  50   HLA-DPA10202-DPB10101      SLVKPSFYVYSRVKN    2   VKPSFYVYS     0.407  YP_009724392.1      0.036229    41.72       NA      0.465508        324.76    14.41       
+   3   HLA-DPA10202-DPB10101      SFVSEETGTLIVNSV    1   FVSEETGTL     0.420  YP_009724392.1      0.036169    41.79       NA      0.419304        535.39    24.70       
+  61   HLA-DPA10202-DPB10101      RVKNLNSSRVPDLLV    4   LNSSRVPDL     0.580  YP_009724392.1      0.033575    44.94       NA      0.378753        830.27    35.70       
+  46   HLA-DPA10202-DPB10101      IVNVSLVKPSFYVYS    3   VSLVKPSFY     0.513  YP_009724392.1      0.031621    47.36       NA      0.461048        340.82    15.24       
+  45   HLA-DPA10202-DPB10101      NIVNVSLVKPSFYVY    4   VSLVKPSFY     0.480  YP_009724392.1      0.031404    47.66       NA      0.463360        332.40    14.79       
+  44   HLA-DPA10202-DPB10101      CNIVNVSLVKPSFYV    5   VSLVKPSFY     0.480  YP_009724392.1      0.025577    56.00       NA      0.438648        434.29    20.02       
+   8   HLA-DPA10202-DPB10101      ETGTLIVNSVLLFLA    4   LIVNSVLLF     0.540  YP_009724392.1      0.022883    60.09       NA      0.411865        580.27    26.62       
+   9   HLA-DPA10202-DPB10101      TGTLIVNSVLLFLAF    3   LIVNSVLLF     0.560  YP_009724392.1      0.019969    64.84       NA      0.399841        660.89    29.81       
+  29   HLA-DPA10202-DPB10101      VTLAILTALRLCAYC    2   LAILTALRL     0.647  YP_009724392.1      0.019945    64.88       NA      0.442277        417.56    19.20       
+  28   HLA-DPA10202-DPB10101      LVTLAILTALRLCAY    3   LAILTALRL     0.587  YP_009724392.1      0.019668    65.34       NA      0.457516        354.09    15.96       
+  43   HLA-DPA10202-DPB10101      CCNIVNVSLVKPSFY    4   VNVSLVKPS     0.387  YP_009724392.1      0.019604    65.45       NA      0.412825        574.27    26.37       
+  27   HLA-DPA10202-DPB10101      LLVTLAILTALRLCA    4   LAILTALRL     0.713  YP_009724392.1      0.016702    70.44       NA      0.397081        680.92    30.57       
+   7   HLA-DPA10202-DPB10101      EETGTLIVNSVLLFL    5   LIVNSVLLF     0.420  YP_009724392.1      0.015964    71.78       NA      0.411713        581.22    26.66       
+  42   HLA-DPA10202-DPB10101      YCCNIVNVSLVKPSF    5   VNVSLVKPS     0.447  YP_009724392.1      0.013613    76.07       NA      0.389001        743.13    32.76       
+  10   HLA-DPA10202-DPB10101      GTLIVNSVLLFLAFV    2   LIVNSVLLF     0.413  YP_009724392.1      0.013215    76.82       NA      0.380618        813.69    35.17       
+   6   HLA-DPA10202-DPB10101      SEETGTLIVNSVLLF    6   LIVNSVLLF     0.353  YP_009724392.1      0.013009    77.20       NA      0.421714        521.61    24.09       
+   4   HLA-DPA10202-DPB10101      FVSEETGTLIVNSVL    4   ETGTLIVNS     0.360  YP_009724392.1      0.011554    79.94       NA      0.385319        773.33    33.83       
+  26   HLA-DPA10202-DPB10101      FLLVTLAILTALRLC    5   LAILTALRL     0.660  YP_009724392.1      0.010685    81.61       NA      0.391518        723.17    32.07       
+   5   HLA-DPA10202-DPB10101      VSEETGTLIVNSVLL    3   ETGTLIVNS     0.380  YP_009724392.1      0.010395    82.16       NA      0.367983        932.89    38.72       
+  25   HLA-DPA10202-DPB10101      VFLLVTLAILTALRL    6   LAILTALRL     0.520  YP_009724392.1      0.010002    82.92       NA      0.435849        447.64    20.70       
+  30   HLA-DPA10202-DPB10101      TLAILTALRLCAYCC    1   LAILTALRL     0.580  YP_009724392.1      0.009575    83.74       NA      0.417740        544.53    25.10       
+  41   HLA-DPA10202-DPB10101      AYCCNIVNVSLVKPS    6   VNVSLVKPS     0.273  YP_009724392.1      0.008202    86.36       NA      0.386994        759.45    33.33       
+  18   HLA-DPA10202-DPB10101      LLFLAFVVFLLVTLA    3   LAFVVFLLV     0.733  YP_009724392.1      0.007944    86.85       NA      0.422652        516.35    23.86       
+  16   HLA-DPA10202-DPB10101      SVLLFLAFVVFLLVT    5   LAFVVFLLV     0.713  YP_009724392.1      0.007363    87.96       NA      0.420305        529.63    24.45       
+  24   HLA-DPA10202-DPB10101      VVFLLVTLAILTALR    2   FLLVTLAIL     0.173  YP_009724392.1      0.007232    88.21       NA      0.389493        739.19    32.62       
+  17   HLA-DPA10202-DPB10101      VLLFLAFVVFLLVTL    4   LAFVVFLLV     0.733  YP_009724392.1      0.007087    88.49       NA      0.422562        516.85    23.88       
+  31   HLA-DPA10202-DPB10101      LAILTALRLCAYCCN    3   LTALRLCAY     0.580  YP_009724392.1      0.006828    88.99       NA      0.401916        646.22    29.23       
+  22   HLA-DPA10202-DPB10101      AFVVFLLVTLAILTA    4   FLLVTLAIL     0.473  YP_009724392.1      0.006472    89.67       NA      0.352647       1101.27    43.20       
+  21   HLA-DPA10202-DPB10101      LAFVVFLLVTLAILT    5   FLLVTLAIL     0.460  YP_009724392.1      0.005503    91.48       NA      0.353685       1088.97    42.90       
+  23   HLA-DPA10202-DPB10101      FVVFLLVTLAILTAL    3   FLLVTLAIL     0.473  YP_009724392.1      0.005352    91.76       NA      0.356785       1053.05    41.98       
+  19   HLA-DPA10202-DPB10101      LFLAFVVFLLVTLAI    2   LAFVVFLLV     0.647  YP_009724392.1      0.005290    91.87       NA      0.405766        619.85    28.17       
+  11   HLA-DPA10202-DPB10101      TLIVNSVLLFLAFVV    2   IVNSVLLFL     0.313  YP_009724392.1      0.005282    91.89       NA      0.359209       1025.79    41.26       
+  20   HLA-DPA10202-DPB10101      FLAFVVFLLVTLAIL    6   FLLVTLAIL     0.127  YP_009724392.1      0.005062    92.29       NA      0.397064        681.05    30.58       
+  15   HLA-DPA10202-DPB10101      NSVLLFLAFVVFLLV    6   LAFVVFLLV     0.553  YP_009724392.1      0.004909    92.58       NA      0.418867        537.93    24.81       
+  32   HLA-DPA10202-DPB10101      AILTALRLCAYCCNI    2   LTALRLCAY     0.620  YP_009724392.1      0.004557    93.23       NA      0.372475        888.63    37.48       
+  40   HLA-DPA10202-DPB10101      CAYCCNIVNVSLVKP    4   CNIVNVSLV     0.440  YP_009724392.1      0.003768    94.70       NA      0.366676        946.17    39.07       
+  12   HLA-DPA10202-DPB10101      LIVNSVLLFLAFVVF    5   VLLFLAFVV     0.300  YP_009724392.1      0.003300    95.00       NA      0.344678       1200.43    45.42       
+  13   HLA-DPA10202-DPB10101      IVNSVLLFLAFVVFL    4   VLLFLAFVV     0.300  YP_009724392.1      0.003166    95.00       NA      0.322749       1521.89    51.75       
+  14   HLA-DPA10202-DPB10101      VNSVLLFLAFVVFLL    4   LLFLAFVVF     0.420  YP_009724392.1      0.002355    95.00       NA      0.344739       1199.64    45.40       
+  39   HLA-DPA10202-DPB10101      LCAYCCNIVNVSLVK    3   YCCNIVNVS     0.427  YP_009724392.1      0.001934    95.00       NA      0.352987       1097.22    43.11       
+  34   HLA-DPA10202-DPB10101      LTALRLCAYCCNIVN    3   LRLCAYCCN     0.373  YP_009724392.1      0.001705    95.00       NA      0.354445       1080.05    42.68       
+  33   HLA-DPA10202-DPB10101      ILTALRLCAYCCNIV    4   LRLCAYCCN     0.313  YP_009724392.1      0.001501    95.00       NA      0.369913        913.61    38.19       
+  35   HLA-DPA10202-DPB10101      TALRLCAYCCNIVNV    4   LCAYCCNIV     0.280  YP_009724392.1      0.001417    95.00       NA      0.337981       1290.65    47.38       
+  36   HLA-DPA10202-DPB10101      ALRLCAYCCNIVNVS    3   LCAYCCNIV     0.353  YP_009724392.1      0.001330    95.00       NA      0.328893       1424.01    50.02       
+  38   HLA-DPA10202-DPB10101      RLCAYCCNIVNVSLV    6   CNIVNVSLV     0.187  YP_009724392.1      0.001299    95.00       NA      0.344944       1196.98    45.34       
+  37   HLA-DPA10202-DPB10101      LRLCAYCCNIVNVSL    5   YCCNIVNVS     0.173  YP_009724392.1      0.000987    95.00       NA      0.326152       1466.87    50.79       
+--------------------------------------------------------------------------------------------------------------------------------------------
+Number of strong binders: 3 Number of weak binders: 3
+--------------------------------------------------------------------------------------------------------------------------------------------
+
+# Allele: HLA-DPA10301-DPB10101
+--------------------------------------------------------------------------------------------------------------------------------------------
+ Pos                     MHC              Peptide   Of        Core  Core_Rel        Identity      Score_EL %Rank_EL Exp_Bind      Score_BA  Affinity(nM) %Rank_BA  BindLevel
+--------------------------------------------------------------------------------------------------------------------------------------------
+  54   HLA-DPA10301-DPB10101      PSFYVYSRVKNLNSS    3   YVYSRVKNL     0.887  YP_009724392.1      0.317043     1.06       NA      0.516274        187.51    13.91   <=SB
+  53   HLA-DPA10301-DPB10101      KPSFYVYSRVKNLNS    4   YVYSRVKNL     0.840  YP_009724392.1      0.309746     1.21       NA      0.529019        163.35    11.70   <=SB
+  52   HLA-DPA10301-DPB10101      VKPSFYVYSRVKNLN    5   YVYSRVKNL     0.793  YP_009724392.1      0.272610     2.44       NA      0.534279        154.32    10.85   <=WB
+  55   HLA-DPA10301-DPB10101      SFYVYSRVKNLNSSR    2   YVYSRVKNL     0.767  YP_009724392.1      0.223391     5.89       NA      0.507389        206.43    15.52   <=WB
+  51   HLA-DPA10301-DPB10101      LVKPSFYVYSRVKNL    6   YVYSRVKNL     0.653  YP_009724392.1      0.190641    10.27       NA      0.541361        142.93     9.73       
+   1   HLA-DPA10301-DPB10101      MYSFVSEETGTLIVN    3   FVSEETGTL     0.760  YP_009724392.1      0.176569    12.93       NA      0.508977        202.91    15.23       
+   2   HLA-DPA10301-DPB10101      YSFVSEETGTLIVNS    2   FVSEETGTL     0.607  YP_009724392.1      0.145552    21.14       NA      0.481340        273.63    20.75       
+  56   HLA-DPA10301-DPB10101      FYVYSRVKNLNSSRV    1   YVYSRVKNL     0.513  YP_009724392.1      0.145168    21.27       NA      0.484915        263.25    19.96       
+   3   HLA-DPA10301-DPB10101      SFVSEETGTLIVNSV    1   FVSEETGTL     0.287  YP_009724392.1      0.123116    29.58       NA      0.452833        372.50    27.25       
+  58   HLA-DPA10301-DPB10101      VYSRVKNLNSSRVPD    4   VKNLNSSRV     0.647  YP_009724392.1      0.113747    33.86       NA      0.316194       1633.74    63.18       
+  59   HLA-DPA10301-DPB10101      YSRVKNLNSSRVPDL    3   VKNLNSSRV     0.520  YP_009724392.1      0.111153    35.12       NA      0.383578        788.04    45.48       
+  57   HLA-DPA10301-DPB10101      YVYSRVKNLNSSRVP    5   VKNLNSSRV     0.393  YP_009724392.1      0.107727    36.77       NA      0.398067        673.70    41.58       
+  49   HLA-DPA10301-DPB10101      VSLVKPSFYVYSRVK    3   VKPSFYVYS     0.673  YP_009724392.1      0.107537    36.87       NA      0.462583        335.20    25.00       
+  60   HLA-DPA10301-DPB10101      SRVKNLNSSRVPDLL    5   LNSSRVPDL     0.487  YP_009724392.1      0.103039    39.29       NA      0.398553        670.16    41.44       
+  50   HLA-DPA10301-DPB10101      SLVKPSFYVYSRVKN    2   VKPSFYVYS     0.393  YP_009724392.1      0.102024    39.85       NA      0.455904        360.32    26.54       
+  48   HLA-DPA10301-DPB10101      NVSLVKPSFYVYSRV    4   VKPSFYVYS     0.480  YP_009724392.1      0.099330    41.32       NA      0.460174        344.05    25.56       
+  47   HLA-DPA10301-DPB10101      VNVSLVKPSFYVYSR    5   VKPSFYVYS     0.353  YP_009724392.1      0.095059    43.68       NA      0.448029        392.37    28.42       
+  61   HLA-DPA10301-DPB10101      RVKNLNSSRVPDLLV    4   LNSSRVPDL     0.653  YP_009724392.1      0.093062    44.83       NA      0.430410        474.77    32.98       
+   4   HLA-DPA10301-DPB10101      FVSEETGTLIVNSVL    4   ETGTLIVNS     0.400  YP_009724392.1      0.086577    48.78       NA      0.449838        384.76    27.95       
+   8   HLA-DPA10301-DPB10101      ETGTLIVNSVLLFLA    4   LIVNSVLLF     0.453  YP_009724392.1      0.083273    50.84       NA      0.491455        245.27    18.60       
+   6   HLA-DPA10301-DPB10101      SEETGTLIVNSVLLF    6   LIVNSVLLF     0.340  YP_009724392.1      0.080576    52.55       NA      0.493411        240.13    18.19       
+   5   HLA-DPA10301-DPB10101      VSEETGTLIVNSVLL    3   ETGTLIVNS     0.400  YP_009724392.1      0.075228    56.01       NA      0.451541        377.74    27.55       
+  46   HLA-DPA10301-DPB10101      IVNVSLVKPSFYVYS    5   LVKPSFYVY     0.220  YP_009724392.1      0.071344    58.70       NA      0.451427        378.21    27.58       
+   9   HLA-DPA10301-DPB10101      TGTLIVNSVLLFLAF    3   LIVNSVLLF     0.520  YP_009724392.1      0.070924    58.99       NA      0.483844        266.32    20.19       
+  45   HLA-DPA10301-DPB10101      NIVNVSLVKPSFYVY    2   VNVSLVKPS     0.307  YP_009724392.1      0.069886    59.71       NA      0.448303        391.21    28.35       
+   7   HLA-DPA10301-DPB10101      EETGTLIVNSVLLFL    5   LIVNSVLLF     0.367  YP_009724392.1      0.069131    60.23       NA      0.496202        232.99    17.63       
+  44   HLA-DPA10301-DPB10101      CNIVNVSLVKPSFYV    3   VNVSLVKPS     0.313  YP_009724392.1      0.057078    68.63       NA      0.431195        470.76    32.77       
+  28   HLA-DPA10301-DPB10101      LVTLAILTALRLCAY    3   LAILTALRL     0.553  YP_009724392.1      0.055514    69.75       NA      0.537532        148.98    10.32       
+  25   HLA-DPA10301-DPB10101      VFLLVTLAILTALRL    6   LAILTALRL     0.533  YP_009724392.1      0.053658    71.11       NA      0.522129        176.00    12.87       
+  10   HLA-DPA10301-DPB10101      GTLIVNSVLLFLAFV    2   LIVNSVLLF     0.420  YP_009724392.1      0.050999    73.05       NA      0.459159        347.85    25.79       
+  27   HLA-DPA10301-DPB10101      LLVTLAILTALRLCA    4   LAILTALRL     0.600  YP_009724392.1      0.050102    73.71       NA      0.482442        270.39    20.50       
+  43   HLA-DPA10301-DPB10101      CCNIVNVSLVKPSFY    4   VNVSLVKPS     0.407  YP_009724392.1      0.048942    74.56       NA      0.423371        512.34    34.80       
+  29   HLA-DPA10301-DPB10101      VTLAILTALRLCAYC    2   LAILTALRL     0.640  YP_009724392.1      0.048339    75.00       NA      0.523804        172.83    12.58       
+  26   HLA-DPA10301-DPB10101      FLLVTLAILTALRLC    5   LAILTALRL     0.560  YP_009724392.1      0.044482    77.77       NA      0.488672        252.76    19.18       
+  18   HLA-DPA10301-DPB10101      LLFLAFVVFLLVTLA    3   LAFVVFLLV     0.727  YP_009724392.1      0.042283    79.34       NA      0.494006        238.59    18.07       
+  17   HLA-DPA10301-DPB10101      VLLFLAFVVFLLVTL    4   LAFVVFLLV     0.720  YP_009724392.1      0.037982    82.40       NA      0.493720        239.33    18.13       
+  16   HLA-DPA10301-DPB10101      SVLLFLAFVVFLLVT    5   LAFVVFLLV     0.747  YP_009724392.1      0.037451    82.77       NA      0.485452        261.73    19.85       
+  19   HLA-DPA10301-DPB10101      LFLAFVVFLLVTLAI    2   LAFVVFLLV     0.653  YP_009724392.1      0.037359    82.84       NA      0.481259        273.87    20.76       
+  42   HLA-DPA10301-DPB10101      YCCNIVNVSLVKPSF    5   VNVSLVKPS     0.540  YP_009724392.1      0.036562    83.40       NA      0.423150        513.57    34.86       
+  24   HLA-DPA10301-DPB10101      VVFLLVTLAILTALR    3   LLVTLAILT     0.220  YP_009724392.1      0.034988    84.51       NA      0.468708        313.71    23.60       
+  20   HLA-DPA10301-DPB10101      FLAFVVFLLVTLAIL    1   LAFVVFLLV     0.453  YP_009724392.1      0.032625    86.06       NA      0.465161        325.98    24.42       
+  41   HLA-DPA10301-DPB10101      AYCCNIVNVSLVKPS    5   IVNVSLVKP     0.267  YP_009724392.1      0.031906    86.51       NA      0.431524        469.09    32.68       
+  30   HLA-DPA10301-DPB10101      TLAILTALRLCAYCC    1   LAILTALRL     0.560  YP_009724392.1      0.031594    86.71       NA      0.500048        223.49    16.87       
+  11   HLA-DPA10301-DPB10101      TLIVNSVLLFLAFVV    3   VNSVLLFLA     0.240  YP_009724392.1      0.030427    87.45       NA      0.432422        464.55    32.43       
+  22   HLA-DPA10301-DPB10101      AFVVFLLVTLAILTA    4   FLLVTLAIL     0.413  YP_009724392.1      0.027920    89.03       NA      0.428083        486.88    33.59       
+  15   HLA-DPA10301-DPB10101      NSVLLFLAFVVFLLV    6   LAFVVFLLV     0.520  YP_009724392.1      0.027325    89.40       NA      0.478672        281.65    21.35       
+  23   HLA-DPA10301-DPB10101      FVVFLLVTLAILTAL    3   FLLVTLAIL     0.380  YP_009724392.1      0.026169    90.12       NA      0.436985        442.17    31.25       
+  21   HLA-DPA10301-DPB10101      LAFVVFLLVTLAILT    5   FLLVTLAIL     0.427  YP_009724392.1      0.023152    91.81       NA      0.419997        531.39    35.67       
+  40   HLA-DPA10301-DPB10101      CAYCCNIVNVSLVKP    4   CNIVNVSLV     0.433  YP_009724392.1      0.020103    93.52       NA      0.424380        506.78    34.55       
+  12   HLA-DPA10301-DPB10101      LIVNSVLLFLAFVVF    2   VNSVLLFLA     0.200  YP_009724392.1      0.016693    95.00       NA      0.408929        599.00    38.68       
+  31   HLA-DPA10301-DPB10101      LAILTALRLCAYCCN    3   LTALRLCAY     0.540  YP_009724392.1      0.015302    95.00       NA      0.466072        322.78    24.21       
+  34   HLA-DPA10301-DPB10101      LTALRLCAYCCNIVN    3   LRLCAYCCN     0.360  YP_009724392.1      0.014602    95.00       NA      0.414577        563.49    37.11       
+  35   HLA-DPA10301-DPB10101      TALRLCAYCCNIVNV    4   LCAYCCNIV     0.260  YP_009724392.1      0.014555    95.00       NA      0.410821        586.86    38.16       
+  32   HLA-DPA10301-DPB10101      AILTALRLCAYCCNI    2   LTALRLCAY     0.520  YP_009724392.1      0.014156    95.00       NA      0.424649        505.31    34.48       
+  36   HLA-DPA10301-DPB10101      ALRLCAYCCNIVNVS    3   LCAYCCNIV     0.240  YP_009724392.1      0.014155    95.00       NA      0.409278        596.74    38.58       
+  13   HLA-DPA10301-DPB10101      IVNSVLLFLAFVVFL    1   VNSVLLFLA     0.107  YP_009724392.1      0.013123    95.00       NA      0.394639        699.15    42.49       
+  33   HLA-DPA10301-DPB10101      ILTALRLCAYCCNIV    4   LRLCAYCCN     0.287  YP_009724392.1      0.013115    95.00       NA      0.430859        472.47    32.86       
+  39   HLA-DPA10301-DPB10101      LCAYCCNIVNVSLVK    5   CNIVNVSLV     0.373  YP_009724392.1      0.012211    95.00       NA      0.414964        561.13    37.00       
+  38   HLA-DPA10301-DPB10101      RLCAYCCNIVNVSLV    4   YCCNIVNVS     0.320  YP_009724392.1      0.009554    95.00       NA      0.423735        510.33    34.71       
+  14   HLA-DPA10301-DPB10101      VNSVLLFLAFVVFLL    3   VLLFLAFVV     0.133  YP_009724392.1      0.009171    95.00       NA      0.424630        505.41    34.48       
+  37   HLA-DPA10301-DPB10101      LRLCAYCCNIVNVSL    5   YCCNIVNVS     0.267  YP_009724392.1      0.008618    95.00       NA      0.405983        618.40    39.47       
+--------------------------------------------------------------------------------------------------------------------------------------------
+Number of strong binders: 2 Number of weak binders: 2
+--------------------------------------------------------------------------------------------------------------------------------------------
+
+# Allele: HLA-DPA10401-DPB10101
+--------------------------------------------------------------------------------------------------------------------------------------------
+ Pos                     MHC              Peptide   Of        Core  Core_Rel        Identity      Score_EL %Rank_EL Exp_Bind      Score_BA  Affinity(nM) %Rank_BA  BindLevel
+--------------------------------------------------------------------------------------------------------------------------------------------
+  54   HLA-DPA10401-DPB10101      PSFYVYSRVKNLNSS    3   YVYSRVKNL     0.813  YP_009724392.1      0.303994     1.20       NA      0.519176        181.71     9.66   <=SB
+  53   HLA-DPA10401-DPB10101      KPSFYVYSRVKNLNS    4   YVYSRVKNL     0.753  YP_009724392.1      0.299907     1.27       NA      0.530571        160.63     7.72   <=SB
+  52   HLA-DPA10401-DPB10101      VKPSFYVYSRVKNLN    5   YVYSRVKNL     0.713  YP_009724392.1      0.266242     2.15       NA      0.528800        163.74     7.99   <=WB
+  55   HLA-DPA10401-DPB10101      SFYVYSRVKNLNSSR    2   YVYSRVKNL     0.647  YP_009724392.1      0.216020     4.76       NA      0.507117        207.03    11.84   <=WB
+  51   HLA-DPA10401-DPB10101      LVKPSFYVYSRVKNL    6   YVYSRVKNL     0.580  YP_009724392.1      0.169423     9.97       NA      0.538301        147.74     6.65   <=WB
+   1   HLA-DPA10401-DPB10101      MYSFVSEETGTLIVN    3   FVSEETGTL     0.767  YP_009724392.1      0.128336    19.44       NA      0.484808        263.56    16.55       
+  49   HLA-DPA10401-DPB10101      VSLVKPSFYVYSRVK    3   VKPSFYVYS     0.727  YP_009724392.1      0.127781    19.62       NA      0.485795        260.76    16.32       
+  56   HLA-DPA10401-DPB10101      FYVYSRVKNLNSSRV    1   YVYSRVKNL     0.493  YP_009724392.1      0.125303    20.43       NA      0.490569        247.63    15.25       
+  48   HLA-DPA10401-DPB10101      NVSLVKPSFYVYSRV    4   VKPSFYVYS     0.527  YP_009724392.1      0.123032    21.20       NA      0.482947        268.92    16.98       
+  47   HLA-DPA10401-DPB10101      VNVSLVKPSFYVYSR    5   VKPSFYVYS     0.453  YP_009724392.1      0.117106    23.34       NA      0.465305        325.47    21.40       
+   2   HLA-DPA10401-DPB10101      YSFVSEETGTLIVNS    2   FVSEETGTL     0.593  YP_009724392.1      0.107741    27.18       NA      0.476795        287.43    18.51       
+  50   HLA-DPA10401-DPB10101      SLVKPSFYVYSRVKN    2   VKPSFYVYS     0.473  YP_009724392.1      0.098786    31.26       NA      0.469141        312.24    20.41       
+  57   HLA-DPA10401-DPB10101      YVYSRVKNLNSSRVP    3   SRVKNLNSS     0.320  YP_009724392.1      0.081014    40.98       NA      0.406428        615.43    38.82       
+   3   HLA-DPA10401-DPB10101      SFVSEETGTLIVNSV    1   FVSEETGTL     0.347  YP_009724392.1      0.077174    43.40       NA      0.455510        361.86    24.02       
+  46   HLA-DPA10401-DPB10101      IVNVSLVKPSFYVYS    5   LVKPSFYVY     0.287  YP_009724392.1      0.075195    44.68       NA      0.461876        337.78    22.32       
+  58   HLA-DPA10401-DPB10101      VYSRVKNLNSSRVPD    4   VKNLNSSRV     0.447  YP_009724392.1      0.063445    53.03       NA      0.346103       1182.07    57.80       
+  45   HLA-DPA10401-DPB10101      NIVNVSLVKPSFYVY    2   VNVSLVKPS     0.507  YP_009724392.1      0.054832    59.61       NA      0.445812        401.90    26.73       
+   4   HLA-DPA10401-DPB10101      FVSEETGTLIVNSVL    4   ETGTLIVNS     0.493  YP_009724392.1      0.054484    59.88       NA      0.440184        427.13    28.39       
+  59   HLA-DPA10401-DPB10101      YSRVKNLNSSRVPDL    3   VKNLNSSRV     0.493  YP_009724392.1      0.050097    63.58       NA      0.373114        882.51    49.42       
+  44   HLA-DPA10401-DPB10101      CNIVNVSLVKPSFYV    3   VNVSLVKPS     0.547  YP_009724392.1      0.047900    65.45       NA      0.422785        515.60    33.66       
+  60   HLA-DPA10401-DPB10101      SRVKNLNSSRVPDLL    5   LNSSRVPDL     0.427  YP_009724392.1      0.047696    65.63       NA      0.376667        849.23    48.34       
+  61   HLA-DPA10401-DPB10101      RVKNLNSSRVPDLLV    4   LNSSRVPDL     0.647  YP_009724392.1      0.047342    65.93       NA      0.404054        631.44    39.58       
+   5   HLA-DPA10401-DPB10101      VSEETGTLIVNSVLL    3   ETGTLIVNS     0.487  YP_009724392.1      0.044324    68.53       NA      0.429250        480.77    31.64       
+  43   HLA-DPA10401-DPB10101      CCNIVNVSLVKPSFY    4   VNVSLVKPS     0.627  YP_009724392.1      0.039879    72.41       NA      0.409707        593.98    37.76       
+   6   HLA-DPA10401-DPB10101      SEETGTLIVNSVLLF    2   ETGTLIVNS     0.327  YP_009724392.1      0.031577    79.70       NA      0.474446        294.82    19.09       
+  18   HLA-DPA10401-DPB10101      LLFLAFVVFLLVTLA    3   LAFVVFLLV     0.787  YP_009724392.1      0.029508    81.48       NA      0.436447        444.75    29.51       
+  42   HLA-DPA10401-DPB10101      YCCNIVNVSLVKPSF    5   VNVSLVKPS     0.593  YP_009724392.1      0.029194    81.75       NA      0.411206        584.42    37.29       
+   8   HLA-DPA10401-DPB10101      ETGTLIVNSVLLFLA    4   LIVNSVLLF     0.467  YP_009724392.1      0.029004    81.92       NA      0.463374        332.35    21.92       
+  25   HLA-DPA10401-DPB10101      VFLLVTLAILTALRL    6   LAILTALRL     0.373  YP_009724392.1      0.027300    83.38       NA      0.487501        255.99    15.93       
+  16   HLA-DPA10401-DPB10101      SVLLFLAFVVFLLVT    5   LAFVVFLLV     0.767  YP_009724392.1      0.026783    83.83       NA      0.432572        463.80    30.67       
+  17   HLA-DPA10401-DPB10101      VLLFLAFVVFLLVTL    4   LAFVVFLLV     0.787  YP_009724392.1      0.026351    84.20       NA      0.437137        441.44    29.30       
+  19   HLA-DPA10401-DPB10101      LFLAFVVFLLVTLAI    2   LAFVVFLLV     0.713  YP_009724392.1      0.025956    84.54       NA      0.425526        500.54    32.82       
+  28   HLA-DPA10401-DPB10101      LVTLAILTALRLCAY    3   LAILTALRL     0.413  YP_009724392.1      0.023747    86.33       NA      0.507894        205.30    11.70       
+   9   HLA-DPA10401-DPB10101      TGTLIVNSVLLFLAF    3   LIVNSVLLF     0.467  YP_009724392.1      0.023738    86.34       NA      0.455196        363.09    24.10       
+   7   HLA-DPA10401-DPB10101      EETGTLIVNSVLLFL    5   LIVNSVLLF     0.347  YP_009724392.1      0.023642    86.41       NA      0.470867        306.46    19.98       
+  26   HLA-DPA10401-DPB10101      FLLVTLAILTALRLC    5   LAILTALRL     0.440  YP_009724392.1      0.021022    88.50       NA      0.454017        367.75    24.41       
+  41   HLA-DPA10401-DPB10101      AYCCNIVNVSLVKPS    6   VNVSLVKPS     0.367  YP_009724392.1      0.020571    88.85       NA      0.416089        554.35    35.75       
+  24   HLA-DPA10401-DPB10101      VVFLLVTLAILTALR    4   LVTLAILTA     0.240  YP_009724392.1      0.020385    89.00       NA      0.449394        386.62    25.71       
+  27   HLA-DPA10401-DPB10101      LLVTLAILTALRLCA    4   LAILTALRL     0.520  YP_009724392.1      0.020356    89.03       NA      0.458056        352.03    23.33       
+  20   HLA-DPA10401-DPB10101      FLAFVVFLLVTLAIL    1   LAFVVFLLV     0.527  YP_009724392.1      0.018982    90.11       NA      0.414702        562.73    36.19       
+  29   HLA-DPA10401-DPB10101      VTLAILTALRLCAYC    2   LAILTALRL     0.480  YP_009724392.1      0.018729    90.28       NA      0.491379        245.47    15.07       
+  15   HLA-DPA10401-DPB10101      NSVLLFLAFVVFLLV    6   LAFVVFLLV     0.613  YP_009724392.1      0.017781    90.96       NA      0.428952        482.32    31.73       
+  10   HLA-DPA10401-DPB10101      GTLIVNSVLLFLAFV    2   LIVNSVLLF     0.433  YP_009724392.1      0.015987    92.23       NA      0.428236        486.07    31.94       
+  22   HLA-DPA10401-DPB10101      AFVVFLLVTLAILTA    5   LLVTLAILT     0.247  YP_009724392.1      0.013253    94.16       NA      0.386132        766.56    45.35       
+  23   HLA-DPA10401-DPB10101      FVVFLLVTLAILTAL    5   LVTLAILTA     0.253  YP_009724392.1      0.011940    95.00       NA      0.400692        654.83    40.67       
+  30   HLA-DPA10401-DPB10101      TLAILTALRLCAYCC    1   LAILTALRL     0.407  YP_009724392.1      0.011898    95.00       NA      0.460737        341.96    22.62       
+  34   HLA-DPA10401-DPB10101      LTALRLCAYCCNIVN    4   RLCAYCCNI     0.293  YP_009724392.1      0.011628    95.00       NA      0.409004        598.51    37.98       
+  40   HLA-DPA10401-DPB10101      CAYCCNIVNVSLVKP    2   YCCNIVNVS     0.320  YP_009724392.1      0.011285    95.00       NA      0.407815        606.26    38.36       
+  39   HLA-DPA10401-DPB10101      LCAYCCNIVNVSLVK    3   YCCNIVNVS     0.507  YP_009724392.1      0.011070    95.00       NA      0.404047        631.49    39.59       
+  35   HLA-DPA10401-DPB10101      TALRLCAYCCNIVNV    3   RLCAYCCNI     0.260  YP_009724392.1      0.010670    95.00       NA      0.402704        640.73    40.02       
+  33   HLA-DPA10401-DPB10101      ILTALRLCAYCCNIV    5   RLCAYCCNI     0.260  YP_009724392.1      0.009703    95.00       NA      0.423852        509.69    33.34       
+  32   HLA-DPA10401-DPB10101      AILTALRLCAYCCNI    2   LTALRLCAY     0.453  YP_009724392.1      0.009199    95.00       NA      0.422617        516.54    33.71       
+  11   HLA-DPA10401-DPB10101      TLIVNSVLLFLAFVV    3   VNSVLLFLA     0.267  YP_009724392.1      0.009085    95.00       NA      0.405936        618.71    38.98       
+  21   HLA-DPA10401-DPB10101      LAFVVFLLVTLAILT    5   FLLVTLAIL     0.367  YP_009724392.1      0.008455    95.00       NA      0.371125        901.71    50.03       
+  31   HLA-DPA10401-DPB10101      LAILTALRLCAYCCN    3   LTALRLCAY     0.533  YP_009724392.1      0.008063    95.00       NA      0.434975        451.89    29.96       
+  36   HLA-DPA10401-DPB10101      ALRLCAYCCNIVNVS    2   RLCAYCCNI     0.193  YP_009724392.1      0.007939    95.00       NA      0.402005        645.60    40.24       
+  12   HLA-DPA10401-DPB10101      LIVNSVLLFLAFVVF    6   LLFLAFVVF     0.340  YP_009724392.1      0.007396    95.00       NA      0.384236        782.45    45.96       
+  38   HLA-DPA10401-DPB10101      RLCAYCCNIVNVSLV    4   YCCNIVNVS     0.473  YP_009724392.1      0.007121    95.00       NA      0.398472        670.75    41.37       
+  13   HLA-DPA10401-DPB10101      IVNSVLLFLAFVVFL    5   LLFLAFVVF     0.500  YP_009724392.1      0.006605    95.00       NA      0.355881       1063.40    54.84       
+  37   HLA-DPA10401-DPB10101      LRLCAYCCNIVNVSL    5   YCCNIVNVS     0.373  YP_009724392.1      0.006236    95.00       NA      0.387168        758.02    45.02       
+  14   HLA-DPA10401-DPB10101      VNSVLLFLAFVVFLL    4   LLFLAFVVF     0.527  YP_009724392.1      0.005785    95.00       NA      0.372656        886.89    49.56       
+--------------------------------------------------------------------------------------------------------------------------------------------
+Number of strong binders: 2 Number of weak binders: 3
+--------------------------------------------------------------------------------------------------------------------------------------------

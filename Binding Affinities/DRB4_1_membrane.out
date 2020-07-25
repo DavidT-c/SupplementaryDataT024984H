@@ -1,0 +1,226 @@
+# NetMHCIIpan version 4.0
+
+# Input is in FASTA format
+
+# Peptide length 15
+
+# Prediction Mode: EL+BA
+
+# Threshold for Strong binding peptides (%Rank)	2%
+# Threshold for Weak binding peptides (%Rank)	10%
+
+# Allele: DRB4_0101
+--------------------------------------------------------------------------------------------------------------------------------------------
+ Pos           MHC              Peptide   Of        Core  Core_Rel        Identity      Score_EL %Rank_EL Exp_Bind      Score_BA  Affinity(nM) %Rank_BA  BindLevel
+--------------------------------------------------------------------------------------------------------------------------------------------
+ 136     DRB4_0101      SELVIGAVILRGHLR    3   VIGAVILRG     0.900  YP_009724393.1      0.134240     3.91       NA      0.593067         81.69     0.66   <=WB
+   5     DRB4_0101      NGTITVEELKKLLEQ    3   ITVEELKKL     0.900  YP_009724393.1      0.126333     4.25       NA      0.371413        898.90    24.35   <=WB
+ 146     DRB4_0101      RGHLRIAGHHLGRCD    3   LRIAGHHLG     0.847  YP_009724393.1      0.125321     4.30       NA      0.468289        315.13     7.70   <=WB
+ 201     DRB4_0101      IGNYKLNTDHSSSSD    3   YKLNTDHSS     0.493  YP_009724393.1      0.104034     5.48       NA      0.290757       2151.35    45.68   <=WB
+ 200     DRB4_0101      RIGNYKLNTDHSSSS    3   NYKLNTDHS     0.427  YP_009724393.1      0.102421     5.59       NA      0.327699       1442.52    35.33   <=WB
+   4     DRB4_0101      SNGTITVEELKKLLE    4   ITVEELKKL     0.940  YP_009724393.1      0.093047     6.27       NA      0.362561        989.25    26.36   <=WB
+ 144     DRB4_0101      ILRGHLRIAGHHLGR    5   LRIAGHHLG     0.913  YP_009724393.1      0.092175     6.34       NA      0.535270        152.67     2.40   <=WB
+ 202     DRB4_0101      GNYKLNTDHSSSSDN    4   LNTDHSSSS     0.560  YP_009724393.1      0.091847     6.37       NA      0.261025       2967.71    54.40   <=WB
+ 134     DRB4_0101      LESELVIGAVILRGH    5   VIGAVILRG     0.700  YP_009724393.1      0.085279     6.93       NA      0.546159        135.70     1.89   <=WB
+ 199     DRB4_0101      YRIGNYKLNTDHSSS    4   NYKLNTDHS     0.460  YP_009724393.1      0.076694     7.86       NA      0.328099       1436.29    35.21   <=WB
+ 141     DRB4_0101      GAVILRGHLRIAGHH    3   ILRGHLRIA     0.713  YP_009724393.1      0.075556     7.98       NA      0.557210        120.41     1.48   <=WB
+ 135     DRB4_0101      ESELVIGAVILRGHL    4   VIGAVILRG     0.687  YP_009724393.1      0.072302     8.36       NA      0.559025        118.07     1.43   <=WB
+ 114     DRB4_0101      PETNILLNVPLHGTI    4   ILLNVPLHG     0.813  YP_009724393.1      0.071820     8.42       NA      0.529170        163.09     2.71   <=WB
+ 173     DRB4_0101      SRTLSYYKLGASQRV    3   LSYYKLGAS     0.880  YP_009724393.1      0.071578     8.45       NA      0.454659        365.21     9.39   <=WB
+ 145     DRB4_0101      LRGHLRIAGHHLGRC    4   LRIAGHHLG     0.900  YP_009724393.1      0.070589     8.58       NA      0.508288        204.43     3.96   <=WB
+ 172     DRB4_0101      TSRTLSYYKLGASQR    4   LSYYKLGAS     0.867  YP_009724393.1      0.068832     8.82       NA      0.414335        564.97    15.58   <=WB
+ 203     DRB4_0101      NYKLNTDHSSSSDNI    3   LNTDHSSSS     0.833  YP_009724393.1      0.067473     9.01       NA      0.265643       2823.07    53.04   <=WB
+ 198     DRB4_0101      RYRIGNYKLNTDHSS    3   IGNYKLNTD     0.533  YP_009724393.1      0.066666     9.13       NA      0.337376       1299.12    32.64   <=WB
+   6     DRB4_0101      GTITVEELKKLLEQW    2   ITVEELKKL     0.667  YP_009724393.1      0.060822    10.12       NA      0.384020        784.28    21.57       
+ 115     DRB4_0101      ETNILLNVPLHGTIL    3   ILLNVPLHG     0.833  YP_009724393.1      0.059817    10.31       NA      0.549210        131.30     1.78       
+ 113     DRB4_0101      NPETNILLNVPLHGT    5   ILLNVPLHG     0.793  YP_009724393.1      0.056274    10.96       NA      0.492559        242.35     5.22       
+ 165     DRB4_0101      PKEITVATSRTLSYY    3   ITVATSRTL     0.767  YP_009724393.1      0.055579    11.10       NA      0.517070        185.90     3.36       
+ 147     DRB4_0101      GHLRIAGHHLGRCDI    2   LRIAGHHLG     0.693  YP_009724393.1      0.050048    12.30       NA      0.433606        458.64    12.42       
+ 140     DRB4_0101      IGAVILRGHLRIAGH    4   ILRGHLRIA     0.680  YP_009724393.1      0.049704    12.39       NA      0.550557        129.40     1.72       
+ 137     DRB4_0101      ELVIGAVILRGHLRI    2   VIGAVILRG     0.807  YP_009724393.1      0.049694    12.39       NA      0.578335         95.81     0.94       
+   3     DRB4_0101      DSNGTITVEELKKLL    5   ITVEELKKL     0.947  YP_009724393.1      0.048389    12.73       NA      0.356261       1059.03    27.81       
+ 130     DRB4_0101      TRPLLESELVIGAVI    4   LESELVIGA     0.647  YP_009724393.1      0.045166    13.64       NA      0.484873        263.37     5.95       
+ 184     DRB4_0101      SQRVAGDSGFAAYSR    3   VAGDSGFAA     0.980  YP_009724393.1      0.042848    14.37       NA      0.267352       2771.35    52.54       
+ 129     DRB4_0101      LTRPLLESELVIGAV    5   LESELVIGA     0.540  YP_009724393.1      0.041491    14.82       NA      0.470705        307.00     7.42       
+ 148     DRB4_0101      HLRIAGHHLGRCDIK    3   IAGHHLGRC     0.700  YP_009724393.1      0.041467    14.83       NA      0.411398        583.21    16.12       
+ 164     DRB4_0101      LPKEITVATSRTLSY    4   ITVATSRTL     0.813  YP_009724393.1      0.041048    14.97       NA      0.487185        256.86     5.73       
+ 166     DRB4_0101      KEITVATSRTLSYYK    4   VATSRTLSY     0.540  YP_009724393.1      0.039207    15.64       NA      0.522475        175.34     3.06       
+ 197     DRB4_0101      SRYRIGNYKLNTDHS    4   IGNYKLNTD     0.687  YP_009724393.1      0.037498    16.32       NA      0.317055       1618.59    38.24       
+ 174     DRB4_0101      RTLSYYKLGASQRVA    2   LSYYKLGAS     0.673  YP_009724393.1      0.037195    16.46       NA      0.457190        355.34     9.04       
+ 171     DRB4_0101      ATSRTLSYYKLGASQ    5   LSYYKLGAS     0.767  YP_009724393.1      0.033077    18.37       NA      0.378376        833.67    22.80       
+ 142     DRB4_0101      AVILRGHLRIAGHHL    2   ILRGHLRIA     0.547  YP_009724393.1      0.032945    18.43       NA      0.560889        115.71     1.37       
+ 158     DRB4_0101      RCDIKDLPKEITVAT    3   IKDLPKEIT     0.927  YP_009724393.1      0.032231    18.78       NA      0.350608       1125.83    29.26       
+   7     DRB4_0101      TITVEELKKLLEQWN    3   VEELKKLLE     0.647  YP_009724393.1      0.030724    19.61       NA      0.384957        776.37    21.37       
+ 116     DRB4_0101      TNILLNVPLHGTILT    2   ILLNVPLHG     0.627  YP_009724393.1      0.027987    21.27       NA      0.537667        148.76     2.29       
+ 157     DRB4_0101      GRCDIKDLPKEITVA    4   IKDLPKEIT     0.933  YP_009724393.1      0.027184    21.81       NA      0.340360       1257.85    31.86       
+ 190     DRB4_0101      DSGFAAYSRYRIGNY    3   FAAYSRYRI     0.733  YP_009724393.1      0.027119    21.86       NA      0.334755       1336.49    33.37       
+ 125     DRB4_0101      HGTILTRPLLESELV    3   ILTRPLLES     0.907  YP_009724393.1      0.026961    21.97       NA      0.466388        321.68     7.92       
+ 124     DRB4_0101      LHGTILTRPLLESEL    4   ILTRPLLES     0.847  YP_009724393.1      0.026856    22.04       NA      0.463951        330.28     8.21       
+ 167     DRB4_0101      EITVATSRTLSYYKL    3   VATSRTLSY     0.753  YP_009724393.1      0.026660    22.19       NA      0.512298        195.75     3.67       
+ 123     DRB4_0101      PLHGTILTRPLLESE    5   ILTRPLLES     0.787  YP_009724393.1      0.026155    22.58       NA      0.440284        426.67    11.41       
+ 131     DRB4_0101      RPLLESELVIGAVIL    3   LESELVIGA     0.747  YP_009724393.1      0.025485    23.09       NA      0.464761        327.39     8.11       
+ 189     DRB4_0101      GDSGFAAYSRYRIGN    4   FAAYSRYRI     0.767  YP_009724393.1      0.025073    23.40       NA      0.299582       1955.43    43.26       
+ 183     DRB4_0101      ASQRVAGDSGFAAYS    4   VAGDSGFAA     0.900  YP_009724393.1      0.025027    23.43       NA      0.239312       3753.62    60.88       
+ 163     DRB4_0101      DLPKEITVATSRTLS    5   ITVATSRTL     0.793  YP_009724393.1      0.024564    23.77       NA      0.434599        453.74    12.27       
+ 143     DRB4_0101      VILRGHLRIAGHHLG    6   LRIAGHHLG     0.500  YP_009724393.1      0.024318    23.95       NA      0.543171        140.16     2.02       
+ 196     DRB4_0101      YSRYRIGNYKLNTDH    5   IGNYKLNTD     0.660  YP_009724393.1      0.022340    25.68       NA      0.326341       1463.87    35.71       
+ 133     DRB4_0101      LLESELVIGAVILRG    5   LVIGAVILR     0.480  YP_009724393.1      0.021421    26.58       NA      0.491524        245.08     5.32       
+ 178     DRB4_0101      YYKLGASQRVAGDSG    3   LGASQRVAG     0.640  YP_009724393.1      0.021163    26.84       NA      0.361389       1001.88    26.61       
+ 139     DRB4_0101      VIGAVILRGHLRIAG    5   ILRGHLRIA     0.593  YP_009724393.1      0.019859    28.20       NA      0.543903        139.05     1.99       
+  68     DRB4_0101      AAVYRINWITGGIAI    3   YRINWITGG     0.553  YP_009724393.1      0.019706    28.37       NA      0.457606        353.75     8.99       
+  67     DRB4_0101      LAAVYRINWITGGIA    4   YRINWITGG     0.680  YP_009724393.1      0.019595    28.49       NA      0.431828        467.54    12.69       
+ 204     DRB4_0101      YKLNTDHSSSSDNIA    2   LNTDHSSSS     0.867  YP_009724393.1      0.019364    28.74       NA      0.242859       3612.29    59.83       
+ 112     DRB4_0101      FNPETNILLNVPLHG    6   ILLNVPLHG     0.587  YP_009724393.1      0.019084    29.04       NA      0.454556        365.62     9.40       
+   2     DRB4_0101      ADSNGTITVEELKKL    6   ITVEELKKL     0.813  YP_009724393.1      0.019084    29.04       NA      0.292497       2111.23    45.21       
+  13     DRB4_0101      LKKLLEQWNLVIGFL    4   LEQWNLVIG     0.660  YP_009724393.1      0.019083    29.04       NA      0.503165        216.08     4.34       
+ 128     DRB4_0101      ILTRPLLESELVIGA    5   LLESELVIG     0.640  YP_009724393.1      0.018949    29.20       NA      0.439191        431.74    11.58       
+  14     DRB4_0101      KKLLEQWNLVIGFLF    3   LEQWNLVIG     0.667  YP_009724393.1      0.018609    29.60       NA      0.495997        233.50     4.91       
+  12     DRB4_0101      ELKKLLEQWNLVIGF    5   LEQWNLVIG     0.593  YP_009724393.1      0.018503    29.72       NA      0.513176        193.90     3.61       
+ 185     DRB4_0101      QRVAGDSGFAAYSRY    2   VAGDSGFAA     0.920  YP_009724393.1      0.017921    30.44       NA      0.258745       3041.83    55.07       
+  69     DRB4_0101      AVYRINWITGGIAIA    4   INWITGGIA     0.493  YP_009724393.1      0.017118    31.45       NA      0.469266        311.82     7.58       
+ 177     DRB4_0101      SYYKLGASQRVAGDS    4   LGASQRVAG     0.540  YP_009724393.1      0.016600    32.14       NA      0.375296        861.92    23.50       
+  94     DRB4_0101      SYFIASFRLFARTRS    3   IASFRLFAR     0.740  YP_009724393.1      0.016209    32.73       NA      0.558750        118.42     1.43       
+ 109     DRB4_0101      MWSFNPETNILLNVP    3   FNPETNILL     0.907  YP_009724393.1      0.015672    33.51       NA      0.361584        999.76    26.57       
+ 161     DRB4_0101      IKDLPKEITVATSRT    3   LPKEITVAT     0.380  YP_009724393.1      0.015617    33.58       NA      0.351405       1116.17    29.04       
+ 160     DRB4_0101      DIKDLPKEITVATSR    4   LPKEITVAT     0.273  YP_009724393.1      0.015604    33.60       NA      0.351925       1109.90    28.91       
+ 176     DRB4_0101      LSYYKLGASQRVAGD    3   YKLGASQRV     0.480  YP_009724393.1      0.014688    35.05       NA      0.401252        650.88    18.02       
+ 149     DRB4_0101      LRIAGHHLGRCDIKD    2   IAGHHLGRC     0.860  YP_009724393.1      0.014612    35.18       NA      0.354438       1080.13    28.27       
+  93     DRB4_0101      LSYFIASFRLFARTR    4   IASFRLFAR     0.720  YP_009724393.1      0.014582    35.23       NA      0.536605        150.48     2.34       
+ 182     DRB4_0101      GASQRVAGDSGFAAY    5   VAGDSGFAA     0.707  YP_009724393.1      0.014039    36.18       NA      0.227176       4280.33    64.46       
+ 138     DRB4_0101      LVIGAVILRGHLRIA    1   VIGAVILRG     0.447  YP_009724393.1      0.013706    36.77       NA      0.557279        120.32     1.48       
+ 156     DRB4_0101      LGRCDIKDLPKEITV    5   IKDLPKEIT     0.880  YP_009724393.1      0.013515    37.12       NA      0.317690       1607.51    38.06       
+ 179     DRB4_0101      YKLGASQRVAGDSGF    2   LGASQRVAG     0.567  YP_009724393.1      0.013051    37.99       NA      0.303023       1883.97    42.29       
+ 159     DRB4_0101      CDIKDLPKEITVATS    2   IKDLPKEIT     0.587  YP_009724393.1      0.012790    38.49       NA      0.333273       1358.10    33.79       
+ 188     DRB4_0101      AGDSGFAAYSRYRIG    5   FAAYSRYRI     0.733  YP_009724393.1      0.012519    39.00       NA      0.294567       2064.47    44.64       
+ 162     DRB4_0101      KDLPKEITVATSRTL    6   ITVATSRTL     0.360  YP_009724393.1      0.012459    39.12       NA      0.401112        651.86    18.05       
+  31     DRB4_0101      WICLLQFAYANRNRF    4   LQFAYANRN     0.720  YP_009724393.1      0.012268    39.52       NA      0.572683        101.85     1.07       
+  32     DRB4_0101      ICLLQFAYANRNRFL    3   LQFAYANRN     0.620  YP_009724393.1      0.012212    39.64       NA      0.578312         95.83     0.94       
+ 168     DRB4_0101      ITVATSRTLSYYKLG    2   VATSRTLSY     0.680  YP_009724393.1      0.012096    39.88       NA      0.487406        256.25     5.71       
+ 175     DRB4_0101      TLSYYKLGASQRVAG    1   LSYYKLGAS     0.240  YP_009724393.1      0.011988    40.11       NA      0.428909        482.55    13.13       
+   8     DRB4_0101      ITVEELKKLLEQWNL    2   VEELKKLLE     0.647  YP_009724393.1      0.011579    41.00       NA      0.386902        760.20    20.96       
+  66     DRB4_0101      VLAAVYRINWITGGI    5   YRINWITGG     0.680  YP_009724393.1      0.011378    41.46       NA      0.387380        756.28    20.85       
+  33     DRB4_0101      CLLQFAYANRNRFLY    4   FAYANRNRF     0.407  YP_009724393.1      0.011193    41.89       NA      0.556397        121.47     1.51       
+  70     DRB4_0101      VYRINWITGGIAIAM    3   INWITGGIA     0.633  YP_009724393.1      0.011018    42.29       NA      0.467457        317.98     7.79       
+  95     DRB4_0101      YFIASFRLFARTRSM    2   IASFRLFAR     0.520  YP_009724393.1      0.010234    44.25       NA      0.567095        108.20     1.20       
+  34     DRB4_0101      LLQFAYANRNRFLYI    3   FAYANRNRF     0.427  YP_009724393.1      0.010059    44.71       NA      0.554824        123.56     1.58       
+ 126     DRB4_0101      GTILTRPLLESELVI    2   ILTRPLLES     0.833  YP_009724393.1      0.010055    44.72       NA      0.452291        374.69     9.70       
+  11     DRB4_0101      EELKKLLEQWNLVIG    5   LLEQWNLVI     0.440  YP_009724393.1      0.009891    45.15       NA      0.498175        228.07     4.73       
+ 117     DRB4_0101      NILLNVPLHGTILTR    1   ILLNVPLHG     0.533  YP_009724393.1      0.009785    45.42       NA      0.511290        197.89     3.74       
+ 191     DRB4_0101      SGFAAYSRYRIGNYK    2   FAAYSRYRI     0.453  YP_009724393.1      0.009600    45.90       NA      0.357797       1041.58    27.43       
+ 153     DRB4_0101      GHHLGRCDIKDLPKE    3   LGRCDIKDL     0.780  YP_009724393.1      0.009357    46.56       NA      0.205023       5439.68    70.92       
+  30     DRB4_0101      TWICLLQFAYANRNR    5   LQFAYANRN     0.613  YP_009724393.1      0.009280    46.77       NA      0.557030        120.64     1.49       
+ 108     DRB4_0101      SMWSFNPETNILLNV    4   FNPETNILL     0.820  YP_009724393.1      0.009090    47.29       NA      0.368134        931.36    25.05       
+  97     DRB4_0101      IASFRLFARTRSMWS    3   FRLFARTRS     0.733  YP_009724393.1      0.008104    50.29       NA      0.567978        107.17     1.18       
+ 195     DRB4_0101      AYSRYRIGNYKLNTD    3   RYRIGNYKL     0.207  YP_009724393.1      0.008076    50.39       NA      0.329837       1409.53    34.74       
+  96     DRB4_0101      FIASFRLFARTRSMW    4   FRLFARTRS     0.600  YP_009724393.1      0.007812    51.33       NA      0.569631        105.27     1.14       
+ 132     DRB4_0101      PLLESELVIGAVILR    2   LESELVIGA     0.493  YP_009724393.1      0.007663    51.86       NA      0.431735        468.02    12.70       
+ 110     DRB4_0101      WSFNPETNILLNVPL    2   FNPETNILL     0.760  YP_009724393.1      0.007625    52.00       NA      0.357590       1043.92    27.48       
+ 122     DRB4_0101      VPLHGTILTRPLLES    6   ILTRPLLES     0.507  YP_009724393.1      0.007569    52.20       NA      0.461481        339.22     8.51       
+  92     DRB4_0101      WLSYFIASFRLFART    5   IASFRLFAR     0.693  YP_009724393.1      0.007392    52.83       NA      0.515844        188.38     3.43       
+  71     DRB4_0101      YRINWITGGIAIAMA    4   WITGGIAIA     0.367  YP_009724393.1      0.006942    54.45       NA      0.447082        396.41    10.42       
+ 107     DRB4_0101      RSMWSFNPETNILLN    5   FNPETNILL     0.540  YP_009724393.1      0.006875    54.69       NA      0.365311        960.25    25.74       
+ 170     DRB4_0101      VATSRTLSYYKLGAS    6   LSYYKLGAS     0.420  YP_009724393.1      0.006793    54.98       NA      0.396065        688.45    19.05       
+   9     DRB4_0101      TVEELKKLLEQWNLV    4   LKKLLEQWN     0.400  YP_009724393.1      0.006648    55.58       NA      0.413340        571.08    15.76       
+ 152     DRB4_0101      AGHHLGRCDIKDLPK    4   LGRCDIKDL     0.747  YP_009724393.1      0.006640    55.61       NA      0.215656       4848.52    67.84       
+ 105     DRB4_0101      RTRSMWSFNPETNIL    4   MWSFNPETN     0.700  YP_009724393.1      0.006456    56.37       NA      0.329687       1411.82    34.78       
+ 104     DRB4_0101      ARTRSMWSFNPETNI    5   MWSFNPETN     0.727  YP_009724393.1      0.005806    59.06       NA      0.320128       1565.66    37.40       
+ 181     DRB4_0101      LGASQRVAGDSGFAA    6   VAGDSGFAA     0.347  YP_009724393.1      0.005720    59.42       NA      0.221425       4555.13    66.15       
+ 106     DRB4_0101      TRSMWSFNPETNILL    3   MWSFNPETN     0.613  YP_009724393.1      0.005718    59.42       NA      0.356503       1056.27    27.75       
+ 150     DRB4_0101      RIAGHHLGRCDIKDL    1   IAGHHLGRC     0.620  YP_009724393.1      0.005615    59.85       NA      0.288736       2198.91    46.26       
+  39     DRB4_0101      YANRNRFLYIIKLIF    4   NRFLYIIKL     0.713  YP_009724393.1      0.005577    60.01       NA      0.500445        222.53     4.54       
+  65     DRB4_0101      FVLAAVYRINWITGG    6   YRINWITGG     0.380  YP_009724393.1      0.005488    60.45       NA      0.393837        705.25    19.50       
+  10     DRB4_0101      VEELKKLLEQWNLVI    3   LKKLLEQWN     0.480  YP_009724393.1      0.005252    61.63       NA      0.485462        261.70     5.89       
+ 180     DRB4_0101      KLGASQRVAGDSGFA    1   LGASQRVAG     0.347  YP_009724393.1      0.005244    61.67       NA      0.235855       3896.68    61.90       
+ 193     DRB4_0101      FAAYSRYRIGNYKLN    3   YSRYRIGNY     0.567  YP_009724393.1      0.005172    62.02       NA      0.368610        926.58    24.95       
+ 187     DRB4_0101      VAGDSGFAAYSRYRI    6   FAAYSRYRI     0.460  YP_009724393.1      0.004992    62.92       NA      0.282614       2349.50    48.05       
+ 155     DRB4_0101      HLGRCDIKDLPKEIT    6   IKDLPKEIT     0.533  YP_009724393.1      0.004977    63.00       NA      0.271968       2636.33    51.18       
+ 194     DRB4_0101      AAYSRYRIGNYKLNT    2   YSRYRIGNY     0.407  YP_009724393.1      0.004948    63.14       NA      0.346742       1173.92    30.27       
+ 192     DRB4_0101      GFAAYSRYRIGNYKL    4   YSRYRIGNY     0.413  YP_009724393.1      0.004799    63.88       NA      0.374679        867.69    23.64       
+ 100     DRB4_0101      FRLFARTRSMWSFNP    3   FARTRSMWS     0.680  YP_009724393.1      0.004640    64.67       NA      0.537196        149.52     2.31       
+  98     DRB4_0101      ASFRLFARTRSMWSF    2   FRLFARTRS     0.487  YP_009724393.1      0.004570    65.02       NA      0.571509        103.15     1.10       
+ 205     DRB4_0101      KLNTDHSSSSDNIAL    1   LNTDHSSSS     0.640  YP_009724393.1      0.004563    65.06       NA      0.187240       6593.79    75.90       
+ 127     DRB4_0101      TILTRPLLESELVIG    6   LLESELVIG     0.393  YP_009724393.1      0.004537    65.21       NA      0.435174        450.92    12.19       
+  35     DRB4_0101      LQFAYANRNRFLYII    2   FAYANRNRF     0.567  YP_009724393.1      0.004536    65.22       NA      0.500946        221.33     4.50       
+ 169     DRB4_0101      TVATSRTLSYYKLGA    1   VATSRTLSY     0.393  YP_009724393.1      0.004443    65.76       NA      0.425713        499.53    13.65       
+ 121     DRB4_0101      NVPLHGTILTRPLLE    3   LHGTILTRP     0.573  YP_009724393.1      0.004419    65.90       NA      0.429448        479.74    13.05       
+  38     DRB4_0101      AYANRNRFLYIIKLI    5   NRFLYIIKL     0.660  YP_009724393.1      0.004352    66.28       NA      0.491333        245.59     5.34       
+ 111     DRB4_0101      SFNPETNILLNVPLH    1   FNPETNILL     0.273  YP_009724393.1      0.004221    67.04       NA      0.385401        772.65    21.27       
+  40     DRB4_0101      ANRNRFLYIIKLIFL    3   NRFLYIIKL     0.633  YP_009724393.1      0.004092    67.79       NA      0.489781        249.75     5.48       
+ 186     DRB4_0101      RVAGDSGFAAYSRYR    1   VAGDSGFAA     0.533  YP_009724393.1      0.003807    69.44       NA      0.244860       3534.93    59.23       
+  15     DRB4_0101      KLLEQWNLVIGFLFL    2   LEQWNLVIG     0.653  YP_009724393.1      0.003675    70.23       NA      0.423559        511.30    14.00       
+  99     DRB4_0101      SFRLFARTRSMWSFN    4   FARTRSMWS     0.453  YP_009724393.1      0.003475    71.52       NA      0.562658        113.52     1.32       
+  29     DRB4_0101      LTWICLLQFAYANRN    3   ICLLQFAYA     0.347  YP_009724393.1      0.003387    72.09       NA      0.516176        187.70     3.41       
+ 154     DRB4_0101      HHLGRCDIKDLPKEI    2   LGRCDIKDL     0.600  YP_009724393.1      0.003341    72.39       NA      0.205677       5401.32    70.74       
+  77     DRB4_0101      TGGIAIAMACLVGLM    5   IAMACLVGL     0.360  YP_009724393.1      0.003195    73.34       NA      0.374056        873.56    23.78       
+   1     DRB4_0101      MADSNGTITVEELKK    4   NGTITVEEL     0.613  YP_009724393.1      0.003054    74.25       NA      0.163514       8523.59    82.09       
+ 101     DRB4_0101      RLFARTRSMWSFNPE    2   FARTRSMWS     0.593  YP_009724393.1      0.002951    74.92       NA      0.483624        266.95     6.07       
+  72     DRB4_0101      RINWITGGIAIAMAC    3   WITGGIAIA     0.353  YP_009724393.1      0.002943    74.97       NA      0.398460        670.84    18.57       
+  91     DRB4_0101      MWLSYFIASFRLFAR    6   IASFRLFAR     0.453  YP_009724393.1      0.002864    75.55       NA      0.504714        212.49     4.23       
+ 151     DRB4_0101      IAGHHLGRCDIKDLP    5   LGRCDIKDL     0.593  YP_009724393.1      0.002740    76.47       NA      0.235075       3929.70    62.13       
+ 119     DRB4_0101      LLNVPLHGTILTRPL    5   LHGTILTRP     0.560  YP_009724393.1      0.002730    76.55       NA      0.410452        589.21    16.29       
+ 120     DRB4_0101      LNVPLHGTILTRPLL    4   LHGTILTRP     0.627  YP_009724393.1      0.002665    77.03       NA      0.430835        472.60    12.84       
+  36     DRB4_0101      QFAYANRNRFLYIIK    3   YANRNRFLY     0.320  YP_009724393.1      0.002656    77.09       NA      0.458166        351.61     8.92       
+  76     DRB4_0101      ITGGIAIAMACLVGL    4   IAIAMACLV     0.607  YP_009724393.1      0.002643    77.19       NA      0.365454        958.77    25.70       
+  78     DRB4_0101      GGIAIAMACLVGLMW    4   IAMACLVGL     0.447  YP_009724393.1      0.002549    77.88       NA      0.372544        887.97    24.11       
+  41     DRB4_0101      NRNRFLYIIKLIFLW    2   NRFLYIIKL     0.460  YP_009724393.1      0.002361    79.28       NA      0.476406        288.64     6.80       
+ 118     DRB4_0101      ILLNVPLHGTILTRP    4   VPLHGTILT     0.187  YP_009724393.1      0.002277    79.90       NA      0.460800        341.73     8.59       
+ 103     DRB4_0101      FARTRSMWSFNPETN    6   MWSFNPETN     0.493  YP_009724393.1      0.002249    80.12       NA      0.358407       1034.73    27.28       
+  59     DRB4_0101      PVTLACFVLAAVYRI    3   LACFVLAAV     0.513  YP_009724393.1      0.002192    80.59       NA      0.396131        687.96    19.03       
+  58     DRB4_0101      WPVTLACFVLAAVYR    4   LACFVLAAV     0.573  YP_009724393.1      0.002140    81.03       NA      0.370528        907.55    24.54       
+  37     DRB4_0101      FAYANRNRFLYIIKL    6   NRFLYIIKL     0.420  YP_009724393.1      0.002130    81.11       NA      0.496563        232.08     4.87       
+  75     DRB4_0101      WITGGIAIAMACLVG    5   IAIAMACLV     0.633  YP_009724393.1      0.002056    81.73       NA      0.343739       1212.69    31.00       
+  28     DRB4_0101      FLTWICLLQFAYANR    4   ICLLQFAYA     0.500  YP_009724393.1      0.001824    83.68       NA      0.476000        289.91     6.84       
+  79     DRB4_0101      GIAIAMACLVGLMWL    3   IAMACLVGL     0.567  YP_009724393.1      0.001728    84.48       NA      0.344148       1207.34    30.90       
+  60     DRB4_0101      VTLACFVLAAVYRIN    4   CFVLAAVYR     0.173  YP_009724393.1      0.001658    85.08       NA      0.411545        582.28    16.09       
+  73     DRB4_0101      INWITGGIAIAMACL    3   ITGGIAIAM     0.613  YP_009724393.1      0.001539    86.19       NA      0.353671       1089.13    28.47       
+ 208     DRB4_0101      TDHSSSSDNIALLVQ    4   SSSDNIALL     0.507  YP_009724393.1      0.001511    86.45       NA      0.202435       5594.15    71.66       
+  42     DRB4_0101      RNRFLYIIKLIFLWL    4   LYIIKLIFL     0.447  YP_009724393.1      0.001463    86.90       NA      0.444946        405.68    10.72       
+ 207     DRB4_0101      NTDHSSSSDNIALLV    5   SSSDNIALL     0.287  YP_009724393.1      0.001376    87.72       NA      0.182617       6931.99    77.14       
+  61     DRB4_0101      TLACFVLAAVYRINW    4   FVLAAVYRI     0.433  YP_009724393.1      0.001315    88.29       NA      0.414786        562.22    15.50       
+  74     DRB4_0101      NWITGGIAIAMACLV    2   ITGGIAIAM     0.413  YP_009724393.1      0.001212    89.26       NA      0.357091       1049.57    27.61       
+  27     DRB4_0101      LFLTWICLLQFAYAN    2   LTWICLLQF     0.200  YP_009724393.1      0.001133    90.00       NA      0.425602        500.13    13.67       
+  49     DRB4_0101      IKLIFLWLLWPVTLA    3   IFLWLLWPV     0.367  YP_009724393.1      0.001072    90.63       NA      0.429434        479.81    13.05       
+ 206     DRB4_0101      LNTDHSSSSDNIALL    3   DHSSSSDNI     0.353  YP_009724393.1      0.001021    91.15       NA      0.170781       7879.07    80.28       
+ 102     DRB4_0101      LFARTRSMWSFNPET    1   FARTRSMWS     0.407  YP_009724393.1      0.000948    91.90       NA      0.415309        559.04    15.40       
+  62     DRB4_0101      LACFVLAAVYRINWI    3   FVLAAVYRI     0.353  YP_009724393.1      0.000943    91.95       NA      0.403537        634.98    17.58       
+  63     DRB4_0101      ACFVLAAVYRINWIT    2   FVLAAVYRI     0.293  YP_009724393.1      0.000894    92.46       NA      0.398425        671.09    18.58       
+  90     DRB4_0101      LMWLSYFIASFRLFA    3   LSYFIASFR     0.453  YP_009724393.1      0.000893    92.47       NA      0.389004        743.11    20.51       
+  64     DRB4_0101      CFVLAAVYRINWITG    6   VYRINWITG     0.267  YP_009724393.1      0.000867    92.74       NA      0.384439        780.73    21.48       
+  52     DRB4_0101      IFLWLLWPVTLACFV    3   WLLWPVTLA     0.573  YP_009724393.1      0.000854    92.87       NA      0.410316        590.08    16.31       
+  43     DRB4_0101      NRFLYIIKLIFLWLL    3   LYIIKLIFL     0.607  YP_009724393.1      0.000842    92.99       NA      0.365006        963.42    25.81       
+  26     DRB4_0101      FLFLTWICLLQFAYA    3   LTWICLLQF     0.300  YP_009724393.1      0.000817    93.25       NA      0.384604        779.34    21.44       
+  85     DRB4_0101      ACLVGLMWLSYFIAS    2   LVGLMWLSY     0.193  YP_009724393.1      0.000772    93.71       NA      0.341490       1242.56    31.57       
+  80     DRB4_0101      IAIAMACLVGLMWLS    2   IAMACLVGL     0.460  YP_009724393.1      0.000765    93.79       NA      0.329363       1416.78    34.87       
+  47     DRB4_0101      YIIKLIFLWLLWPVT    5   IFLWLLWPV     0.433  YP_009724393.1      0.000760    93.84       NA      0.349404       1140.59    29.58       
+  51     DRB4_0101      LIFLWLLWPVTLACF    4   WLLWPVTLA     0.553  YP_009724393.1      0.000758    93.86       NA      0.411834        580.46    16.04       
+  50     DRB4_0101      KLIFLWLLWPVTLAC    2   IFLWLLWPV     0.273  YP_009724393.1      0.000747    93.97       NA      0.411052        585.39    16.18       
+  57     DRB4_0101      LWPVTLACFVLAAVY    5   LACFVLAAV     0.540  YP_009724393.1      0.000729    94.16       NA      0.306813       1808.28    41.18       
+  87     DRB4_0101      LVGLMWLSYFIASFR    4   MWLSYFIAS     0.267  YP_009724393.1      0.000708    94.37       NA      0.405354        622.62    17.23       
+  88     DRB4_0101      VGLMWLSYFIASFRL    5   LSYFIASFR     0.327  YP_009724393.1      0.000706    94.39       NA      0.380722        812.77    22.28       
+  89     DRB4_0101      GLMWLSYFIASFRLF    4   LSYFIASFR     0.393  YP_009724393.1      0.000671    94.75       NA      0.375139        863.38    23.53       
+  25     DRB4_0101      GFLFLTWICLLQFAY    4   LTWICLLQF     0.333  YP_009724393.1      0.000665    94.81       NA      0.310936       1729.38    39.99       
+  54     DRB4_0101      LWLLWPVTLACFVLA    3   LWPVTLACF     0.280  YP_009724393.1      0.000663    94.84       NA      0.373527        878.57    23.90       
+  84     DRB4_0101      MACLVGLMWLSYFIA    3   LVGLMWLSY     0.333  YP_009724393.1      0.000650    94.97       NA      0.337148       1302.33    32.70       
+  16     DRB4_0101      LLEQWNLVIGFLFLT    1   LEQWNLVIG     0.487  YP_009724393.1      0.000646    95.00       NA      0.326641       1459.13    35.62       
+  46     DRB4_0101      LYIIKLIFLWLLWPV    3   IKLIFLWLL     0.607  YP_009724393.1      0.000634    95.00       NA      0.294009       2076.97    44.79       
+  24     DRB4_0101      IGFLFLTWICLLQFA    5   LTWICLLQF     0.273  YP_009724393.1      0.000611    95.00       NA      0.308125       1782.79    40.80       
+  48     DRB4_0101      IIKLIFLWLLWPVTL    4   IFLWLLWPV     0.460  YP_009724393.1      0.000608    95.00       NA      0.334184       1344.77    33.53       
+  86     DRB4_0101      CLVGLMWLSYFIASF    1   LVGLMWLSY     0.113  YP_009724393.1      0.000606    95.00       NA      0.336006       1318.52    33.00       
+  53     DRB4_0101      FLWLLWPVTLACFVL    4   LWPVTLACF     0.220  YP_009724393.1      0.000600    95.00       NA      0.390166        733.82    20.26       
+  81     DRB4_0101      AIAMACLVGLMWLSY    6   LVGLMWLSY     0.240  YP_009724393.1      0.000525    95.00       NA      0.379297        825.40    22.60       
+  45     DRB4_0101      FLYIIKLIFLWLLWP    4   IKLIFLWLL     0.760  YP_009724393.1      0.000522    95.00       NA      0.264560       2856.34    53.36       
+  44     DRB4_0101      RFLYIIKLIFLWLLW    2   LYIIKLIFL     0.353  YP_009724393.1      0.000504    95.00       NA      0.283889       2317.31    47.69       
+  83     DRB4_0101      AMACLVGLMWLSYFI    4   LVGLMWLSY     0.433  YP_009724393.1      0.000477    95.00       NA      0.331609       1382.77    34.26       
+  55     DRB4_0101      WLLWPVTLACFVLAA    2   LWPVTLACF     0.260  YP_009724393.1      0.000477    95.00       NA      0.344235       1206.20    30.88       
+  82     DRB4_0101      IAMACLVGLMWLSYF    5   LVGLMWLSY     0.393  YP_009724393.1      0.000461    95.00       NA      0.359869       1018.49    26.93       
+  56     DRB4_0101      LLWPVTLACFVLAAV    1   LWPVTLACF     0.080  YP_009724393.1      0.000418    95.00       NA      0.307628       1792.40    40.94       
+  23     DRB4_0101      VIGFLFLTWICLLQF    6   LTWICLLQF     0.140  YP_009724393.1      0.000311    95.00       NA      0.299398       1959.33    43.31       
+  17     DRB4_0101      LEQWNLVIGFLFLTW    3   WNLVIGFLF     0.167  YP_009724393.1      0.000293    95.00       NA      0.264922       2845.18    53.25       
+  18     DRB4_0101      EQWNLVIGFLFLTWI    2   WNLVIGFLF     0.113  YP_009724393.1      0.000226    95.00       NA      0.226883       4293.92    64.54       
+  22     DRB4_0101      LVIGFLFLTWICLLQ    5   LFLTWICLL     0.307  YP_009724393.1      0.000194    95.00       NA      0.232656       4033.91    62.84       
+  19     DRB4_0101      QWNLVIGFLFLTWIC    1   WNLVIGFLF     0.067  YP_009724393.1      0.000173    95.00       NA      0.183452       6869.65    76.92       
+  20     DRB4_0101      WNLVIGFLFLTWICL    4   IGFLFLTWI     0.420  YP_009724393.1      0.000129    95.00       NA      0.197772       5883.63    72.98       
+  21     DRB4_0101      NLVIGFLFLTWICLL    5   FLFLTWICL     0.253  YP_009724393.1      0.000119    95.00       NA      0.215812       4840.34    67.79       
+--------------------------------------------------------------------------------------------------------------------------------------------
+Number of strong binders: 0 Number of weak binders: 18
+--------------------------------------------------------------------------------------------------------------------------------------------

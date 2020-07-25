@@ -1,0 +1,424 @@
+# NetMHCIIpan version 4.0
+
+# Input is in FASTA format
+
+# Peptide length 15
+
+# Prediction Mode: EL+BA
+
+# Threshold for Strong binding peptides (%Rank)	2%
+# Threshold for Weak binding peptides (%Rank)	10%
+
+# Allele: DRB1_1454
+--------------------------------------------------------------------------------------------------------------------------------------------
+ Pos           MHC              Peptide   Of        Core  Core_Rel        Identity      Score_EL %Rank_EL Exp_Bind      Score_BA  Affinity(nM) %Rank_BA  BindLevel
+--------------------------------------------------------------------------------------------------------------------------------------------
+  53     DRB1_1454      KPSFYVYSRVKNLNS    3   FYVYSRVKN     0.500  YP_009724392.1      0.378384     3.34       NA      0.490654        247.40     2.13   <=WB
+  52     DRB1_1454      VKPSFYVYSRVKNLN    4   FYVYSRVKN     0.567  YP_009724392.1      0.323564     4.53       NA      0.485213        262.40     2.38   <=WB
+  54     DRB1_1454      PSFYVYSRVKNLNSS    3   YVYSRVKNL     0.667  YP_009724392.1      0.323081     4.54       NA      0.482574        270.00     2.50   <=WB
+  58     DRB1_1454      VYSRVKNLNSSRVPD    4   VKNLNSSRV     0.980  YP_009724392.1      0.235300     7.54       NA      0.392979        711.83    11.00   <=WB
+  59     DRB1_1454      YSRVKNLNSSRVPDL    3   VKNLNSSRV     0.880  YP_009724392.1      0.206216     9.07       NA      0.433327        460.02     5.97   <=WB
+  51     DRB1_1454      LVKPSFYVYSRVKNL    5   FYVYSRVKN     0.720  YP_009724392.1      0.194400     9.81       NA      0.482721        269.57     2.50   <=WB
+   8     DRB1_1454      ETGTLIVNSVLLFLA    4   LIVNSVLLF     0.907  YP_009724392.1      0.163811    12.13       NA      0.475892        290.25     2.85       
+  57     DRB1_1454      YVYSRVKNLNSSRVP    5   VKNLNSSRV     0.880  YP_009724392.1      0.136161    14.92       NA      0.430834        472.60     6.21       
+  55     DRB1_1454      SFYVYSRVKNLNSSR    2   YVYSRVKNL     0.593  YP_009724392.1      0.135403    15.00       NA      0.479225        279.97     2.68       
+   9     DRB1_1454      TGTLIVNSVLLFLAF    3   LIVNSVLLF     0.913  YP_009724392.1      0.130380    15.62       NA      0.454174        367.13     4.22       
+  60     DRB1_1454      SRVKNLNSSRVPDLL    2   VKNLNSSRV     0.667  YP_009724392.1      0.126153    16.16       NA      0.427402        490.48     6.56       
+   7     DRB1_1454      EETGTLIVNSVLLFL    5   LIVNSVLLF     0.907  YP_009724392.1      0.112650    18.12       NA      0.465746        323.92     3.42       
+  50     DRB1_1454      SLVKPSFYVYSRVKN    6   FYVYSRVKN     0.873  YP_009724392.1      0.095802    21.18       NA      0.392241        717.53    11.12       
+  56     DRB1_1454      FYVYSRVKNLNSSRV    3   YSRVKNLNS     0.353  YP_009724392.1      0.076147    25.84       NA      0.476269        289.07     2.83       
+  61     DRB1_1454      RVKNLNSSRVPDLLV    4   LNSSRVPDL     0.627  YP_009724392.1      0.071425    27.20       NA      0.437116        441.55     5.60       
+   6     DRB1_1454      SEETGTLIVNSVLLF    6   LIVNSVLLF     0.840  YP_009724392.1      0.069172    27.88       NA      0.471825        303.30     3.07       
+  10     DRB1_1454      GTLIVNSVLLFLAFV    2   LIVNSVLLF     0.793  YP_009724392.1      0.057907    31.66       NA      0.419966        531.57     7.37       
+  46     DRB1_1454      IVNVSLVKPSFYVYS    3   VSLVKPSFY     0.773  YP_009724392.1      0.057509    31.81       NA      0.487375        256.34     2.28       
+  45     DRB1_1454      NIVNVSLVKPSFYVY    4   VSLVKPSFY     0.573  YP_009724392.1      0.056686    32.13       NA      0.487015        257.34     2.30       
+   1     DRB1_1454      MYSFVSEETGTLIVN    3   FVSEETGTL     0.833  YP_009724392.1      0.051891    34.14       NA      0.352415       1104.03    18.57       
+  28     DRB1_1454      LVTLAILTALRLCAY    3   LAILTALRL     0.647  YP_009724392.1      0.049194    35.35       NA      0.505033        211.76     1.56       
+  44     DRB1_1454      CNIVNVSLVKPSFYV    5   VSLVKPSFY     0.500  YP_009724392.1      0.043114    38.43       NA      0.473857        296.71     2.96       
+  27     DRB1_1454      LLVTLAILTALRLCA    4   LAILTALRL     0.813  YP_009724392.1      0.038838    40.82       NA      0.462732        334.66     3.61       
+  29     DRB1_1454      VTLAILTALRLCAYC    2   LAILTALRL     0.673  YP_009724392.1      0.035923    42.58       NA      0.489750        249.83     2.17       
+  47     DRB1_1454      VNVSLVKPSFYVYSR    2   VSLVKPSFY     0.527  YP_009724392.1      0.035320    42.96       NA      0.458361        350.87     3.91       
+   2     DRB1_1454      YSFVSEETGTLIVNS    2   FVSEETGTL     0.660  YP_009724392.1      0.029690    47.07       NA      0.331833       1379.42    23.47       
+  43     DRB1_1454      CCNIVNVSLVKPSFY    6   VSLVKPSFY     0.333  YP_009724392.1      0.026736    49.53       NA      0.440901        423.83     5.27       
+  26     DRB1_1454      FLLVTLAILTALRLC    5   LAILTALRL     0.847  YP_009724392.1      0.022400    53.73       NA      0.404816        626.26     9.29       
+  49     DRB1_1454      VSLVKPSFYVYSRVK    3   VKPSFYVYS     0.827  YP_009724392.1      0.020902    55.25       NA      0.408974        598.71     8.75       
+  25     DRB1_1454      VFLLVTLAILTALRL    6   LAILTALRL     0.713  YP_009724392.1      0.018276    58.43       NA      0.442877        414.86     5.10       
+  48     DRB1_1454      NVSLVKPSFYVYSRV    4   VKPSFYVYS     0.473  YP_009724392.1      0.018196    58.53       NA      0.434122        456.08     5.89       
+  11     DRB1_1454      TLIVNSVLLFLAFVV    1   LIVNSVLLF     0.640  YP_009724392.1      0.012376    66.95       NA      0.366122        951.86    15.64       
+  42     DRB1_1454      YCCNIVNVSLVKPSF    5   VNVSLVKPS     0.460  YP_009724392.1      0.012306    67.07       NA      0.409363        596.19     8.70       
+   3     DRB1_1454      SFVSEETGTLIVNSV    1   FVSEETGTL     0.413  YP_009724392.1      0.010743    69.82       NA      0.292850       2103.18    34.56       
+  30     DRB1_1454      TLAILTALRLCAYCC    1   LAILTALRL     0.527  YP_009724392.1      0.010382    70.55       NA      0.453828        368.51     4.24       
+  41     DRB1_1454      AYCCNIVNVSLVKPS    3   CNIVNVSLV     0.300  YP_009724392.1      0.008884    73.69       NA      0.398048        673.84    10.27       
+  22     DRB1_1454      AFVVFLLVTLAILTA    3   VFLLVTLAI     0.507  YP_009724392.1      0.007715    76.38       NA      0.287951       2217.67    36.07       
+  24     DRB1_1454      VVFLLVTLAILTALR    4   LVTLAILTA     0.307  YP_009724392.1      0.006108    80.55       NA      0.367784        934.90    15.32       
+  40     DRB1_1454      CAYCCNIVNVSLVKP    4   CNIVNVSLV     0.393  YP_009724392.1      0.005484    82.45       NA      0.385801        769.31    12.16       
+  21     DRB1_1454      LAFVVFLLVTLAILT    4   VFLLVTLAI     0.573  YP_009724392.1      0.005255    83.15       NA      0.268145       2747.67    42.57       
+  23     DRB1_1454      FVVFLLVTLAILTAL    2   VFLLVTLAI     0.233  YP_009724392.1      0.005099    83.63       NA      0.302146       1901.93    31.69       
+  39     DRB1_1454      LCAYCCNIVNVSLVK    3   YCCNIVNVS     0.487  YP_009724392.1      0.004249    86.38       NA      0.390466        731.45    11.40       
+  31     DRB1_1454      LAILTALRLCAYCCN    3   LTALRLCAY     0.560  YP_009724392.1      0.003899    87.60       NA      0.408772        600.02     8.77       
+   5     DRB1_1454      VSEETGTLIVNSVLL    5   GTLIVNSVL     0.307  YP_009724392.1      0.003200    90.02       NA      0.318062       1601.05    27.09       
+   4     DRB1_1454      FVSEETGTLIVNSVL    5   TGTLIVNSV     0.213  YP_009724392.1      0.002951    90.99       NA      0.281175       2386.37    38.23       
+  14     DRB1_1454      VNSVLLFLAFVVFLL    3   VLLFLAFVV     0.507  YP_009724392.1      0.002894    91.21       NA      0.244729       3539.94    50.76       
+  20     DRB1_1454      FLAFVVFLLVTLAIL    5   VFLLVTLAI     0.600  YP_009724392.1      0.002893    91.22       NA      0.254753       3176.09    47.22       
+  12     DRB1_1454      LIVNSVLLFLAFVVF    5   VLLFLAFVV     0.493  YP_009724392.1      0.002667    92.10       NA      0.300750       1930.88    32.12       
+  13     DRB1_1454      IVNSVLLFLAFVVFL    4   VLLFLAFVV     0.580  YP_009724392.1      0.002616    92.30       NA      0.239208       3757.84    52.73       
+  38     DRB1_1454      RLCAYCCNIVNVSLV    4   YCCNIVNVS     0.473  YP_009724392.1      0.002383    93.20       NA      0.371589        897.19    14.59       
+  15     DRB1_1454      NSVLLFLAFVVFLLV    4   LFLAFVVFL     0.187  YP_009724392.1      0.002126    94.20       NA      0.249453       3363.55    49.11       
+  16     DRB1_1454      SVLLFLAFVVFLLVT    3   LFLAFVVFL     0.213  YP_009724392.1      0.002003    94.68       NA      0.243117       3602.22    51.33       
+  19     DRB1_1454      LFLAFVVFLLVTLAI    6   VFLLVTLAI     0.327  YP_009724392.1      0.001931    94.96       NA      0.242233       3636.84    51.65       
+  32     DRB1_1454      AILTALRLCAYCCNI    2   LTALRLCAY     0.640  YP_009724392.1      0.001892    95.00       NA      0.367109        941.75    15.45       
+  37     DRB1_1454      LRLCAYCCNIVNVSL    5   YCCNIVNVS     0.453  YP_009724392.1      0.001552    95.00       NA      0.340631       1254.17    21.29       
+  36     DRB1_1454      ALRLCAYCCNIVNVS    3   LCAYCCNIV     0.453  YP_009724392.1      0.001330    95.00       NA      0.337806       1293.09    21.99       
+  17     DRB1_1454      VLLFLAFVVFLLVTL    3   FLAFVVFLL     0.500  YP_009724392.1      0.001261    95.00       NA      0.237671       3820.86    53.28       
+  18     DRB1_1454      LLFLAFVVFLLVTLA    6   VVFLLVTLA     0.220  YP_009724392.1      0.001258    95.00       NA      0.235162       3926.00    54.17       
+  35     DRB1_1454      TALRLCAYCCNIVNV    4   LCAYCCNIV     0.567  YP_009724392.1      0.000877    95.00       NA      0.327841       1440.31    24.52       
+  34     DRB1_1454      LTALRLCAYCCNIVN    5   LCAYCCNIV     0.560  YP_009724392.1      0.000630    95.00       NA      0.325612       1475.47    25.11       
+  33     DRB1_1454      ILTALRLCAYCCNIV    1   LTALRLCAY     0.393  YP_009724392.1      0.000397    95.00       NA      0.341169       1246.89    21.15       
+--------------------------------------------------------------------------------------------------------------------------------------------
+Number of strong binders: 0 Number of weak binders: 6
+--------------------------------------------------------------------------------------------------------------------------------------------
+
+# Allele: DRB1_1501
+--------------------------------------------------------------------------------------------------------------------------------------------
+ Pos           MHC              Peptide   Of        Core  Core_Rel        Identity      Score_EL %Rank_EL Exp_Bind      Score_BA  Affinity(nM) %Rank_BA  BindLevel
+--------------------------------------------------------------------------------------------------------------------------------------------
+  58     DRB1_1501      VYSRVKNLNSSRVPD    4   VKNLNSSRV     1.000  YP_009724392.1      0.657755     0.96       NA      0.602565         73.71     1.79   <=SB
+  59     DRB1_1501      YSRVKNLNSSRVPDL    3   VKNLNSSRV     1.000  YP_009724392.1      0.613482     1.15       NA      0.640946         48.66     0.96   <=SB
+  60     DRB1_1501      SRVKNLNSSRVPDLL    2   VKNLNSSRV     1.000  YP_009724392.1      0.384088     2.48       NA      0.575693         98.58     2.71   <=WB
+  57     DRB1_1501      YVYSRVKNLNSSRVP    5   VKNLNSSRV     0.980  YP_009724392.1      0.376552     2.54       NA      0.617748         62.54     1.43   <=WB
+  53     DRB1_1501      KPSFYVYSRVKNLNS    3   FYVYSRVKN     0.640  YP_009724392.1      0.059633    12.58       NA      0.541356        142.94     4.30       
+  52     DRB1_1501      VKPSFYVYSRVKNLN    4   FYVYSRVKN     0.647  YP_009724392.1      0.047204    14.67       NA      0.539915        145.19     4.38       
+  56     DRB1_1501      FYVYSRVKNLNSSRV    3   YSRVKNLNS     0.513  YP_009724392.1      0.042030    15.78       NA      0.580869         93.21     2.51       
+  13     DRB1_1501      IVNSVLLFLAFVVFL    4   VLLFLAFVV     0.993  YP_009724392.1      0.039583    16.39       NA      0.420989        525.72    16.12       
+  54     DRB1_1501      PSFYVYSRVKNLNSS    3   YVYSRVKNL     0.540  YP_009724392.1      0.037291    17.01       NA      0.529157        163.11     5.06       
+  28     DRB1_1501      LVTLAILTALRLCAY    3   LAILTALRL     0.973  YP_009724392.1      0.036326    17.30       NA      0.538860        146.85     4.43       
+  61     DRB1_1501      RVKNLNSSRVPDLLV    1   VKNLNSSRV     0.960  YP_009724392.1      0.035388    17.58       NA      0.507275        206.68     6.62       
+  27     DRB1_1501      LLVTLAILTALRLCA    4   LAILTALRL     0.993  YP_009724392.1      0.034532    17.84       NA      0.509875        200.95     6.41       
+  12     DRB1_1501      LIVNSVLLFLAFVVF    5   VLLFLAFVV     1.000  YP_009724392.1      0.034135    17.97       NA      0.411130        584.90    17.50       
+  14     DRB1_1501      VNSVLLFLAFVVFLL    3   VLLFLAFVV     0.993  YP_009724392.1      0.029405    19.58       NA      0.423197        513.31    15.81       
+  55     DRB1_1501      SFYVYSRVKNLNSSR    4   YSRVKNLNS     0.693  YP_009724392.1      0.027930    20.16       NA      0.533157        156.20     4.79       
+  51     DRB1_1501      LVKPSFYVYSRVKNL    5   FYVYSRVKN     0.620  YP_009724392.1      0.027346    20.39       NA      0.545664        136.43     4.08       
+  29     DRB1_1501      VTLAILTALRLCAYC    2   LAILTALRL     0.973  YP_009724392.1      0.023931    21.95       NA      0.551378        128.25     3.79       
+  47     DRB1_1501      VNVSLVKPSFYVYSR    3   SLVKPSFYV     0.740  YP_009724392.1      0.022177    22.87       NA      0.541445        142.80     4.30       
+  46     DRB1_1501      IVNVSLVKPSFYVYS    4   SLVKPSFYV     0.507  YP_009724392.1      0.017198    26.37       NA      0.544889        137.58     4.12       
+  50     DRB1_1501      SLVKPSFYVYSRVKN    4   PSFYVYSRV     0.447  YP_009724392.1      0.016594    26.88       NA      0.517926        184.18     5.81       
+  36     DRB1_1501      ALRLCAYCCNIVNVS    3   LCAYCCNIV     0.967  YP_009724392.1      0.014120    29.25       NA      0.486438        258.95     8.42       
+  26     DRB1_1501      FLLVTLAILTALRLC    5   LAILTALRL     0.980  YP_009724392.1      0.012253    31.44       NA      0.467837        316.68    10.28       
+  15     DRB1_1501      NSVLLFLAFVVFLLV    2   VLLFLAFVV     0.813  YP_009724392.1      0.011534    32.39       NA      0.401457        649.43    18.95       
+  45     DRB1_1501      NIVNVSLVKPSFYVY    4   VSLVKPSFY     0.460  YP_009724392.1      0.010224    34.40       NA      0.529772        162.03     5.01       
+  35     DRB1_1501      TALRLCAYCCNIVNV    4   LCAYCCNIV     0.913  YP_009724392.1      0.009708    35.29       NA      0.475515        291.43     9.46       
+  49     DRB1_1501      VSLVKPSFYVYSRVK    5   PSFYVYSRV     0.527  YP_009724392.1      0.009603    35.48       NA      0.526047        168.69     5.26       
+  11     DRB1_1501      TLIVNSVLLFLAFVV    6   VLLFLAFVV     0.900  YP_009724392.1      0.008728    37.10       NA      0.372489        888.50    23.77       
+  48     DRB1_1501      NVSLVKPSFYVYSRV    2   SLVKPSFYV     0.567  YP_009724392.1      0.008601    37.37       NA      0.525506        169.68     5.30       
+   8     DRB1_1501      ETGTLIVNSVLLFLA    4   LIVNSVLLF     0.373  YP_009724392.1      0.006731    41.65       NA      0.414886        561.61    16.93       
+  16     DRB1_1501      SVLLFLAFVVFLLVT    4   FLAFVVFLL     0.733  YP_009724392.1      0.006304    42.84       NA      0.371846        894.70    23.88       
+  25     DRB1_1501      VFLLVTLAILTALRL    6   LAILTALRL     0.853  YP_009724392.1      0.005998    43.80       NA      0.502077        218.64     7.03       
+  37     DRB1_1501      LRLCAYCCNIVNVSL    2   LCAYCCNIV     0.913  YP_009724392.1      0.005644    45.02       NA      0.457998        352.25    11.39       
+  34     DRB1_1501      LTALRLCAYCCNIVN    5   LCAYCCNIV     0.880  YP_009724392.1      0.004814    48.14       NA      0.458241        351.33    11.36       
+   1     DRB1_1501      MYSFVSEETGTLIVN    3   FVSEETGTL     0.587  YP_009724392.1      0.004800    48.20       NA      0.347931       1158.92    28.39       
+  44     DRB1_1501      CNIVNVSLVKPSFYV    5   VSLVKPSFY     0.467  YP_009724392.1      0.004772    48.31       NA      0.493989        238.63     7.72       
+  30     DRB1_1501      TLAILTALRLCAYCC    1   LAILTALRL     0.907  YP_009724392.1      0.004670    48.72       NA      0.518781        182.49     5.75       
+   9     DRB1_1501      TGTLIVNSVLLFLAF    3   LIVNSVLLF     0.567  YP_009724392.1      0.004472    49.57       NA      0.382622        796.23    22.03       
+  17     DRB1_1501      VLLFLAFVVFLLVTL    3   FLAFVVFLL     0.933  YP_009724392.1      0.004050    51.68       NA      0.333419       1355.95    31.32       
+   2     DRB1_1501      YSFVSEETGTLIVNS    3   VSEETGTLI     0.680  YP_009724392.1      0.003685    53.56       NA      0.311385       1721.00    36.08       
+   7     DRB1_1501      EETGTLIVNSVLLFL    4   TLIVNSVLL     0.507  YP_009724392.1      0.003271    55.92       NA      0.404363        629.33    18.52       
+   6     DRB1_1501      SEETGTLIVNSVLLF    5   TLIVNSVLL     0.567  YP_009724392.1      0.003229    56.21       NA      0.407004        611.60    18.14       
+  43     DRB1_1501      CCNIVNVSLVKPSFY    4   VNVSLVKPS     0.313  YP_009724392.1      0.002269    63.52       NA      0.426210        496.85    15.39       
+  10     DRB1_1501      GTLIVNSVLLFLAFV    2   LIVNSVLLF     0.507  YP_009724392.1      0.001633    69.98       NA      0.331639       1382.32    31.68       
+  22     DRB1_1501      AFVVFLLVTLAILTA    3   VFLLVTLAI     0.727  YP_009724392.1      0.001585    70.62       NA      0.283424       2329.00    42.44       
+  38     DRB1_1501      RLCAYCCNIVNVSLV    1   LCAYCCNIV     0.747  YP_009724392.1      0.001474    72.10       NA      0.419055        536.84    16.38       
+  33     DRB1_1501      ILTALRLCAYCCNIV    6   LCAYCCNIV     0.613  YP_009724392.1      0.001270    74.84       NA      0.442188        417.97    13.22       
+   3     DRB1_1501      SFVSEETGTLIVNSV    2   VSEETGTLI     0.640  YP_009724392.1      0.001232    75.41       NA      0.256101       3130.11    49.17       
+   5     DRB1_1501      VSEETGTLIVNSVLL    6   TLIVNSVLL     0.547  YP_009724392.1      0.001200    75.92       NA      0.348685       1149.50    28.24       
+  18     DRB1_1501      LLFLAFVVFLLVTLA    2   FLAFVVFLL     0.747  YP_009724392.1      0.001192    76.05       NA      0.300652       1932.93    38.49       
+  21     DRB1_1501      LAFVVFLLVTLAILT    4   VFLLVTLAI     0.673  YP_009724392.1      0.000903    80.77       NA      0.268431       2739.18    46.15       
+  24     DRB1_1501      VVFLLVTLAILTALR    3   LLVTLAILT     0.533  YP_009724392.1      0.000869    81.42       NA      0.366528        947.69    24.83       
+  42     DRB1_1501      YCCNIVNVSLVKPSF    5   VNVSLVKPS     0.387  YP_009724392.1      0.000845    81.88       NA      0.398023        674.02    19.50       
+  41     DRB1_1501      AYCCNIVNVSLVKPS    3   CNIVNVSLV     0.233  YP_009724392.1      0.000644    85.89       NA      0.394126        703.05    20.13       
+  31     DRB1_1501      LAILTALRLCAYCCN    3   LTALRLCAY     0.540  YP_009724392.1      0.000637    86.05       NA      0.450191        383.30    12.28       
+  19     DRB1_1501      LFLAFVVFLLVTLAI    1   FLAFVVFLL     0.407  YP_009724392.1      0.000570    87.57       NA      0.277489       2483.46    43.91       
+   4     DRB1_1501      FVSEETGTLIVNSVL    4   ETGTLIVNS     0.180  YP_009724392.1      0.000520    88.70       NA      0.257313       3089.33    48.86       
+  20     DRB1_1501      FLAFVVFLLVTLAIL    5   VFLLVTLAI     0.493  YP_009724392.1      0.000504    89.07       NA      0.262385       2924.36    47.61       
+  32     DRB1_1501      AILTALRLCAYCCNI    2   LTALRLCAY     0.600  YP_009724392.1      0.000501    89.14       NA      0.408058        604.67    17.98       
+  23     DRB1_1501      FVVFLLVTLAILTAL    4   LLVTLAILT     0.407  YP_009724392.1      0.000490    89.39       NA      0.272709       2615.28    45.09       
+  40     DRB1_1501      CAYCCNIVNVSLVKP    4   CNIVNVSLV     0.367  YP_009724392.1      0.000325    93.63       NA      0.378651        831.19    22.70       
+  39     DRB1_1501      LCAYCCNIVNVSLVK    3   YCCNIVNVS     0.340  YP_009724392.1      0.000262    95.00       NA      0.395129        695.46    19.97       
+--------------------------------------------------------------------------------------------------------------------------------------------
+Number of strong binders: 2 Number of weak binders: 2
+--------------------------------------------------------------------------------------------------------------------------------------------
+
+# Allele: DRB1_1502
+--------------------------------------------------------------------------------------------------------------------------------------------
+ Pos           MHC              Peptide   Of        Core  Core_Rel        Identity      Score_EL %Rank_EL Exp_Bind      Score_BA  Affinity(nM) %Rank_BA  BindLevel
+--------------------------------------------------------------------------------------------------------------------------------------------
+  58     DRB1_1502      VYSRVKNLNSSRVPD    4   VKNLNSSRV     0.993  YP_009724392.1      0.337391     1.22       NA      0.481978        271.75     3.33   <=SB
+  59     DRB1_1502      YSRVKNLNSSRVPDL    3   VKNLNSSRV     1.000  YP_009724392.1      0.305666     1.46       NA      0.495684        234.30     2.66   <=SB
+  57     DRB1_1502      YVYSRVKNLNSSRVP    5   VKNLNSSRV     0.787  YP_009724392.1      0.197288     2.92       NA      0.516633        186.78     1.82   <=WB
+  60     DRB1_1502      SRVKNLNSSRVPDLL    2   VKNLNSSRV     0.993  YP_009724392.1      0.175876     3.42       NA      0.440770        424.43     6.23   <=WB
+  54     DRB1_1502      PSFYVYSRVKNLNSS    3   YVYSRVKNL     0.680  YP_009724392.1      0.112172     5.67       NA      0.501280        220.53     2.42   <=WB
+  53     DRB1_1502      KPSFYVYSRVKNLNS    4   YVYSRVKNL     0.587  YP_009724392.1      0.097217     6.57       NA      0.502560        217.50     2.37   <=WB
+  56     DRB1_1502      FYVYSRVKNLNSSRV    3   YSRVKNLNS     0.700  YP_009724392.1      0.083954     7.61       NA      0.536367        150.87     1.26   <=WB
+  55     DRB1_1502      SFYVYSRVKNLNSSR    4   YSRVKNLNS     0.720  YP_009724392.1      0.079120     8.03       NA      0.501857        219.16     2.40   <=WB
+  52     DRB1_1502      VKPSFYVYSRVKNLN    5   YVYSRVKNL     0.420  YP_009724392.1      0.062847     9.82       NA      0.483113        268.43     3.27   <=WB
+  51     DRB1_1502      LVKPSFYVYSRVKNL    5   FYVYSRVKN     0.547  YP_009724392.1      0.026411    19.05       NA      0.479904        277.92     3.44       
+  61     DRB1_1502      RVKNLNSSRVPDLLV    1   VKNLNSSRV     0.753  YP_009724392.1      0.025757    19.39       NA      0.404779        626.51    10.00       
+  28     DRB1_1502      LVTLAILTALRLCAY    3   LAILTALRL     0.933  YP_009724392.1      0.025230    19.66       NA      0.435884        447.47     6.66       
+  27     DRB1_1502      LLVTLAILTALRLCA    4   LAILTALRL     0.947  YP_009724392.1      0.023067    20.89       NA      0.408972        598.72     9.52       
+   1     DRB1_1502      MYSFVSEETGTLIVN    3   FVSEETGTL     0.693  YP_009724392.1      0.017925    24.73       NA      0.382269        799.28    13.11       
+   8     DRB1_1502      ETGTLIVNSVLLFLA    4   LIVNSVLLF     0.507  YP_009724392.1      0.017509    25.10       NA      0.472949        299.64     3.83       
+  29     DRB1_1502      VTLAILTALRLCAYC    2   LAILTALRL     0.940  YP_009724392.1      0.017276    25.31       NA      0.439163        431.87     6.37       
+  50     DRB1_1502      SLVKPSFYVYSRVKN    4   PSFYVYSRV     0.367  YP_009724392.1      0.013259    29.66       NA      0.419744        532.85     8.31       
+   9     DRB1_1502      TGTLIVNSVLLFLAF    3   LIVNSVLLF     0.640  YP_009724392.1      0.012780    30.30       NA      0.437387        440.25     6.52       
+   7     DRB1_1502      EETGTLIVNSVLLFL    5   LIVNSVLLF     0.473  YP_009724392.1      0.011557    32.10       NA      0.460921        341.28     4.62       
+  13     DRB1_1502      IVNSVLLFLAFVVFL    4   VLLFLAFVV     0.980  YP_009724392.1      0.009787    35.11       NA      0.311441       1719.96    26.73       
+  26     DRB1_1502      FLLVTLAILTALRLC    5   LAILTALRL     0.933  YP_009724392.1      0.008742    37.15       NA      0.378587        831.77    13.67       
+  12     DRB1_1502      LIVNSVLLFLAFVVF    5   VLLFLAFVV     0.973  YP_009724392.1      0.008454    37.81       NA      0.342307       1231.63    19.98       
+   2     DRB1_1502      YSFVSEETGTLIVNS    2   FVSEETGTL     0.427  YP_009724392.1      0.008382    37.97       NA      0.353584       1090.16    17.88       
+  47     DRB1_1502      VNVSLVKPSFYVYSR    3   SLVKPSFYV     0.607  YP_009724392.1      0.008239    38.32       NA      0.424449        506.40     7.82       
+  14     DRB1_1502      VNSVLLFLAFVVFLL    3   VLLFLAFVV     0.893  YP_009724392.1      0.007986    38.93       NA      0.329451       1415.43    22.63       
+   6     DRB1_1502      SEETGTLIVNSVLLF    5   TLIVNSVLL     0.467  YP_009724392.1      0.007879    39.20       NA      0.469660        310.49     4.01       
+  46     DRB1_1502      IVNVSLVKPSFYVYS    3   VSLVKPSFY     0.400  YP_009724392.1      0.007090    41.36       NA      0.431623        468.58     7.06       
+  49     DRB1_1502      VSLVKPSFYVYSRVK    5   PSFYVYSRV     0.453  YP_009724392.1      0.006844    42.06       NA      0.426767        493.86     7.58       
+  16     DRB1_1502      SVLLFLAFVVFLLVT    4   FLAFVVFLL     0.853  YP_009724392.1      0.006508    43.09       NA      0.311933       1710.83    26.62       
+  10     DRB1_1502      GTLIVNSVLLFLAFV    2   LIVNSVLLF     0.647  YP_009724392.1      0.005666    46.04       NA      0.392650        714.36    11.63       
+  45     DRB1_1502      NIVNVSLVKPSFYVY    4   VSLVKPSFY     0.393  YP_009724392.1      0.005143    48.15       NA      0.423501        511.62     7.91       
+  17     DRB1_1502      VLLFLAFVVFLLVTL    3   FLAFVVFLL     0.947  YP_009724392.1      0.005046    48.57       NA      0.295924       2034.38    30.54       
+  36     DRB1_1502      ALRLCAYCCNIVNVS    3   LCAYCCNIV     0.887  YP_009724392.1      0.005010    48.72       NA      0.420708        527.32     8.21       
+  15     DRB1_1502      NSVLLFLAFVVFLLV    2   VLLFLAFVV     0.547  YP_009724392.1      0.004847    49.44       NA      0.325418       1478.57    23.54       
+  25     DRB1_1502      VFLLVTLAILTALRL    6   LAILTALRL     0.827  YP_009724392.1      0.004772    49.77       NA      0.411870        580.24     9.18       
+  11     DRB1_1502      TLIVNSVLLFLAFVV    6   VLLFLAFVV     0.700  YP_009724392.1      0.003837    54.55       NA      0.363929        974.72    15.99       
+  35     DRB1_1502      TALRLCAYCCNIVNV    4   LCAYCCNIV     0.887  YP_009724392.1      0.003754    54.97       NA      0.413393        570.75     9.00       
+  48     DRB1_1502      NVSLVKPSFYVYSRV    2   SLVKPSFYV     0.420  YP_009724392.1      0.003664    55.56       NA      0.424704        505.01     7.79       
+  30     DRB1_1502      TLAILTALRLCAYCC    1   LAILTALRL     0.873  YP_009724392.1      0.003270    58.16       NA      0.401169        651.46    10.49       
+  44     DRB1_1502      CNIVNVSLVKPSFYV    5   VSLVKPSFY     0.413  YP_009724392.1      0.002882    60.90       NA      0.398902        667.64    10.80       
+  18     DRB1_1502      LLFLAFVVFLLVTLA    2   FLAFVVFLL     0.773  YP_009724392.1      0.002462    64.35       NA      0.271847       2639.79    37.01       
+  34     DRB1_1502      LTALRLCAYCCNIVN    5   LCAYCCNIV     0.840  YP_009724392.1      0.002361    65.23       NA      0.393633        706.81    11.50       
+   3     DRB1_1502      SFVSEETGTLIVNSV    2   VSEETGTLI     0.613  YP_009724392.1      0.002145    67.45       NA      0.293574       2086.77    31.16       
+  24     DRB1_1502      VVFLLVTLAILTALR    3   LLVTLAILT     0.567  YP_009724392.1      0.001845    70.64       NA      0.301240       1920.67    29.17       
+   5     DRB1_1502      VSEETGTLIVNSVLL    6   TLIVNSVLL     0.487  YP_009724392.1      0.001760    71.69       NA      0.350945       1121.73    18.37       
+  37     DRB1_1502      LRLCAYCCNIVNVSL    2   LCAYCCNIV     0.727  YP_009724392.1      0.001724    72.14       NA      0.403918        632.37    10.12       
+  43     DRB1_1502      CCNIVNVSLVKPSFY    4   VNVSLVKPS     0.373  YP_009724392.1      0.001483    75.13       NA      0.357256       1047.69    17.20       
+  19     DRB1_1502      LFLAFVVFLLVTLAI    1   FLAFVVFLL     0.373  YP_009724392.1      0.001107    80.86       NA      0.255123       3163.40    41.80       
+  22     DRB1_1502      AFVVFLLVTLAILTA    3   VFLLVTLAI     0.553  YP_009724392.1      0.000987    82.90       NA      0.253799       3209.05    42.18       
+  23     DRB1_1502      FVVFLLVTLAILTAL    4   LLVTLAILT     0.433  YP_009724392.1      0.000893    84.49       NA      0.246511       3472.34    44.33       
+  42     DRB1_1502      YCCNIVNVSLVKPSF    5   VNVSLVKPS     0.407  YP_009724392.1      0.000849    85.27       NA      0.350615       1125.75    18.43       
+  41     DRB1_1502      AYCCNIVNVSLVKPS    3   CNIVNVSLV     0.267  YP_009724392.1      0.000842    85.41       NA      0.373032        883.29    14.52       
+  38     DRB1_1502      RLCAYCCNIVNVSLV    1   LCAYCCNIV     0.473  YP_009724392.1      0.000792    86.38       NA      0.391983        719.54    11.72       
+   4     DRB1_1502      FVSEETGTLIVNSVL    1   VSEETGTLI     0.387  YP_009724392.1      0.000734    87.51       NA      0.264248       2866.00    39.09       
+  40     DRB1_1502      CAYCCNIVNVSLVKP    4   CNIVNVSLV     0.320  YP_009724392.1      0.000671    88.74       NA      0.368005        932.66    15.31       
+  20     DRB1_1502      FLAFVVFLLVTLAIL    3   FVVFLLVTL     0.313  YP_009724392.1      0.000670    88.75       NA      0.239166       3759.55    46.52       
+  21     DRB1_1502      LAFVVFLLVTLAILT    4   VFLLVTLAI     0.560  YP_009724392.1      0.000612    89.88       NA      0.240254       3715.55    46.18       
+  39     DRB1_1502      LCAYCCNIVNVSLVK    3   YCCNIVNVS     0.480  YP_009724392.1      0.000605    90.02       NA      0.387138        758.26    12.40       
+  33     DRB1_1502      ILTALRLCAYCCNIV    6   LCAYCCNIV     0.580  YP_009724392.1      0.000518    91.81       NA      0.372590        887.53    14.58       
+  31     DRB1_1502      LAILTALRLCAYCCN    3   LTALRLCAY     0.440  YP_009724392.1      0.000339    95.00       NA      0.343149       1220.46    19.82       
+  32     DRB1_1502      AILTALRLCAYCCNI    2   LTALRLCAY     0.487  YP_009724392.1      0.000228    95.00       NA      0.307462       1795.62    27.68       
+--------------------------------------------------------------------------------------------------------------------------------------------
+Number of strong binders: 2 Number of weak binders: 7
+--------------------------------------------------------------------------------------------------------------------------------------------
+
+# Allele: DRB1_1503
+--------------------------------------------------------------------------------------------------------------------------------------------
+ Pos           MHC              Peptide   Of        Core  Core_Rel        Identity      Score_EL %Rank_EL Exp_Bind      Score_BA  Affinity(nM) %Rank_BA  BindLevel
+--------------------------------------------------------------------------------------------------------------------------------------------
+  58     DRB1_1503      VYSRVKNLNSSRVPD    4   VKNLNSSRV     0.993  YP_009724392.1      0.453580     1.18       NA      0.481315        273.71     4.15   <=SB
+  59     DRB1_1503      YSRVKNLNSSRVPDL    3   VKNLNSSRV     1.000  YP_009724392.1      0.421037     1.37       NA      0.508400        204.18     2.77   <=SB
+  57     DRB1_1503      YVYSRVKNLNSSRVP    5   VKNLNSSRV     0.960  YP_009724392.1      0.270603     2.80       NA      0.512787        194.71     2.59   <=WB
+  60     DRB1_1503      SRVKNLNSSRVPDLL    2   VKNLNSSRV     0.987  YP_009724392.1      0.262619     2.91       NA      0.445453        403.46     6.71   <=WB
+  53     DRB1_1503      KPSFYVYSRVKNLNS    3   FYVYSRVKN     0.653  YP_009724392.1      0.101022     8.33       NA      0.509043        202.76     2.74   <=WB
+  52     DRB1_1503      VKPSFYVYSRVKNLN    4   FYVYSRVKN     0.647  YP_009724392.1      0.082925     9.96       NA      0.503355        215.64     2.97   <=WB
+  54     DRB1_1503      PSFYVYSRVKNLNSS    3   YVYSRVKNL     0.487  YP_009724392.1      0.061146    12.81       NA      0.492011        243.80     3.55       
+  56     DRB1_1503      FYVYSRVKNLNSSRV    3   YSRVKNLNS     0.487  YP_009724392.1      0.056794    13.59       NA      0.524173        172.15     2.17       
+  51     DRB1_1503      LVKPSFYVYSRVKNL    5   FYVYSRVKN     0.680  YP_009724392.1      0.050136    14.92       NA      0.512343        195.65     2.60       
+  13     DRB1_1503      IVNSVLLFLAFVVFL    4   VLLFLAFVV     1.000  YP_009724392.1      0.047408    15.57       NA      0.418896        537.76     9.26       
+  12     DRB1_1503      LIVNSVLLFLAFVVF    5   VLLFLAFVV     0.993  YP_009724392.1      0.041157    17.20       NA      0.404584        627.83    10.84       
+  14     DRB1_1503      VNSVLLFLAFVVFLL    3   VLLFLAFVV     0.987  YP_009724392.1      0.038571    18.02       NA      0.429050        481.81     8.18       
+  61     DRB1_1503      RVKNLNSSRVPDLLV    1   VKNLNSSRV     0.860  YP_009724392.1      0.038010    18.21       NA      0.399664        662.16    11.43       
+  55     DRB1_1503      SFYVYSRVKNLNSSR    4   YSRVKNLNS     0.513  YP_009724392.1      0.036177    18.84       NA      0.485690        261.05     3.89       
+  50     DRB1_1503      SLVKPSFYVYSRVKN    6   FYVYSRVKN     0.473  YP_009724392.1      0.031392    20.74       NA      0.482713        269.60     4.06       
+  28     DRB1_1503      LVTLAILTALRLCAY    3   LAILTALRL     0.980  YP_009724392.1      0.030919    20.94       NA      0.467782        316.87     5.00       
+  27     DRB1_1503      LLVTLAILTALRLCA    4   LAILTALRL     0.987  YP_009724392.1      0.028838    21.86       NA      0.428345        485.50     8.25       
+  47     DRB1_1503      VNVSLVKPSFYVYSR    3   SLVKPSFYV     0.567  YP_009724392.1      0.022519    25.57       NA      0.493754        239.24     3.46       
+  29     DRB1_1503      VTLAILTALRLCAYC    2   LAILTALRL     0.960  YP_009724392.1      0.022206    25.79       NA      0.465091        326.23     5.19       
+  46     DRB1_1503      IVNVSLVKPSFYVYS    3   VSLVKPSFY     0.493  YP_009724392.1      0.020014    27.48       NA      0.500562        222.25     3.11       
+  15     DRB1_1503      NSVLLFLAFVVFLLV    2   VLLFLAFVV     0.740  YP_009724392.1      0.017827    29.40       NA      0.422554        516.89     8.85       
+  45     DRB1_1503      NIVNVSLVKPSFYVY    4   VSLVKPSFY     0.460  YP_009724392.1      0.014728    32.72       NA      0.490830        246.93     3.61       
+  11     DRB1_1503      TLIVNSVLLFLAFVV    6   VLLFLAFVV     0.900  YP_009724392.1      0.013316    34.50       NA      0.358623       1032.31    17.41       
+  26     DRB1_1503      FLLVTLAILTALRLC    5   LAILTALRL     0.980  YP_009724392.1      0.013002    34.94       NA      0.396369        686.19    11.85       
+  49     DRB1_1503      VSLVKPSFYVYSRVK    5   PSFYVYSRV     0.473  YP_009724392.1      0.011364    37.41       NA      0.474879        293.45     4.55       
+  16     DRB1_1503      SVLLFLAFVVFLLVT    4   FLAFVVFLL     0.687  YP_009724392.1      0.009710    40.34       NA      0.399579        662.77    11.44       
+  36     DRB1_1503      ALRLCAYCCNIVNVS    3   LCAYCCNIV     0.947  YP_009724392.1      0.009508    40.73       NA      0.417472        546.11     9.42       
+  48     DRB1_1503      NVSLVKPSFYVYSRV    2   SLVKPSFYV     0.507  YP_009724392.1      0.008522    42.89       NA      0.478929        280.86     4.30       
+  44     DRB1_1503      CNIVNVSLVKPSFYV    5   VSLVKPSFY     0.500  YP_009724392.1      0.008391    43.19       NA      0.452376        374.34     6.13       
+   8     DRB1_1503      ETGTLIVNSVLLFLA    4   LIVNSVLLF     0.433  YP_009724392.1      0.007446    45.55       NA      0.332640       1367.43    22.15       
+   1     DRB1_1503      MYSFVSEETGTLIVN    3   FVSEETGTL     0.573  YP_009724392.1      0.006607    47.87       NA      0.308838       1769.09    27.24       
+  17     DRB1_1503      VLLFLAFVVFLLVTL    3   FLAFVVFLL     0.907  YP_009724392.1      0.006281    48.85       NA      0.361755        997.92    16.88       
+  35     DRB1_1503      TALRLCAYCCNIVNV    4   LCAYCCNIV     0.887  YP_009724392.1      0.006049    49.60       NA      0.409002        598.52    10.36       
+   2     DRB1_1503      YSFVSEETGTLIVNS    3   VSEETGTLI     0.620  YP_009724392.1      0.005500    51.67       NA      0.267105       2778.76    37.48       
+  30     DRB1_1503      TLAILTALRLCAYCC    1   LAILTALRL     0.867  YP_009724392.1      0.005474    51.77       NA      0.432898        462.16     7.81       
+   9     DRB1_1503      TGTLIVNSVLLFLAF    3   LIVNSVLLF     0.547  YP_009724392.1      0.005016    53.56       NA      0.313596       1680.32    26.14       
+  25     DRB1_1503      VFLLVTLAILTALRL    6   LAILTALRL     0.840  YP_009724392.1      0.003985    58.34       NA      0.413730        568.68     9.85       
+   7     DRB1_1503      EETGTLIVNSVLLFL    5   LIVNSVLLF     0.387  YP_009724392.1      0.003978    58.38       NA      0.326345       1463.81    23.42       
+  43     DRB1_1503      CCNIVNVSLVKPSFY    6   VSLVKPSFY     0.293  YP_009724392.1      0.003929    58.63       NA      0.388655        745.92    12.84       
+  34     DRB1_1503      LTALRLCAYCCNIVN    5   LCAYCCNIV     0.847  YP_009724392.1      0.003161    63.03       NA      0.395938        689.40    11.91       
+   6     DRB1_1503      SEETGTLIVNSVLLF    5   TLIVNSVLL     0.473  YP_009724392.1      0.003038    63.78       NA      0.318591       1591.92    25.03       
+  22     DRB1_1503      AFVVFLLVTLAILTA    3   VFLLVTLAI     0.787  YP_009724392.1      0.002699    66.08       NA      0.291351       2137.57    31.26       
+  37     DRB1_1503      LRLCAYCCNIVNVSL    2   LCAYCCNIV     0.867  YP_009724392.1      0.002510    67.55       NA      0.397322        679.15    11.73       
+  18     DRB1_1503      LLFLAFVVFLLVTLA    2   FLAFVVFLL     0.767  YP_009724392.1      0.002058    71.31       NA      0.328480       1430.38    23.00       
+  10     DRB1_1503      GTLIVNSVLLFLAFV    2   LIVNSVLLF     0.460  YP_009724392.1      0.001946    72.37       NA      0.281584       2375.83    33.67       
+   3     DRB1_1503      SFVSEETGTLIVNSV    2   VSEETGTLI     0.693  YP_009724392.1      0.001910    72.71       NA      0.224457       4408.12    49.96       
+  21     DRB1_1503      LAFVVFLLVTLAILT    4   VFLLVTLAI     0.720  YP_009724392.1      0.001732    74.40       NA      0.278491       2456.68    34.47       
+  23     DRB1_1503      FVVFLLVTLAILTAL    2   VFLLVTLAI     0.547  YP_009724392.1      0.000987    83.66       NA      0.276234       2517.41    35.06       
+  24     DRB1_1503      VVFLLVTLAILTALR    3   LLVTLAILT     0.493  YP_009724392.1      0.000975    83.83       NA      0.316282       1632.19    25.54       
+  20     DRB1_1503      FLAFVVFLLVTLAIL    5   VFLLVTLAI     0.507  YP_009724392.1      0.000964    83.99       NA      0.277933       2471.56    34.62       
+  42     DRB1_1503      YCCNIVNVSLVKPSF    5   VNVSLVKPS     0.387  YP_009724392.1      0.000939    84.34       NA      0.350001       1133.25    18.90       
+  38     DRB1_1503      RLCAYCCNIVNVSLV    1   LCAYCCNIV     0.693  YP_009724392.1      0.000815    86.32       NA      0.363298        981.39    16.63       
+   5     DRB1_1503      VSEETGTLIVNSVLL    5   GTLIVNSVL     0.433  YP_009724392.1      0.000718    87.97       NA      0.265738       2820.17    37.86       
+  33     DRB1_1503      ILTALRLCAYCCNIV    6   LCAYCCNIV     0.607  YP_009724392.1      0.000717    87.98       NA      0.377270        843.70    14.50       
+  19     DRB1_1503      LFLAFVVFLLVTLAI    1   FLAFVVFLL     0.380  YP_009724392.1      0.000716    88.00       NA      0.305028       1843.54    28.14       
+  41     DRB1_1503      AYCCNIVNVSLVKPS    3   CNIVNVSLV     0.280  YP_009724392.1      0.000526    91.41       NA      0.341973       1236.09    20.36       
+  31     DRB1_1503      LAILTALRLCAYCCN    3   LTALRLCAY     0.533  YP_009724392.1      0.000471    92.49       NA      0.379809        820.84    14.14       
+   4     DRB1_1503      FVSEETGTLIVNSVL    6   GTLIVNSVL     0.320  YP_009724392.1      0.000384    94.20       NA      0.223990       4430.45    50.11       
+  40     DRB1_1503      CAYCCNIVNVSLVKP    4   CNIVNVSLV     0.353  YP_009724392.1      0.000363    94.61       NA      0.328898       1423.93    22.92       
+  32     DRB1_1503      AILTALRLCAYCCNI    2   LTALRLCAY     0.547  YP_009724392.1      0.000360    94.67       NA      0.338419       1284.54    21.00       
+  39     DRB1_1503      LCAYCCNIVNVSLVK    0   LCAYCCNIV     0.100  YP_009724392.1      0.000299    95.00       NA      0.338603       1281.99    20.97       
+--------------------------------------------------------------------------------------------------------------------------------------------
+Number of strong binders: 2 Number of weak binders: 4
+--------------------------------------------------------------------------------------------------------------------------------------------
+
+# Allele: DRB1_1506
+--------------------------------------------------------------------------------------------------------------------------------------------
+ Pos           MHC              Peptide   Of        Core  Core_Rel        Identity      Score_EL %Rank_EL Exp_Bind      Score_BA  Affinity(nM) %Rank_BA  BindLevel
+--------------------------------------------------------------------------------------------------------------------------------------------
+  58     DRB1_1506      VYSRVKNLNSSRVPD    4   VKNLNSSRV     1.000  YP_009724392.1      0.657755     0.96       NA      0.602565         73.71     1.79   <=SB
+  59     DRB1_1506      YSRVKNLNSSRVPDL    3   VKNLNSSRV     1.000  YP_009724392.1      0.613482     1.15       NA      0.640946         48.66     0.96   <=SB
+  60     DRB1_1506      SRVKNLNSSRVPDLL    2   VKNLNSSRV     1.000  YP_009724392.1      0.384088     2.48       NA      0.575693         98.58     2.71   <=WB
+  57     DRB1_1506      YVYSRVKNLNSSRVP    5   VKNLNSSRV     0.980  YP_009724392.1      0.376552     2.54       NA      0.617748         62.54     1.43   <=WB
+  53     DRB1_1506      KPSFYVYSRVKNLNS    3   FYVYSRVKN     0.640  YP_009724392.1      0.059633    12.58       NA      0.541356        142.94     4.30       
+  52     DRB1_1506      VKPSFYVYSRVKNLN    4   FYVYSRVKN     0.647  YP_009724392.1      0.047204    14.67       NA      0.539915        145.19     4.38       
+  56     DRB1_1506      FYVYSRVKNLNSSRV    3   YSRVKNLNS     0.513  YP_009724392.1      0.042030    15.78       NA      0.580869         93.21     2.51       
+  13     DRB1_1506      IVNSVLLFLAFVVFL    4   VLLFLAFVV     0.993  YP_009724392.1      0.039583    16.39       NA      0.420989        525.72    16.12       
+  54     DRB1_1506      PSFYVYSRVKNLNSS    3   YVYSRVKNL     0.540  YP_009724392.1      0.037291    17.01       NA      0.529157        163.11     5.06       
+  28     DRB1_1506      LVTLAILTALRLCAY    3   LAILTALRL     0.973  YP_009724392.1      0.036326    17.30       NA      0.538860        146.85     4.43       
+  61     DRB1_1506      RVKNLNSSRVPDLLV    1   VKNLNSSRV     0.960  YP_009724392.1      0.035388    17.58       NA      0.507275        206.68     6.62       
+  27     DRB1_1506      LLVTLAILTALRLCA    4   LAILTALRL     0.993  YP_009724392.1      0.034532    17.84       NA      0.509875        200.95     6.41       
+  12     DRB1_1506      LIVNSVLLFLAFVVF    5   VLLFLAFVV     1.000  YP_009724392.1      0.034135    17.97       NA      0.411130        584.90    17.50       
+  14     DRB1_1506      VNSVLLFLAFVVFLL    3   VLLFLAFVV     0.993  YP_009724392.1      0.029405    19.58       NA      0.423197        513.31    15.81       
+  55     DRB1_1506      SFYVYSRVKNLNSSR    4   YSRVKNLNS     0.693  YP_009724392.1      0.027930    20.16       NA      0.533157        156.20     4.79       
+  51     DRB1_1506      LVKPSFYVYSRVKNL    5   FYVYSRVKN     0.620  YP_009724392.1      0.027346    20.39       NA      0.545664        136.43     4.08       
+  29     DRB1_1506      VTLAILTALRLCAYC    2   LAILTALRL     0.973  YP_009724392.1      0.023931    21.95       NA      0.551378        128.25     3.79       
+  47     DRB1_1506      VNVSLVKPSFYVYSR    3   SLVKPSFYV     0.740  YP_009724392.1      0.022177    22.87       NA      0.541445        142.80     4.30       
+  46     DRB1_1506      IVNVSLVKPSFYVYS    4   SLVKPSFYV     0.507  YP_009724392.1      0.017198    26.37       NA      0.544889        137.58     4.12       
+  50     DRB1_1506      SLVKPSFYVYSRVKN    4   PSFYVYSRV     0.447  YP_009724392.1      0.016594    26.88       NA      0.517926        184.18     5.81       
+  36     DRB1_1506      ALRLCAYCCNIVNVS    3   LCAYCCNIV     0.967  YP_009724392.1      0.014120    29.25       NA      0.486438        258.95     8.42       
+  26     DRB1_1506      FLLVTLAILTALRLC    5   LAILTALRL     0.980  YP_009724392.1      0.012253    31.44       NA      0.467837        316.68    10.28       
+  15     DRB1_1506      NSVLLFLAFVVFLLV    2   VLLFLAFVV     0.813  YP_009724392.1      0.011534    32.39       NA      0.401457        649.43    18.95       
+  45     DRB1_1506      NIVNVSLVKPSFYVY    4   VSLVKPSFY     0.460  YP_009724392.1      0.010224    34.40       NA      0.529772        162.03     5.01       
+  35     DRB1_1506      TALRLCAYCCNIVNV    4   LCAYCCNIV     0.913  YP_009724392.1      0.009708    35.29       NA      0.475515        291.43     9.46       
+  49     DRB1_1506      VSLVKPSFYVYSRVK    5   PSFYVYSRV     0.527  YP_009724392.1      0.009603    35.48       NA      0.526047        168.69     5.26       
+  11     DRB1_1506      TLIVNSVLLFLAFVV    6   VLLFLAFVV     0.900  YP_009724392.1      0.008728    37.10       NA      0.372489        888.50    23.77       
+  48     DRB1_1506      NVSLVKPSFYVYSRV    2   SLVKPSFYV     0.567  YP_009724392.1      0.008601    37.37       NA      0.525506        169.68     5.30       
+   8     DRB1_1506      ETGTLIVNSVLLFLA    4   LIVNSVLLF     0.373  YP_009724392.1      0.006731    41.65       NA      0.414886        561.61    16.93       
+  16     DRB1_1506      SVLLFLAFVVFLLVT    4   FLAFVVFLL     0.733  YP_009724392.1      0.006304    42.84       NA      0.371846        894.70    23.88       
+  25     DRB1_1506      VFLLVTLAILTALRL    6   LAILTALRL     0.853  YP_009724392.1      0.005998    43.80       NA      0.502077        218.64     7.03       
+  37     DRB1_1506      LRLCAYCCNIVNVSL    2   LCAYCCNIV     0.913  YP_009724392.1      0.005644    45.02       NA      0.457998        352.25    11.39       
+  34     DRB1_1506      LTALRLCAYCCNIVN    5   LCAYCCNIV     0.880  YP_009724392.1      0.004814    48.14       NA      0.458241        351.33    11.36       
+   1     DRB1_1506      MYSFVSEETGTLIVN    3   FVSEETGTL     0.587  YP_009724392.1      0.004800    48.20       NA      0.347931       1158.92    28.39       
+  44     DRB1_1506      CNIVNVSLVKPSFYV    5   VSLVKPSFY     0.467  YP_009724392.1      0.004772    48.31       NA      0.493989        238.63     7.72       
+  30     DRB1_1506      TLAILTALRLCAYCC    1   LAILTALRL     0.907  YP_009724392.1      0.004670    48.72       NA      0.518781        182.49     5.75       
+   9     DRB1_1506      TGTLIVNSVLLFLAF    3   LIVNSVLLF     0.567  YP_009724392.1      0.004472    49.57       NA      0.382622        796.23    22.03       
+  17     DRB1_1506      VLLFLAFVVFLLVTL    3   FLAFVVFLL     0.933  YP_009724392.1      0.004050    51.68       NA      0.333419       1355.95    31.32       
+   2     DRB1_1506      YSFVSEETGTLIVNS    3   VSEETGTLI     0.680  YP_009724392.1      0.003685    53.56       NA      0.311385       1721.00    36.08       
+   7     DRB1_1506      EETGTLIVNSVLLFL    4   TLIVNSVLL     0.507  YP_009724392.1      0.003271    55.92       NA      0.404363        629.33    18.52       
+   6     DRB1_1506      SEETGTLIVNSVLLF    5   TLIVNSVLL     0.567  YP_009724392.1      0.003229    56.21       NA      0.407004        611.60    18.14       
+  43     DRB1_1506      CCNIVNVSLVKPSFY    4   VNVSLVKPS     0.313  YP_009724392.1      0.002269    63.52       NA      0.426210        496.85    15.39       
+  10     DRB1_1506      GTLIVNSVLLFLAFV    2   LIVNSVLLF     0.507  YP_009724392.1      0.001633    69.98       NA      0.331639       1382.32    31.68       
+  22     DRB1_1506      AFVVFLLVTLAILTA    3   VFLLVTLAI     0.727  YP_009724392.1      0.001585    70.62       NA      0.283424       2329.00    42.44       
+  38     DRB1_1506      RLCAYCCNIVNVSLV    1   LCAYCCNIV     0.747  YP_009724392.1      0.001474    72.10       NA      0.419055        536.84    16.38       
+  33     DRB1_1506      ILTALRLCAYCCNIV    6   LCAYCCNIV     0.613  YP_009724392.1      0.001270    74.84       NA      0.442188        417.97    13.22       
+   3     DRB1_1506      SFVSEETGTLIVNSV    2   VSEETGTLI     0.640  YP_009724392.1      0.001232    75.41       NA      0.256101       3130.11    49.17       
+   5     DRB1_1506      VSEETGTLIVNSVLL    6   TLIVNSVLL     0.547  YP_009724392.1      0.001200    75.92       NA      0.348685       1149.50    28.24       
+  18     DRB1_1506      LLFLAFVVFLLVTLA    2   FLAFVVFLL     0.747  YP_009724392.1      0.001192    76.05       NA      0.300652       1932.93    38.49       
+  21     DRB1_1506      LAFVVFLLVTLAILT    4   VFLLVTLAI     0.673  YP_009724392.1      0.000903    80.77       NA      0.268431       2739.18    46.15       
+  24     DRB1_1506      VVFLLVTLAILTALR    3   LLVTLAILT     0.533  YP_009724392.1      0.000869    81.42       NA      0.366528        947.69    24.83       
+  42     DRB1_1506      YCCNIVNVSLVKPSF    5   VNVSLVKPS     0.387  YP_009724392.1      0.000845    81.88       NA      0.398023        674.02    19.50       
+  41     DRB1_1506      AYCCNIVNVSLVKPS    3   CNIVNVSLV     0.233  YP_009724392.1      0.000644    85.89       NA      0.394126        703.05    20.13       
+  31     DRB1_1506      LAILTALRLCAYCCN    3   LTALRLCAY     0.540  YP_009724392.1      0.000637    86.05       NA      0.450191        383.30    12.28       
+  19     DRB1_1506      LFLAFVVFLLVTLAI    1   FLAFVVFLL     0.407  YP_009724392.1      0.000570    87.57       NA      0.277489       2483.46    43.91       
+   4     DRB1_1506      FVSEETGTLIVNSVL    4   ETGTLIVNS     0.180  YP_009724392.1      0.000520    88.70       NA      0.257313       3089.33    48.86       
+  20     DRB1_1506      FLAFVVFLLVTLAIL    5   VFLLVTLAI     0.493  YP_009724392.1      0.000504    89.07       NA      0.262385       2924.36    47.61       
+  32     DRB1_1506      AILTALRLCAYCCNI    2   LTALRLCAY     0.600  YP_009724392.1      0.000501    89.14       NA      0.408058        604.67    17.98       
+  23     DRB1_1506      FVVFLLVTLAILTAL    4   LLVTLAILT     0.407  YP_009724392.1      0.000490    89.39       NA      0.272709       2615.28    45.09       
+  40     DRB1_1506      CAYCCNIVNVSLVKP    4   CNIVNVSLV     0.367  YP_009724392.1      0.000325    93.63       NA      0.378651        831.19    22.70       
+  39     DRB1_1506      LCAYCCNIVNVSLVK    3   YCCNIVNVS     0.340  YP_009724392.1      0.000262    95.00       NA      0.395129        695.46    19.97       
+--------------------------------------------------------------------------------------------------------------------------------------------
+Number of strong binders: 2 Number of weak binders: 2
+--------------------------------------------------------------------------------------------------------------------------------------------
+
+# Allele: DRB1_1602
+--------------------------------------------------------------------------------------------------------------------------------------------
+ Pos           MHC              Peptide   Of        Core  Core_Rel        Identity      Score_EL %Rank_EL Exp_Bind      Score_BA  Affinity(nM) %Rank_BA  BindLevel
+--------------------------------------------------------------------------------------------------------------------------------------------
+  58     DRB1_1602      VYSRVKNLNSSRVPD    4   VKNLNSSRV     1.000  YP_009724392.1      0.563709     1.02       NA      0.579280         94.83     1.78   <=SB
+  59     DRB1_1602      YSRVKNLNSSRVPDL    3   VKNLNSSRV     1.000  YP_009724392.1      0.517230     1.32       NA      0.586397         87.80     1.57   <=SB
+  54     DRB1_1602      PSFYVYSRVKNLNSS    3   YVYSRVKNL     0.800  YP_009724392.1      0.384388     2.77       NA      0.629630         55.00     0.68   <=WB
+  57     DRB1_1602      YVYSRVKNLNSSRVP    5   VKNLNSSRV     0.713  YP_009724392.1      0.374018     2.92       NA      0.617603         62.64     0.88   <=WB
+  53     DRB1_1602      KPSFYVYSRVKNLNS    4   YVYSRVKNL     0.800  YP_009724392.1      0.320069     3.88       NA      0.616050         63.70     0.90   <=WB
+  60     DRB1_1602      SRVKNLNSSRVPDLL    2   VKNLNSSRV     0.993  YP_009724392.1      0.308953     4.11       NA      0.522491        175.31     4.50   <=WB
+  55     DRB1_1602      SFYVYSRVKNLNSSR    4   YSRVKNLNS     0.753  YP_009724392.1      0.284931     4.64       NA      0.634380         52.24     0.62   <=WB
+  56     DRB1_1602      FYVYSRVKNLNSSRV    3   YSRVKNLNS     0.867  YP_009724392.1      0.277716     4.81       NA      0.643816         47.17     0.52   <=WB
+  52     DRB1_1602      VKPSFYVYSRVKNLN    5   YVYSRVKNL     0.720  YP_009724392.1      0.207284     6.96       NA      0.580000         94.10     1.76   <=WB
+   1     DRB1_1602      MYSFVSEETGTLIVN    3   FVSEETGTL     0.913  YP_009724392.1      0.135214    10.83       NA      0.526987        166.98     4.18       
+  51     DRB1_1602      LVKPSFYVYSRVKNL    5   FYVYSRVKN     0.493  YP_009724392.1      0.071589    18.55       NA      0.556457        121.39     2.61       
+  28     DRB1_1602      LVTLAILTALRLCAY    3   LAILTALRL     0.967  YP_009724392.1      0.067373    19.39       NA      0.472564        300.89     8.80       
+  27     DRB1_1602      LLVTLAILTALRLCA    4   LAILTALRL     0.973  YP_009724392.1      0.063684    20.18       NA      0.441282        422.08    12.80       
+   2     DRB1_1602      YSFVSEETGTLIVNS    2   FVSEETGTL     0.747  YP_009724392.1      0.057741    21.61       NA      0.479733        278.43     8.05       
+  61     DRB1_1602      RVKNLNSSRVPDLLV    1   VKNLNSSRV     0.833  YP_009724392.1      0.048365    24.31       NA      0.480195        277.04     8.00       
+  29     DRB1_1602      VTLAILTALRLCAYC    2   LAILTALRL     0.933  YP_009724392.1      0.046311    24.98       NA      0.473346        298.35     8.71       
+  26     DRB1_1602      FLLVTLAILTALRLC    5   LAILTALRL     0.940  YP_009724392.1      0.025909    34.94       NA      0.411096        585.12    17.78       
+  50     DRB1_1602      SLVKPSFYVYSRVKN    6   FYVYSRVKN     0.613  YP_009724392.1      0.019519    40.25       NA      0.441232        422.31    12.81       
+  47     DRB1_1602      VNVSLVKPSFYVYSR    3   SLVKPSFYV     0.527  YP_009724392.1      0.016412    43.69       NA      0.456639        357.47    10.74       
+  46     DRB1_1602      IVNVSLVKPSFYVYS    3   VSLVKPSFY     0.520  YP_009724392.1      0.015626    44.65       NA      0.461918        337.62    10.09       
+   8     DRB1_1602      ETGTLIVNSVLLFLA    4   LIVNSVLLF     0.367  YP_009724392.1      0.015513    44.79       NA      0.414374        564.73    17.17       
+  13     DRB1_1602      IVNSVLLFLAFVVFL    4   VLLFLAFVV     0.987  YP_009724392.1      0.013958    46.91       NA      0.286788       2245.75    47.95       
+  16     DRB1_1602      SVLLFLAFVVFLLVT    4   FLAFVVFLL     0.907  YP_009724392.1      0.012606    49.03       NA      0.319015       1584.63    38.98       
+  45     DRB1_1602      NIVNVSLVKPSFYVY    4   VSLVKPSFY     0.487  YP_009724392.1      0.012493    49.22       NA      0.459512        346.53    10.39       
+  12     DRB1_1602      LIVNSVLLFLAFVVF    5   VLLFLAFVV     0.980  YP_009724392.1      0.012413    49.35       NA      0.286813       2245.14    47.94       
+  25     DRB1_1602      VFLLVTLAILTALRL    6   LAILTALRL     0.840  YP_009724392.1      0.011531    50.97       NA      0.448430        390.67    11.82       
+  14     DRB1_1602      VNSVLLFLAFVVFLL    3   VLLFLAFVV     0.953  YP_009724392.1      0.010125    53.68       NA      0.307056       1803.53    42.25       
+   3     DRB1_1602      SFVSEETGTLIVNSV    2   VSEETGTLI     0.433  YP_009724392.1      0.009802    54.31       NA      0.396619        684.34    20.56       
+   9     DRB1_1602      TGTLIVNSVLLFLAF    3   LIVNSVLLF     0.520  YP_009724392.1      0.009303    55.36       NA      0.374018        873.92    25.44       
+   7     DRB1_1602      EETGTLIVNSVLLFL    5   LIVNSVLLF     0.260  YP_009724392.1      0.009267    55.45       NA      0.419284        535.51    16.26       
+  17     DRB1_1602      VLLFLAFVVFLLVTL    3   FLAFVVFLL     0.947  YP_009724392.1      0.009021    56.08       NA      0.309424       1757.91    41.59       
+  44     DRB1_1602      CNIVNVSLVKPSFYV    5   VSLVKPSFY     0.493  YP_009724392.1      0.008710    56.88       NA      0.440460        425.85    12.91       
+  15     DRB1_1602      NSVLLFLAFVVFLLV    5   FLAFVVFLL     0.560  YP_009724392.1      0.007474    60.04       NA      0.315517       1645.75    39.93       
+   6     DRB1_1602      SEETGTLIVNSVLLF    5   TLIVNSVLL     0.440  YP_009724392.1      0.007366    60.38       NA      0.424600        505.58    15.37       
+  30     DRB1_1602      TLAILTALRLCAYCC    1   LAILTALRL     0.860  YP_009724392.1      0.007255    60.73       NA      0.434703        453.22    13.79       
+  48     DRB1_1602      NVSLVKPSFYVYSRV    2   SLVKPSFYV     0.447  YP_009724392.1      0.005890    65.04       NA      0.440008        427.94    12.97       
+  49     DRB1_1602      VSLVKPSFYVYSRVK    3   VKPSFYVYS     0.447  YP_009724392.1      0.005259    67.54       NA      0.441913        419.21    12.71       
+  36     DRB1_1602      ALRLCAYCCNIVNVS    3   LCAYCCNIV     0.713  YP_009724392.1      0.004496    70.68       NA      0.417684        544.86    16.56       
+  43     DRB1_1602      CCNIVNVSLVKPSFY    6   VSLVKPSFY     0.293  YP_009724392.1      0.004072    72.71       NA      0.412518        576.18    17.51       
+   5     DRB1_1602      VSEETGTLIVNSVLL    6   TLIVNSVLL     0.387  YP_009724392.1      0.003223    77.12       NA      0.381490        806.05    23.73       
+  11     DRB1_1602      TLIVNSVLLFLAFVV    6   VLLFLAFVV     0.793  YP_009724392.1      0.002918    78.86       NA      0.286519       2252.30    48.03       
+  35     DRB1_1602      TALRLCAYCCNIVNV    4   LCAYCCNIV     0.700  YP_009724392.1      0.002789    79.60       NA      0.409319        596.48    18.11       
+  22     DRB1_1602      AFVVFLLVTLAILTA    3   VFLLVTLAI     0.607  YP_009724392.1      0.002518    81.39       NA      0.266325       2802.31    53.91       
+  10     DRB1_1602      GTLIVNSVLLFLAFV    2   LIVNSVLLF     0.613  YP_009724392.1      0.002414    82.12       NA      0.312325       1703.59    40.78       
+  41     DRB1_1602      AYCCNIVNVSLVKPS    3   CNIVNVSLV     0.240  YP_009724392.1      0.002401    82.21       NA      0.435263        450.49    13.71       
+   4     DRB1_1602      FVSEETGTLIVNSVL    4   ETGTLIVNS     0.147  YP_009724392.1      0.002234    83.36       NA      0.338512       1283.25    33.95       
+  39     DRB1_1602      LCAYCCNIVNVSLVK    3   YCCNIVNVS     0.533  YP_009724392.1      0.002146    83.97       NA      0.441714        420.12    12.74       
+  18     DRB1_1602      LLFLAFVVFLLVTLA    2   FLAFVVFLL     0.780  YP_009724392.1      0.002058    84.58       NA      0.286926       2242.40    47.91       
+  40     DRB1_1602      CAYCCNIVNVSLVKP    2   YCCNIVNVS     0.320  YP_009724392.1      0.001920    85.63       NA      0.429704        478.41    14.57       
+  24     DRB1_1602      VVFLLVTLAILTALR    3   LLVTLAILT     0.587  YP_009724392.1      0.001901    85.79       NA      0.367876        933.97    26.90       
+  42     DRB1_1602      YCCNIVNVSLVKPSF    5   VNVSLVKPS     0.380  YP_009724392.1      0.001838    86.30       NA      0.413116        572.47    17.40       
+  37     DRB1_1602      LRLCAYCCNIVNVSL    2   LCAYCCNIV     0.513  YP_009724392.1      0.001836    86.31       NA      0.415764        556.30    16.91       
+  34     DRB1_1602      LTALRLCAYCCNIVN    5   LCAYCCNIV     0.647  YP_009724392.1      0.001809    86.53       NA      0.402447        642.52    19.40       
+  21     DRB1_1602      LAFVVFLLVTLAILT    4   VFLLVTLAI     0.627  YP_009724392.1      0.001548    88.65       NA      0.253107       3233.16    57.77       
+  38     DRB1_1602      RLCAYCCNIVNVSLV    4   YCCNIVNVS     0.373  YP_009724392.1      0.001463    89.34       NA      0.420476        528.65    16.04       
+  23     DRB1_1602      FVVFLLVTLAILTAL    4   LLVTLAILT     0.453  YP_009724392.1      0.001157    91.96       NA      0.267073       2779.73    53.69       
+  20     DRB1_1602      FLAFVVFLLVTLAIL    5   VFLLVTLAI     0.540  YP_009724392.1      0.000994    93.39       NA      0.250517       3325.05    58.53       
+  19     DRB1_1602      LFLAFVVFLLVTLAI    1   FLAFVVFLL     0.373  YP_009724392.1      0.000686    95.00       NA      0.260761       2976.20    55.53       
+  33     DRB1_1602      ILTALRLCAYCCNIV    6   LCAYCCNIV     0.427  YP_009724392.1      0.000565    95.00       NA      0.398696        669.13    20.13       
+  31     DRB1_1602      LAILTALRLCAYCCN    3   LTALRLCAY     0.440  YP_009724392.1      0.000532    95.00       NA      0.385978        767.84    22.77       
+  32     DRB1_1602      AILTALRLCAYCCNI    2   LTALRLCAY     0.473  YP_009724392.1      0.000394    95.00       NA      0.367581        936.95    26.97       
+--------------------------------------------------------------------------------------------------------------------------------------------
+Number of strong binders: 2 Number of weak binders: 7
+--------------------------------------------------------------------------------------------------------------------------------------------
